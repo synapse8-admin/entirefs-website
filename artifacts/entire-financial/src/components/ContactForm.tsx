@@ -33,13 +33,13 @@ const formSchema = z.object({
     required_error: "Please select a preferred contact method.",
   }),
   bestTime: z.enum(["morning", "afternoon", "late", "anytime"], { errorMap: () => ({ message: "Please select the best time to contact." }) }),
+  website: z.string().default(""),
 });
 
 export function ContactForm() {
-  const [isSubmitting, setIsSubmitting] = useState(false);
   const [result, setResult] = useState<{ ok: boolean; message: string } | null>(null);
   const inFlight = useRef<AbortController | null>(null);
-  const endpoint = __CONTACT_FORM_ENDPOINT__;
+  const endpoint = `${import.meta.env.BASE_URL}contact.php`;
   useEffect(() => () => inFlight.current?.abort(), []);
 
   const form = useForm<z.infer<typeof formSchema>>({
@@ -49,19 +49,20 @@ export function ContactForm() {
       email: "",
       phone: "",
       message: "",
+      website: "",
     },
   });
+  const { isSubmitting, isSubmitSuccessful } = form.formState;
+  // Reset after handleSubmit has finished updating its validation state.
+  useEffect(() => {
+    if (isSubmitSuccessful && result?.ok) form.reset();
+  }, [isSubmitSuccessful, result, form]);
 
   async function onSubmit(values: z.infer<typeof formSchema>) {
     if (inFlight.current) return;
-    if (!endpoint) {
-      setResult({ ok: false, message: "Online enquiries are not configured yet. Please phone 0421 833 372 or email bevan@entirefs.com.au." });
-      return;
-    }
     const controller = new AbortController();
     inFlight.current = controller;
-    const timer = setTimeout(() => controller.abort(), 15000);
-    setIsSubmitting(true);
+    const timer = setTimeout(() => controller.abort(), 30000);
     setResult(null);
     try {
       const response = await fetch(endpoint, {
@@ -71,13 +72,11 @@ export function ContactForm() {
       const data = await response.json();
       if (!response.ok || data.success !== true) throw new Error("Enquiry was not accepted.");
       setResult({ ok: true, message: "Thank you for contacting us. We will be in touch shortly." });
-      form.reset();
     } catch {
       setResult({ ok: false, message: "Your message could not be sent. Please try again, or phone 0421 833 372 or email bevan@entirefs.com.au. Your entries have been kept." });
     } finally {
       clearTimeout(timer);
       inFlight.current = null;
-      setIsSubmitting(false);
     }
   }
 
@@ -85,10 +84,13 @@ export function ContactForm() {
     <div className="bg-white p-6 sm:p-8 md:p-10 rounded-2xl shadow-xl border border-muted/50">
       <h2 className="font-sans text-2xl font-bold text-secondary mb-6">Send us a message</h2>
       <p id="required-fields" className="text-sm text-foreground/70 mb-4">All fields are required.</p>
-      {!endpoint && <p className="text-sm text-[#022F35] mb-6" role="status">Online enquiries are not configured yet. Please <a className="underline" href="tel:+61421833372">phone us</a> or <a className="underline" href="mailto:bevan@entirefs.com.au">email us</a> directly.</p>}
       
       <Form {...form}>
         <form noValidate aria-describedby="required-fields" onSubmit={form.handleSubmit(onSubmit)} className="space-y-6">
+          <div hidden aria-hidden="true">
+            <label htmlFor="contact-website">Leave this field empty</label>
+            <input id="contact-website" type="text" tabIndex={-1} autoComplete="off" {...form.register("website")} />
+          </div>
           <FormField
             control={form.control}
             name="fullName"
@@ -138,7 +140,11 @@ export function ContactForm() {
             render={({ field }) => (
               <FormItem>
                 <FormLabel>Enquiry Type</FormLabel>
-                <Select onValueChange={field.onChange} value={field.value ?? ""}>
+                <Select
+                  // Radix's hidden control emits "" on reset; it is not a user-selectable option.
+                  onValueChange={(value) => { if (value) field.onChange(value); }}
+                  value={field.value ?? ""}
+                >
                   <FormControl>
                     <SelectTrigger aria-required="true" className="bg-muted/10">
                       <SelectValue placeholder="Select an option" />
@@ -185,7 +191,7 @@ export function ContactForm() {
                   <FormLabel>Preferred Contact Method</FormLabel>
                   <FormControl>
                     <RadioGroup
-                      onValueChange={field.onChange}
+                      onValueChange={(value) => { if (value) field.onChange(value); }}
                       value={field.value ?? ""}
                       aria-required="true"
                       className="flex flex-col space-y-1"
@@ -215,7 +221,7 @@ export function ContactForm() {
               render={({ field }) => (
                 <FormItem>
                   <FormLabel>Best Time to Contact</FormLabel>
-                  <Select onValueChange={field.onChange} value={field.value ?? ""}>
+                  <Select onValueChange={(value) => { if (value) field.onChange(value); }} value={field.value ?? ""}>
                     <FormControl>
                       <SelectTrigger aria-required="true" className="bg-muted/10">
                         <SelectValue placeholder="Select a time" />
@@ -234,7 +240,7 @@ export function ContactForm() {
             />
           </div>
 
-          <Button type="submit" size="lg" className="w-full bg-primary hover:bg-primary/90 text-white rounded-xl h-14 mt-4" disabled={isSubmitting}>
+          <Button type="submit" size="lg" className="w-full bg-primary hover:bg-primary/90 text-white rounded-xl h-14 mt-4" disabled={isSubmitting} aria-busy={isSubmitting}>
             {isSubmitting ? "Sending..." : "Send Message"}
           </Button>
           {result && <p role={result.ok ? "status" : "alert"} className={`text-sm ${result.ok ? "text-[#0D6851]" : "text-destructive"}`}>{result.message}</p>}

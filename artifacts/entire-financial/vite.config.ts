@@ -14,17 +14,10 @@ export default defineConfig(async ({ mode, command }) => {
  const env = { ...loadEnv(mode, process.cwd(), ""), ...process.env };
  const siteUrl = env.SITE_URL || DEFAULT_SITE_URL;
  if (siteUrl !== DEFAULT_SITE_URL) throw new Error("SITE_URL must be the approved HTTPS www production origin.");
- const contactEndpoint = env.CONTACT_FORM_ENDPOINT || "";
- if (contactEndpoint) {
-   const endpoint = new URL(contactEndpoint);
-   if (endpoint.protocol !== "https:" || endpoint.username || endpoint.password)
-     throw new Error("CONTACT_FORM_ENDPOINT must be a public HTTPS endpoint without credentials.");
- }
  return {
   base: basePath,
   define: {
     __SITE_URL__: JSON.stringify(siteUrl),
-    __CONTACT_FORM_ENDPOINT__: JSON.stringify(contactEndpoint),
   },
   plugins: [
     seoPlugin({ "google-site-verification": env.GOOGLE_SITE_VERIFICATION, "msvalidate.01": env.BING_SITE_VERIFICATION }),

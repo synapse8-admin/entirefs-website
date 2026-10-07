@@ -1,0 +1,24 @@
+On the Entire Financial site (React + Vite, in artifacts/entire-financial), there is an existing contact form on the contact page (src/pages/contact.tsx) that currently shows a placeholder message ("Online enquiries are not configured yet...") instead of submitting. Wire this existing form up to actually send email via a PHP handler, suitable for cPanel shared hosting (PHP 8, no Composer, no Node server on the host). Keep the existing form's fields, styling, and validation — only replace the non-functional submit behaviour. Implement:
+
+1. Form submission (React):
+
+Replace the placeholder "not configured" behaviour so the form POSTs its data as JSON via fetch to /contact.php.
+Keep all existing fields, their validation, and the page's styling.
+On success show a clear success message; on failure a friendly error. Disable the submit button while sending.
+Add a hidden honeypot field for basic spam protection if one isn't already present.
+
+2. PHP mail handler — create contact.php in the project's public/ folder so Vite copies it into the build output. This project's build outputs to the repo-root dist/public/, so ensure contact.php and its library end up served at the site root (/contact.php).
+
+Accept only POST with a JSON body; reject others with appropriate HTTP status codes.
+Read the form fields + honeypot; silently drop if the honeypot is filled.
+Server-side validate (required fields, valid email); return JSON errors on failure.
+Sanitise inputs to prevent header injection (strip newlines from email/subject).
+Send via PHPMailer over authenticated SMTP using implicit TLS (SMTPS, PHPMailer::ENCRYPTION_SMTPS) on port 465. Bundle PHPMailer into the project (single-file includes in a lib/ folder with its own .htaccess denying direct web access) — no Composer.
+Read ALL SMTP settings from a config file OUTSIDE the web root at ../contact-config.php (resolved relative to contact.php). Create a contact-config.sample.php template with placeholder values; do NOT commit real credentials; add contact-config.php to .gitignore.
+Keep TLS certificate verification enabled.
+Email: From and To from config; Reply-To = submitted customer email; clear subject (e.g. "New enquiry from entirefs.com.au contact form"); plain-text body with the fields.
+Return JSON with appropriate status codes.
+
+3. Config sample values (placeholders): host entirefs.com.au, port 465, username forms@entirefs.com.au, from forms@entirefs.com.au, to admin@synapse8.com.au.
+
+After building, confirm where each file lands in the build output and what I must place on the server manually.

@@ -67,3 +67,17 @@ mtime_ms = 1791172158568
 storage_uri = "gcs://replit-rams-assets-spock/rams/assets/repl:d76d2697-c1d1-449b-bc92-f114be5c4106/68bb324f-ca32-4d62-837a-8366aabbd473/f2d41b09-b105-493d-aed0-4634849e5599"
 storage_version_token = "1791172675201200"
 content_type = "text/markdown"
+
+[[outputs]]
+id = "WFVSMLjk2S3ZDqdJmFQ7A"
+uri = "file://artifacts/entire-financial/CPANEL_CONTACT_SETUP.md"
+type = "text"
+title = "cPanel contact form setup"
+description = "Confirmed build paths, private SMTP configuration location and server upload/testing instructions."
+logical_id = "8595872b-9ce9-41c3-928c-ff55a259aac1"
+content_hash = "sha256:f5d627780ee1f38748ff061a180412a4edc94e9b93b18260833bcf9d21966bc8"
+size = 4762
+mtime_ms = 1791349942087
+storage_uri = "gcs://replit-rams-assets-spock/rams/assets/repl:d76d2697-c1d1-449b-bc92-f114be5c4106/8595872b-9ce9-41c3-928c-ff55a259aac1/fa8a99af-c4f3-4bf0-951b-f1060936011f"
+storage_version_token = "1791350436023039"
+content_type = "text/markdown"
