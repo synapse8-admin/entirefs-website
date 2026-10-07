@@ -1,3 +1,5 @@
+# Entire Financial Website — As-Built Guide
+
 **Site:** https://entirefs.com.au
 **Prepared as:** Technical as-built / handover documentation
 **Scope:** Hosting, CI/CD deployment pipeline, SSL, DNS, and the contact form
@@ -17,7 +19,8 @@ private **GitHub** repository. Every push to `main` automatically builds and dep
 emails enquiries to the business via a PHP handler and a dedicated sending mailbox.
 
 The domain's **email is hosted on Microsoft 365** (not on the web server). This separation matters
-for the contact form and email authentication (see sections 8–9).
+for the contact form, for email authentication, and — critically — for cPanel's mail routing
+setting (see sections 8–9).
 
 ---
 
@@ -62,7 +65,7 @@ for the contact form and email authentication (see sections 8–9).
   Live site: https://entirefs.com.au
         │  contact form POST → /contact.php
         ▼
-  contact.php → authenticated SMTP (cPanel mailbox) → enquiry delivered to inbox
+  contact.php → authenticated SMTP (cPanel mailbox) → routed out to Microsoft 365 → inbox
 ```
 
 The build (including the prerender that generates each route as static HTML) happens **in GitHub's
@@ -277,6 +280,27 @@ and strengthens the whole domain's email posture.
 The contact form is on the contact page. It submits to a PHP handler that emails the enquiry to the
 business. Enquiries are delivered to **bevan@entirefs.com.au** (a Microsoft 365 mailbox).
 
+### ⚠️ CRITICAL — cPanel Email Routing must be "Remote Mail Exchanger"
+
+This is the single most important operational setting for the contact form, and the hardest to
+diagnose. Because the website is on cPanel but the **email is on Microsoft 365**, cPanel must be
+told it does **not** host mail for this domain.
+
+- **Setting:** cPanel → **Email Routing** → select `entirefs.com.au` → **Remote Mail Exchanger**.
+- **Why it matters:** if this is set to "Local Mail Exchanger" (or "Automatically Detect," which
+  can guess wrong), cPanel tries to deliver mail addressed to `@entirefs.com.au` into a *local*
+  mailbox that does not exist (the real mailbox is on M365). The contact form then fails with
+  **`550 No Such User Here`** and the browser shows a 503 — but **only** when sending to an address
+  *on the entirefs.com.au domain* (like bevan@). Sending to an external domain (e.g. a synapse8
+  address) still works, which makes this bug very confusing to diagnose.
+- Setting it to **Remote** tells cPanel's mail server to route mail for the domain **out to
+  Microsoft 365** via the MX record. This does not affect the `forms@` sending mailbox (SMTP auth
+  is separate) or the business's normal M365 email.
+
+> **Rule of thumb for any future site:** if the website is on cPanel and email is on Microsoft 365
+> or Google Workspace, set Email Routing to **Remote Mail Exchanger**, or any form that emails an
+> on-domain address will fail with "No Such User Here."
+
 ### Flow
 
 ```
@@ -284,8 +308,9 @@ Customer submits form → JSON POST to /contact.php
         │  honeypot check, server-side validation, header-injection sanitising
         │  reads SMTP settings from /home/entirefs/contact-config.php
         │  sends via authenticated SMTP (PHPMailer, implicit TLS / SMTPS, port 465)
+        │  cPanel (Email Routing = Remote) routes the message OUT to Microsoft 365
         ▼
-Enquiry email delivered
+Enquiry email delivered to the M365 inbox
    From:     forms@entirefs.com.au
    To:       bevan@entirefs.com.au
    Reply-To: the customer's submitted email (reply goes straight to them)
@@ -340,7 +365,8 @@ errors (no credentials/diagnostics exposed); JSON responses with proper status c
 the prerender makes it a little slower than a plain build). Check Actions for green.
 
 **Change where enquiries go:** edit `/home/entirefs/contact-config.php` → change `to_email` / `to_name`
-→ save. Immediate, no redeploy.
+→ save. Immediate, no redeploy. (If pointing to a new address *on the entirefs.com.au domain*,
+Email Routing must be "Remote" — see section 9.)
 
 **Rotate the sending mailbox password:** cPanel → Email Accounts → change `forms@entirefs.com.au`
 password → update `smtp_password` in `contact-config.php` to match.
@@ -354,14 +380,18 @@ password → update `smtp_password` in `contact-config.php` to match.
 
 | Symptom | Cause / fix |
 |---|---|
+| Contact form 503, log shows `550 No Such User Here` for an @entirefs.com.au address | cPanel **Email Routing** is set to Local — change it to **Remote Mail Exchanger** (section 9). This is the most likely cause when sending to bevan@ fails but an external address works. |
 | Site changes not live | Check Actions tab; red = build/deploy failed. Build-step `ENOENT .../dist/public` means the `local-dir` path is wrong (must be repo-root `./dist/public/`). |
 | Contact form 503, log says "Incomplete mail configuration" | Config **key names** don't match what `contact.php` expects — use the `smtp_*` / `from_*` / `to_*` keys in section 9, not `host`/`port`/etc. |
 | Contact form 503, log shows an SMTP/cert error | Check `smtp_host` matches a hostname with a valid cert (`mail.entirefs.com.au`), mailbox password matches, port is `465`. |
 | Enquiries land in Junk / "can't verify sender" | Email authentication — add the SPF record (section 8). (DKIM currently covers this.) |
 | `/about` or other route 404s | `.htaccess` missing from `public_html` — redeploy. |
 
-Diagnostics tip: the handler logs to `/home/entirefs/public_html/error_log`. Temporary verbose SMTP
-logging can be re-enabled in `contact.php` if needed, but should be removed afterward.
+Diagnostics tip: the handler logs to `/home/entirefs/public_html/error_log`. Verbose SMTP debug
+logging can be temporarily re-enabled in `contact.php` (`$mail->SMTPDebug = 2;` with a Debugoutput
+callback to `error_log`) to see the full SMTP exchange — this is how the Email Routing issue was
+diagnosed. Remove it again afterward. **When removing diagnostics, change only the SMTPDebug/Debugoutput
+lines — a broader "cleanup" edit risks breaking the send.**
 
 ---
 
@@ -371,12 +401,12 @@ Store actual values in a password manager, not here.
 
 | Credential | Used for | Stored where |
 |---|---|---|
-| cPanel login (`entirefs`) | Hosting control | `Through Synergy Portal` |
+| cPanel login (`entirefs`) | Hosting control | Through Synergy Portal |
 | Deploy FTP (`deploy@entirefs.com.au`) | GitHub Actions deploy | GitHub secret + `__PASSWORD_MANAGER__` |
 | Sending mailbox (`forms@entirefs.com.au`) | Contact-form SMTP | `contact-config.php` on server + `__PASSWORD_MANAGER__` |
-| GitHub access / PAT | Source + pipeline + pushes | GitHub account / `__in S8 Github in Keeper__` |
+| GitHub access / PAT | Source + pipeline + pushes | in S8 Github in Keeper |
 | Crazy Domains login | DNS | `__PASSWORD_MANAGER__` |
-| Microsoft 365 admin | Business email | `Not managed by S8` |
+| Microsoft 365 admin | Business email | Not managed by S8 |
 
 ---
 
