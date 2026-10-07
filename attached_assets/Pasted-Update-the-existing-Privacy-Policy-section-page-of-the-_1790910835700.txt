@@ -1,0 +1,63 @@
+Update the existing **Privacy Policy** section/page of the Entire Financial Services website.
+
+### Section title
+
+**Statement of Entire Financial Services Privacy Policy**
+
+### Requirements
+
+- Replace the existing Privacy Policy content with the wording below.
+- Do **not** summarise, shorten, or materially alter the supplied compliance wording.
+- Keep the design consistent with the rest of the Entire Financial Services website.
+- Improve readability through clear headings, paragraph spacing and appropriate content width.
+- Do not place every paragraph inside separate cards.
+- Use a clean, professional layout suitable for regulatory and compliance information.
+- Preserve the existing website navigation, footer and surrounding page structure.
+- Make phone numbers, email addresses and website addresses clickable.
+- External website links should open in a new tab.
+- Ensure the page is fully responsive across desktop, tablet and mobile.
+
+## Statement of Entire Financial Services Privacy Policy
+
+Apex Macro Financial group and Entire Financial Services is committed to ensuring the confidentiality and security of the information provided by you to us. We support and embrace the National Privacy Principles set out in the Privacy Amendment (Private Sector) Act 2000 and the protection afforded by this act for the security of private information held on ordinary Australians.
+
+You may be requested to provide us with information about your personal circumstances and anything else relevant to enable us to provide appropriate advice to you. AUSTRAC requirements mean that your Adviser will need to confirm your identity by sighting and verifying documents such as your Passport and Driver License.
+
+We will also collect information from you to meet our obligations under the Anti-Money Laundering and Counter-Terrorism Financing Act. We will generally collect this information directly from you however in some cases we will seek your authority to collect if from other parties such as your accountant or your superannuation fund. If you do not provide us with all the information that we request, we may not be able to provide our services to you.
+
+All personal information we gather from you, as well as any advice provided to you is maintained in a file. We only keep your Tax File Number and sensitive personal information if we have your written permission. If you would like to examine your personal information, please let your adviser know.
+
+We will hold and use your personal information so that we can continue to provide our services to you. We will only disclose your personal information to external parties where: The law requires us to do so, you consent for us to do so, consider whether there are other parties where there may not be consent.
+
+If you have any complaints about how we handle your private information, please contact a member of Entire Financial Services:
+
+**Phone:** 0421 833 372  
+**Email:** bevan@entirefs.com.au
+
+We take your privacy seriously and will address your concerns through our complaints handling process. A full copy of our Privacy Policy is available on our website www.entirefs.com.au.
+
+If you believe you do not receive a satisfactory resolution to your concern, you may contact the Office of the Federal Privacy Commission. The website of the office of the Federal Privacy Commissioner is www.privacy.gov.au.
+
+### Link behaviour
+
+Configure the following as clickable links:
+
+- `0421 833 372` → `tel:0421833372`
+- `bevan@entirefs.com.au` → `mailto:bevan@entirefs.com.au`
+- `www.entirefs.com.au` → link to the Entire Financial Services website
+- `www.privacy.gov.au` → external website link opening in a new tab
+
+### Design
+
+Use the Entire Financial Services brand styling:
+
+- **#0D6851** — primary headings and accents
+- **#022F35** — primary body/headline dark colour
+- **#D7DCC7** — optional subtle background or highlighted information area
+- Maintain generous whitespace and a readable maximum content width.
+- Keep body text left aligned.
+- Use slightly increased line-height for the long-form compliance content.
+- On mobile, ensure the content stacks naturally without horizontal scrolling.
+- Keep the overall appearance simple, trustworthy and professional.
+
+Do not make any other changes to the page.

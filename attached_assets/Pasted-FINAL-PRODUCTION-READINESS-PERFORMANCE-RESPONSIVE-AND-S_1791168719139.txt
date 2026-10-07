@@ -1,0 +1,895 @@
+FINAL PRODUCTION-READINESS, PERFORMANCE, RESPONSIVE AND SEO CHECK
+Entire Financial Services Website
+
+Act as a senior production web developer, technical SEO specialist, accessibility specialist and cross-browser QA engineer.
+
+Perform a complete final production-readiness audit of the existing Entire Financial Services website, implement every safe and necessary fix, and validate the completed production build.
+
+Do not only provide recommendations. Make the required code and configuration changes, run the relevant checks, and produce a final report.
+
+==================================================
+1. PRODUCTION DOMAIN
+==================================================
+
+The permanent production website address will be:
+
+https://www.entirefs.com.au/
+
+Use this as the single canonical production origin throughout the website.
+
+Set or update the production site URL configuration to:
+
+SITE_URL=https://www.entirefs.com.au
+
+Remove all temporary, development, Replit and staging domains from:
+
+- Canonical links
+- Open Graph metadata
+- Social sharing metadata
+- Structured data
+- XML sitemaps
+- Internal links
+- Image URLs used in metadata
+- Schema markup
+- Email templates, where applicable
+
+Configure permanent redirects so that all of the following preserve the path and query string and redirect to the canonical HTTPS www version:
+
+http://entirefs.com.au/*
+http://www.entirefs.com.au/*
+https://entirefs.com.au/*
+
+Redirect destination:
+
+https://www.entirefs.com.au/*
+
+Use a permanent 301 or 308 redirect.
+
+Do not create redirect chains or redirect loops.
+
+Ensure the Replit deployment configuration supports the custom domain and HTTPS. If any redirect or DNS requirement must be configured manually within Replit or the domain registrar, document the exact manual step in the final launch report rather than pretending it has been completed.
+
+==================================================
+2. NON-NEGOTIABLE REQUIREMENTS
+==================================================
+
+Before making changes:
+
+1. Inspect the existing framework, routes, component structure, dependencies, package manager, build system and deployment configuration.
+2. Create a Git checkpoint or commit before making changes, where Git is available.
+3. Record the current production build result and current Lighthouse scores so that improvements can be compared.
+4. Use the existing package manager and lock file.
+5. Do not rewrite the project in a different framework.
+6. Do not redesign the website.
+7. Preserve the approved Entire Financial Services:
+   - Branding
+   - Colours
+   - Fonts
+   - Layout style
+   - Images
+   - Approved page content
+   - Financial disclaimers
+   - Financial Services Guide
+   - Privacy content
+   - Complaints information
+   - Legal and regulatory wording
+8. Do not invent business information, qualifications, addresses, phone numbers, email addresses, licence details, testimonials, ratings, awards or service claims.
+9. Where business information conflicts between pages, flag it in the report instead of guessing which version is correct.
+10. Do not add fake search-engine verification codes.
+11. Do not expose API keys, credentials, tokens or private environment variables in client-side code.
+12. Maintain all existing functional integrations, including contact forms, review widgets, maps, analytics and embedded services.
+
+==================================================
+3. CODEBASE AND BUILD CLEANUP
+==================================================
+
+Audit and clean the production codebase.
+
+Complete the following:
+
+- Run the existing linting, type-checking and test commands.
+- Repair all build errors, TypeScript errors, linting errors and material warnings.
+- Ensure the production build completes successfully from a clean installation.
+- Ensure the correct build and start commands are configured for Replit deployment.
+- Remove unused imports, dead code, abandoned components and duplicate styles.
+- Remove unnecessary production dependencies after confirming they are not used.
+- Do not perform unnecessary major-version dependency upgrades.
+- Resolve high or critical production dependency vulnerabilities where this can be done safely.
+- Document any unresolved dependency vulnerability and its actual production impact.
+- Remove debugging output, development banners and unnecessary console statements.
+- Ensure there are no browser console errors in production.
+- Ensure there are no unhandled promise rejections.
+- Ensure no source files reference localhost, temporary preview URLs or old domains.
+- Ensure production environment variables are accessed safely.
+- Create or update `.env.example` with variable names only and no real secrets.
+- Ensure development-only tools are excluded from the production bundle.
+- Ensure public source maps are disabled unless there is a deliberate operational reason to retain them.
+- Remove commented-out experimental code that is no longer required.
+- Do not remove legally required or user-visible content simply to improve performance scores.
+
+==================================================
+4. PERFORMANCE AND PAGE-SPEED OPTIMISATION
+==================================================
+
+Optimise the website for fast loading on real mobile devices and slower mobile connections.
+
+Images:
+
+- Audit every image used by the website.
+- Compress oversized images without visible quality loss.
+- Use WebP or AVIF where supported and retain an appropriate fallback where required.
+- Use responsive image sizing with `srcset` and `sizes` where useful.
+- Never serve an image materially larger than its displayed dimensions.
+- Add accurate intrinsic width and height values to prevent layout movement.
+- Lazy-load below-the-fold images.
+- Do not lazy-load the primary above-the-fold hero or Largest Contentful Paint image.
+- Give the primary hero/LCP image an appropriate high fetch priority where beneficial.
+- Ensure decorative images have empty alt text.
+- Ensure informative images have meaningful alt text.
+- Preserve the visual quality of logos and brand assets.
+
+Fonts:
+
+- Prefer locally hosted WOFF2 files where licensing and the existing implementation allow it.
+- Remove unused font weights and character sets.
+- Preload only fonts that are genuinely required above the fold.
+- Use `font-display: swap` or an equivalent non-blocking strategy.
+- Provide sensible fallback fonts.
+- Prevent font loading from causing layout shifts.
+
+CSS and JavaScript:
+
+- Minify production CSS and JavaScript.
+- Enable tree shaking.
+- Split large JavaScript bundles where appropriate.
+- Route-split or lazy-load substantial page-specific code where supported.
+- Defer non-critical scripts.
+- Delay non-essential third-party widgets until they are needed, visible or the browser is idle.
+- Do not delay anything required for accessibility, navigation or core page content.
+- Remove unused CSS and duplicate rules.
+- Avoid render-blocking resources where possible.
+- Inline only genuinely critical CSS when it provides a measurable benefit.
+- Avoid excessive DOM size and unnecessary component nesting.
+- Reduce expensive scroll, resize and animation handlers.
+- Debounce or throttle repeated event handlers where required.
+- Avoid loading the same library more than once.
+
+Caching and delivery:
+
+- Enable Brotli or gzip compression where the deployment platform supports it.
+- Apply long-lived immutable caching to versioned static assets.
+- Use short or revalidation-based caching for HTML.
+- Do not apply immutable caching to HTML files.
+- Ensure updated deployments do not continue serving obsolete HTML.
+- Use preconnect or DNS prefetch only for essential third-party origins.
+- Do not add unnecessary preconnect entries.
+- Remove mixed HTTP/HTTPS resources.
+- Ensure all assets load over HTTPS.
+
+Visual stability and responsiveness:
+
+- Reserve dimensions for images, videos, iframes and embedded widgets.
+- Prevent late-loading banners, review widgets, fonts and images from shifting content.
+- Ensure sticky elements do not unexpectedly move or cover page content.
+- Avoid animation of layout properties where transform or opacity can be used.
+- Respect `prefers-reduced-motion`.
+
+Performance targets for the main public pages:
+
+- Lighthouse Performance: 90 or higher on mobile and desktop
+- Lighthouse Accessibility: 95 or higher
+- Lighthouse Best Practices: 95 or higher
+- Lighthouse SEO: 95 or higher
+- Largest Contentful Paint: 2.5 seconds or less
+- Interaction to Next Paint: 200 milliseconds or less in field conditions
+- Cumulative Layout Shift: 0.1 or less
+- No severe long tasks or unnecessary main-thread blocking
+
+Do not manipulate or “game” Lighthouse by hiding content, disabling necessary functionality or removing important third-party features.
+
+If an essential third-party service prevents a target from being reached, identify the service, quantify the impact and recommend the safest next step in the final report.
+
+==================================================
+5. RESPONSIVE DESIGN QA
+==================================================
+
+Check every public page at the following viewport widths:
+
+- 320px
+- 360px
+- 375px
+- 390px
+- 414px
+- 768px
+- 1024px
+- 1280px
+- 1440px
+- 1920px
+
+Also test common mobile landscape dimensions.
+
+Ensure:
+
+- There is no unintended horizontal scrolling.
+- Text does not overflow its container.
+- Navigation remains usable at every width.
+- The mobile menu opens, closes and traps focus appropriately.
+- The mobile menu can be closed using the keyboard and Escape key.
+- Buttons and links remain easy to tap.
+- Important touch targets are approximately 44 by 44 CSS pixels where practical.
+- Text remains readable without zooming.
+- Forms do not overflow on smaller screens.
+- Images scale without distortion.
+- Cards and multi-column sections stack cleanly.
+- Footer content remains aligned and readable.
+- Long legal text and PDF links wrap correctly.
+- Sticky headers do not cover anchor destinations.
+- Hover-only interactions also work through touch, click and keyboard input.
+- The hand/pointer cursor appears only on genuinely interactive elements.
+- Accordions, sliders, review controls and other interactive components work on touchscreens.
+- The website remains usable at 200% browser zoom.
+- Browser zoom and mobile accessibility zoom are not disabled.
+
+Ensure the document contains an appropriate viewport declaration such as:
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+Do not disable user scaling.
+
+==================================================
+6. CROSS-BROWSER COMPATIBILITY
+==================================================
+
+Support and validate the latest two stable versions, where practical, of:
+
+- Google Chrome
+- Microsoft Edge
+- Mozilla Firefox
+- Apple Safari
+- iOS Safari
+- Chrome on Android
+
+Where the project uses a transpiler or bundler:
+
+- Configure an appropriate Browserslist target.
+- Use Autoprefixer where applicable.
+- Do not ship transforms or polyfills that are not needed.
+- Add fallbacks for browser APIs that are not consistently supported.
+- Avoid browser-specific CSS without an appropriate fallback.
+- Check Safari behaviour for viewport heights, sticky positioning, flexbox, grid, form controls and embedded content.
+- Use modern viewport units such as `dvh` or `svh` with an appropriate fallback where required.
+- Confirm forms, menus, links, accordions, animation and scrolling behaviour in all target browsers.
+
+Do not claim that Safari or physical mobile devices were tested if the available environment cannot run them. Instead, complete all automated compatibility checks and add a clearly labelled manual Safari/iPhone testing item to the launch report.
+
+==================================================
+7. SEO ARCHITECTURE AND INDEXABILITY
+==================================================
+
+Inspect every public route and build an SEO inventory.
+
+For each indexable page, confirm:
+
+- The page returns HTTP 200.
+- The URL is clean, lowercase and human-readable.
+- There is one clear primary H1.
+- Heading levels follow a logical hierarchy.
+- The main content is present in the initial HTML or reliably pre-rendered.
+- Navigation and internal links use real crawlable links.
+- Important navigation must not depend solely on JavaScript click handlers attached to non-link elements.
+- The page has a unique title.
+- The page has a unique meta description.
+- The page has a self-referencing canonical URL.
+- The canonical URL uses the production HTTPS www domain.
+- The page is indexable in production.
+- The page is not accidentally blocked by robots.txt.
+- The page does not contain an accidental `noindex`.
+- Images have appropriate alt text.
+- Links use meaningful text instead of vague labels such as “click here”.
+- The page is linked from another logical page on the website.
+- Structured data reflects the visible content.
+- There is no hidden keyword text or keyword stuffing.
+
+If the website is currently a client-rendered single-page application:
+
+- Ensure important public-page content and metadata are available to crawlers in the initial page HTML.
+- Use the existing framework’s supported SSR, SSG or pre-rendering approach where practical.
+- Do not perform a complete framework rewrite.
+- Do not rely exclusively on a client-side metadata update for critical SEO fields if pre-rendering is available.
+
+Do not index:
+
+- Development-only pages
+- Preview pages
+- Internal test pages
+- Admin routes
+- Duplicate routes
+- Form-success or thank-you pages that contain no unique search value
+- Error pages
+- Search/filter parameter combinations that create duplicate content
+
+Ensure unknown URLs return a genuine 404 status rather than an indexable HTTP 200 page.
+
+If existing public URLs must change, create a complete one-to-one permanent redirect map. Do not break existing inbound links.
+
+==================================================
+8. PAGE TITLES AND META DESCRIPTIONS
+==================================================
+
+Create a metadata matrix covering every public page.
+
+Each page must have:
+
+- A unique and descriptive `<title>`
+- A unique and useful meta description
+- A canonical URL
+- Open Graph metadata
+- Social sharing metadata
+- A clear page H1
+- An indexability status
+
+Title requirements:
+
+- Accurately describe the visible page content.
+- Include “Entire Financial Services” naturally.
+- Avoid keyword repetition.
+- Avoid generic titles such as “Home” or “Services”.
+- Do not make guarantees or unsupported financial claims.
+- Use Australian English.
+- Use location terms only where the existing content and actual service area support them.
+
+Description requirements:
+
+- Summarise the actual page.
+- Write for prospective clients, not search-engine crawlers.
+- Avoid duplicating the same description across pages.
+- Avoid misleading calls to action.
+- Do not insert licence, qualification or service claims unless confirmed by approved content.
+
+Do not add a `meta keywords` tag.
+
+Use:
+
+<html lang="en-AU">
+
+Do not add hreflang tags unless the website genuinely has alternate language or regional versions.
+
+==================================================
+9. OPEN GRAPH AND SOCIAL SHARING
+==================================================
+
+Add complete and valid sharing metadata to each indexable page.
+
+Include where applicable:
+
+- `og:title`
+- `og:description`
+- `og:type`
+- `og:url`
+- `og:image`
+- `og:image:width`
+- `og:image:height`
+- `og:image:alt`
+- `og:site_name`
+- `og:locale`
+- `twitter:card`
+- `twitter:title`
+- `twitter:description`
+- `twitter:image`
+- `twitter:image:alt`
+
+Use:
+
+og:site_name = Entire Financial Services
+og:locale = en_AU
+twitter:card = summary_large_image
+
+Use a properly optimised branded social image with an approximate 1200 by 630 pixel aspect ratio.
+
+The social image must:
+
+- Use approved Entire Financial Services branding.
+- Remain readable when cropped.
+- Use an absolute production URL.
+- Be compressed appropriately.
+- Not contain unsupported claims or unapproved testimonial content.
+
+Ensure sharing metadata does not use any Replit or staging URL.
+
+==================================================
+10. STRUCTURED DATA
+==================================================
+
+Implement valid JSON-LD structured data based only on verified, visible business information.
+
+Home page:
+
+Add an appropriate JSON-LD graph containing:
+
+1. WebSite
+2. Organization and/or FinancialService, where valid for the actual business
+3. WebPage
+
+Use verified fields only, such as:
+
+- Business name
+- Production website URL
+- Approved logo URL
+- Approved image URL
+- Verified telephone number
+- Verified email address
+- Verified business address
+- Actual social profile URLs
+- Actual service area
+- Contact point information
+
+Use WebSite structured data to identify the preferred site name as:
+
+Entire Financial Services
+
+Internal pages:
+
+- Add WebPage structured data.
+- Add BreadcrumbList only where the breadcrumb relationship is accurate.
+- Add Service structured data only where it accurately represents a visible service page.
+- Ensure structured data IDs and URLs consistently use the production domain.
+
+Do not:
+
+- Add fake ratings.
+- Add `aggregateRating` merely because Google reviews appear in a widget.
+- Mark up testimonials or reviews in a way that violates search-engine policies.
+- Add business hours unless confirmed.
+- Add unsupported awards, accreditations or service locations.
+- Add FAQ structured data unless the same questions and answers are clearly visible on the page.
+- Add schema that conflicts with the visible content.
+- duplicate the same entity with inconsistent details.
+
+Ensure all JSON-LD parses correctly and contains no syntax errors.
+
+==================================================
+11. SEARCH-ENGINE FILES
+==================================================
+
+Create or update the production `robots.txt` file.
+
+The normal production version should be equivalent to:
+
+User-agent: *
+Allow: /
+
+Sitemap: https://www.entirefs.com.au/sitemap.xml
+
+Add disallow rules only for real private or non-public routes that should not be crawled.
+
+Do not block:
+
+- CSS
+- JavaScript
+- Images
+- Fonts
+- Public page assets
+
+Do not use robots.txt as the only method of preventing a confidential page from being indexed.
+
+Create or update a valid XML sitemap at:
+
+https://www.entirefs.com.au/sitemap.xml
+
+The sitemap must:
+
+- Return HTTP 200.
+- Use valid XML.
+- Contain fully qualified HTTPS www URLs.
+- Include every canonical indexable public page.
+- Include only URLs belonging to the production domain.
+- Exclude redirects.
+- Exclude 404 pages.
+- Exclude noindex pages.
+- Exclude temporary, preview, staging and admin routes.
+- Exclude query-string duplicates.
+- Exclude thank-you pages unless they have genuine standalone search value.
+- Use accurate `lastmod` dates only when they can be determined.
+- Never generate a fake new `lastmod` date on every deployment when content has not changed.
+
+If the framework supports dynamic sitemap generation, ensure it is deterministic and uses the production site URL.
+
+If the site is small and static, a correctly maintained static XML sitemap is acceptable.
+
+Prepare optional support for Bing IndexNow only if it can be implemented cleanly and maintained safely. Do not invent an IndexNow key. Do not make deployment dependent on IndexNow.
+
+==================================================
+12. SEARCH-ENGINE VERIFICATION
+==================================================
+
+Prepare the website for ownership verification, but do not insert fake tokens.
+
+Support environment variables or configuration values such as:
+
+GOOGLE_SITE_VERIFICATION=
+BING_SITE_VERIFICATION=
+
+Only render the relevant verification meta tag when a real value has been supplied.
+
+Do not render empty verification tags.
+
+If HTML-file or DNS verification is preferable, document the required step in the final launch checklist.
+
+The final report must clearly state that the following require the site owner’s access after the production domain is live:
+
+- Google Search Console property verification
+- Bing Webmaster Tools property verification
+- XML sitemap submission to Google
+- XML sitemap submission or import into Bing
+- Inspection of the production home page
+- Requesting initial indexing where appropriate
+- Reviewing indexing and Core Web Vitals reports after search engines have collected data
+
+==================================================
+13. FAVICONS, ICONS AND WEB MANIFEST
+==================================================
+
+Use the approved Entire Financial Services logo or submark to create a complete favicon set.
+
+Include suitable versions such as:
+
+- favicon.ico
+- 16 by 16 PNG
+- 32 by 32 PNG
+- 48 by 48 or larger search-compatible icon
+- Apple touch icon
+- 192 by 192 application icon
+- 512 by 512 application icon
+
+Ensure:
+
+- Icons are square.
+- Icons are sharp at small sizes.
+- Transparent padding does not make the logo unreadably small.
+- The icon URL is stable.
+- Search crawlers can access the icon.
+- The browser favicon is referenced correctly from the document head.
+
+Create or update `site.webmanifest` with:
+
+- name
+- short_name
+- icons
+- start_url
+- display
+- theme_color
+- background_color
+
+Use the existing approved brand colours.
+
+Do not turn the website into an intrusive installable application unless that functionality already exists. The manifest is primarily for consistent browser and device presentation.
+
+==================================================
+14. ACCESSIBILITY
+==================================================
+
+Complete an accessibility check targeting WCAG 2.2 AA wherever practical.
+
+Repair:
+
+- Missing form labels
+- Missing image alt attributes
+- Incorrect heading order
+- Empty links and buttons
+- Unclear link text
+- Insufficient colour contrast
+- Invisible keyboard focus
+- Keyboard traps
+- Incorrect ARIA
+- Duplicate element IDs
+- Unlabelled navigation
+- Unlabelled icon buttons
+- Dialogs or menus that do not manage focus
+- Content hidden from assistive technology incorrectly
+- Elements that appear clickable but cannot be used by keyboard
+- Auto-playing animation or media without controls
+
+Add:
+
+- A visible-on-focus skip link to the main content.
+- A semantic main landmark.
+- Semantic header, navigation and footer landmarks.
+- Clear focus-visible states.
+- Accessible names for icon-only controls.
+- Appropriate form validation and error messaging.
+- Reduced-motion support.
+- Sufficiently large touch targets.
+
+Do not disable browser zoom.
+
+Do not add ARIA where native semantic HTML is sufficient.
+
+==================================================
+15. LINKS, FORMS AND FUNCTIONAL QA
+==================================================
+
+Test every internal and external link.
+
+Ensure:
+
+- There are no broken internal links.
+- There are no placeholder `#` links unless they perform a real accessible action.
+- Telephone links use the correct `tel:` format.
+- Email links use the correct `mailto:` format.
+- External links that open a new tab use `rel="noopener noreferrer"`.
+- PDF and legal-document links open correctly.
+- Navigation links point to canonical URLs.
+- Footer links work.
+- The Synapse8 footer credit works and opens safely in a new tab.
+- Logo links return to the home page.
+- Anchor links account for any sticky header.
+
+Test every form.
+
+Ensure:
+
+- Required fields are clearly indicated.
+- Client-side and server-side validation are present where applicable.
+- Errors are explained accessibly.
+- Submission states are clear.
+- Success and failure states are handled.
+- Double submissions are prevented.
+- No credentials are exposed in browser code.
+- Spam protection does not block legitimate users.
+- Failed network requests do not leave the form in a permanent loading state.
+- Personally identifiable information is not unnecessarily written to logs.
+
+Do not submit real test enquiries to a production recipient unless the recipient and test process have been explicitly configured.
+
+==================================================
+16. SECURITY AND PRODUCTION HEADERS
+==================================================
+
+Ensure the production website uses HTTPS only.
+
+Where supported by the deployment platform, configure and test appropriate headers such as:
+
+- Strict-Transport-Security
+- Content-Security-Policy
+- X-Content-Type-Options: nosniff
+- Referrer-Policy: strict-origin-when-cross-origin
+- Permissions-Policy
+- A suitable frame-ancestors policy
+
+Before adding Content Security Policy:
+
+- Inventory every required script, stylesheet, font, image, iframe and connection origin.
+- Account for legitimate review widgets, maps, analytics and form services.
+- Do not add an untested strict policy that breaks the website.
+- Avoid `unsafe-eval`.
+- Minimise `unsafe-inline` where practical.
+- Prefer nonces or hashes if supported by the existing stack.
+
+If safe CSP deployment cannot be completed within the current hosting configuration, provide a tested recommended policy in the launch report rather than breaking the production website.
+
+Also check:
+
+- No mixed content.
+- No exposed secret keys.
+- No development endpoints.
+- No directory listing.
+- No sensitive stack traces shown to visitors.
+- No unnecessary server or framework version headers.
+- Safe handling of user-provided form data.
+- Appropriate error boundaries and fallback pages.
+
+==================================================
+17. ANALYTICS, PRIVACY AND THIRD-PARTY SCRIPTS
+==================================================
+
+Audit existing analytics and tracking scripts.
+
+Ensure:
+
+- Analytics is included only once.
+- Development and preview traffic is not incorrectly treated as production traffic where this can be controlled.
+- Analytics IDs are stored through configuration rather than duplicated throughout the source.
+- No new analytics, advertising or tracking service is added without an approved identifier.
+- Third-party scripts are loaded efficiently.
+- Third-party scripts do not block initial rendering where avoidable.
+- Existing privacy disclosures remain consistent with the actual tracking technology used.
+- No visitor data is sent to an unapproved provider.
+- Sensitive information is not included in analytics events or page URLs.
+
+Do not add cookie banners, marketing pixels or additional trackers unless required by the services already present or explicitly configured.
+
+==================================================
+18. STAGING AND PRODUCTION INDEXING RULES
+==================================================
+
+Production:
+
+- Public pages must be crawlable and indexable.
+- Production robots.txt must reference the production sitemap.
+- Production pages must not contain accidental noindex tags.
+- Production canonical URLs must use the HTTPS www domain.
+
+Development and preview environments:
+
+- Must not use the production canonical origin as though the preview were the real production page.
+- Should include a noindex directive or an `X-Robots-Tag: noindex, nofollow` response where practical.
+- Should be access-controlled where supported.
+- Must not be included in the production sitemap.
+
+Do not rely solely on a robots.txt disallow rule to keep a publicly discoverable staging URL out of search results.
+
+Implement environment-aware behaviour so that production and preview indexing rules cannot be accidentally reversed.
+
+==================================================
+19. AUTOMATED VALIDATION
+==================================================
+
+Run all relevant existing project commands and add minimal production-quality validation tooling where necessary.
+
+At minimum, run or provide equivalent checks for:
+
+- Clean dependency installation
+- Linting
+- Type checking
+- Unit tests, if present
+- Production build
+- Production start or preview
+- Route smoke testing
+- Broken-link testing
+- Lighthouse mobile testing
+- Lighthouse desktop testing
+- HTML metadata inspection
+- Sitemap XML validation
+- robots.txt inspection
+- JSON-LD parsing
+- Console error inspection
+- Network request failure inspection
+- 404 response testing
+- Redirect testing
+- Canonical URL testing
+- Responsive screenshots or visual checks at key breakpoints
+
+Test at least:
+
+- Home
+- About
+- Main services page
+- Each individual service page
+- Contact
+- Privacy
+- Financial Services Guide
+- Complaints or other legal-information pages
+- A valid PDF/document link
+- A nonexistent URL
+
+Use the actual project route list rather than assuming the above route names.
+
+==================================================
+20. ACCEPTANCE CRITERIA
+==================================================
+
+Do not mark this task complete until all of the following are true or explicitly documented as a manual launch dependency:
+
+- The production build completes successfully.
+- The production server starts correctly.
+- No high-priority lint or type errors remain.
+- No critical browser console errors remain.
+- No broken internal links remain.
+- No unintended 404 asset requests remain.
+- No mixed content remains.
+- There is no unintended horizontal scrolling at tested widths.
+- Main navigation works with mouse, touch and keyboard.
+- All public indexable pages have unique titles and descriptions.
+- All public indexable pages have correct HTTPS www canonicals.
+- No canonical references a preview or staging domain.
+- robots.txt returns HTTP 200.
+- sitemap.xml returns HTTP 200 and valid XML.
+- The sitemap contains only canonical indexable production URLs.
+- Structured data is valid and matches visible content.
+- Favicon files load correctly.
+- Social sharing metadata uses absolute production URLs.
+- Unknown routes return a genuine 404 status.
+- HTTP and non-www variants redirect permanently to the HTTPS www domain.
+- Production pages are not accidentally noindexed.
+- Preview builds are not intended for indexing.
+- Contact details are consistent or any conflicts are clearly documented.
+- The home page and main service pages meet or approach the stated Lighthouse targets.
+- Any remaining issue is recorded with severity, impact and recommended action.
+- The website remains visually consistent with the approved design.
+
+==================================================
+21. REQUIRED OUTPUT FILES
+==================================================
+
+Create the following documentation in the repository:
+
+1. `PRODUCTION_READINESS_REPORT.md`
+
+Include:
+
+- Detected technology stack
+- Package manager
+- Build and start commands
+- Summary of changes
+- Files changed
+- Dependencies removed or updated
+- Build result
+- Test result
+- Before-and-after Lighthouse scores
+- Core Web Vitals observations
+- Responsive test matrix
+- Browser compatibility matrix
+- Accessibility findings
+- Broken-link results
+- Redirect results
+- Security-header status
+- Unresolved issues
+- Manual launch dependencies
+- Rollback notes
+
+2. `SEO_METADATA_MATRIX.md`
+
+For every public route include:
+
+- Route
+- Page purpose
+- HTTP status
+- Indexable: yes or no
+- Page title
+- Meta description
+- H1
+- Canonical URL
+- Open Graph image
+- Structured-data types
+- Included in sitemap: yes or no
+- Notes or conflicts
+
+3. `LAUNCH_CHECKLIST.md`
+
+Include exact owner actions for:
+
+- Connecting the custom domain
+- Confirming DNS
+- Confirming HTTPS
+- Confirming redirect behaviour
+- Supplying Google verification
+- Supplying Bing verification
+- Verifying Google Search Console
+- Verifying Bing Webmaster Tools
+- Submitting the sitemap
+- Testing the live contact form
+- Checking analytics
+- Testing Safari and iPhone manually if not available in the development environment
+- Checking social-sharing previews
+- Checking Google’s Rich Results Test
+- Checking the live website with PageSpeed Insights
+- Monitoring errors and indexing after launch
+
+4. `.env.example`
+
+Include required variable names with blank or clearly fake example values. Never include real credentials.
+
+==================================================
+22. FINAL REPLIT RESPONSE
+==================================================
+
+When all implementation and testing work is complete, provide a concise final response containing:
+
+1. What was changed
+2. What was tested
+3. Final build status
+4. Final Lighthouse scores
+5. Production domain configuration
+6. Search-engine files created
+7. Any unresolved blocker
+8. Exact manual actions still required before or immediately after launch
+9. A list of the main changed files
+10. The command required to run the final production build
+
+Do not say the website is fully verified in Google or Bing unless actual site ownership verification has occurred.
+
+Do not guarantee rankings, traffic, rich results, favicon display or immediate indexing.
+
+The final goal is a clean, secure, responsive, accessible and fast production website that is technically ready to launch at:
+
+https://www.entirefs.com.au/

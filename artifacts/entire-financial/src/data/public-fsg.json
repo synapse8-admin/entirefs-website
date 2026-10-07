@@ -1,0 +1,585 @@
+{
+  "title": "Financial Services Guide (FSG)",
+  "introduction": [
+    "This Financial Services Guide was prepared and issued with the authority of Apex Macro Financial Group",
+    "Australian Financial Services License No. 498715",
+    "Apex Macro Financial Group | ABN 33 617 164 413 | AFSL 498715",
+    "772A Station Street, Box Hill North, VIC 3129",
+    "P: 03 8592 0081 / 1300 003 888 / 0413 788 255",
+    "E: info@apexmacro.com",
+    "W. www.apexmacro.com",
+    "Authorised Representative: 421931",
+    "Version 1 | 14th April 2026"
+  ],
+  "disclosure": {
+    "title": "Not Independent",
+    "text": "Apex Macro Financial Group and your adviser may receive commission based on your premium for the duration of time you hold an insurance policy, fees based on the volume of assets under advice and gifts and other non-monetary benefits. For these reasons, we are unable to refer to ourselves as ‘independent’, ‘impartial’ or ‘unbiased’."
+  },
+  "sections": [
+    {
+      "id": "about-this-fsg",
+      "title": "About the Financial Services Guide",
+      "navLabel": "About this FSG",
+      "panel": false,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Apex Macro Financial Group holds an Australian Financial Services Licence (AFSL) number 498715 and authorises Financial Advisers under its AFSL. Our contact details are listed above. Apex Macro Financial group is responsible for any advice you receive."
+        },
+        {
+          "type": "paragraph",
+          "text": "The purpose of this Financial Services Guide (FSG) is to help you make an informed decision about the services we offer and whether they are suited to your needs. This FSG also provides you with important information on how to engage with your Adviser."
+        },
+        {
+          "type": "paragraph",
+          "text": "This FSG is an important document, which we are required to provide to you as a condition of our AFSL."
+        },
+        {
+          "type": "paragraph",
+          "text": "It contains information about:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Information about Apex Macro Financial Group as an AFSL holder",
+            "The documents you may receive",
+            "Other forms of remuneration of benefits that exist",
+            "Information about privacy (i.e. collection, use and handling)",
+            "Our complaints procedure",
+            "Our compensation arrangements",
+            "Details of your Adviser and responsibilities for providing financial services",
+            "What your Adviser is authorised to do",
+            "Details on how you can instruct your Adviser",
+            "All forms of remuneration received by your Adviser."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "When you are provided with advice, your adviser is required to comply with the Best Interests Duty and will always act in your best interest."
+        }
+      ]
+    },
+    {
+      "id": "apex-and-entire",
+      "title": "Apex Macro Financial Group and Entire Financial Services",
+      "navLabel": "Apex Macro & Entire Financial Services",
+      "panel": false,
+      "blocks": [
+        {
+          "type": "heading",
+          "text": "About Apex Macro Financial Group:"
+        },
+        {
+          "type": "paragraph",
+          "text": "Apex Macro Financial Group is the holding company of a Financial Services License for the group of Apex Macro Companies. Our group of companies have been established since April 2014 and provide esteemed financial services to the public. Apex Macro Financial Group have Authorised Representatives all around Australia who extend our services to a wider audience."
+        },
+        {
+          "type": "paragraph",
+          "text": "Apex Macro Financial Group is the Licensee that authorises Entire Financial Services to provide advice to retail and wholesale clients and is ultimately responsible for the advice provided to you."
+        },
+        {
+          "type": "paragraph",
+          "text": "Entire Financial Services is responsible for any Authorised Representatives operating under that business, to provide the following financial services on behalf of Apex Macro Financial Group:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Provide financial product advice, and",
+            "Deal in a financial product by arranging for another person to issue, apply for, acquire, vary, or dispose of a financial product"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "approved-products",
+      "title": "Approved product list",
+      "navLabel": "Approved Product List",
+      "panel": false,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Your adviser can provide advice on a wide range of financial products; however, they are required to"
+        },
+        {
+          "type": "paragraph",
+          "text": "recommend those approved by Apex Macro Financial Group which can be found on the Apex Macro Financial Group Approved Product List (APL). Your adviser will assess whether the products on the APL (Investment, superannuation and insurance) are suitable for you. The APL is compiled by Apex Macro Financial Group and seeks to remove conflicts from the advice process (where possible). You will be provided with a Product Disclosure Statement (PDS) or other disclosure documents (as available from the issuer), if we recommend a financial product."
+        }
+      ]
+    },
+    {
+      "id": "business-profile",
+      "title": "Business Profile",
+      "navLabel": "Business Profile",
+      "panel": true,
+      "blocks": [
+        {
+          "type": "list",
+          "items": [
+            "Entire Financial Services - Corporate authorised representative No. 1257254",
+            "Bevan Heneric - Authorised representative No. 421931",
+            "Building 4, Suite 42, 195 Wellington Road, Clayton, VIC 3168",
+            "0421 833 372",
+            "bevan@entirefs.com.au"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "our-obligations",
+      "title": "Our obligations to you",
+      "navLabel": "Our obligations",
+      "panel": false,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Our initial obligation at the start of the relationship is to fully inform you of your rights, entitlements and detail the services we provide. This FSG is intended to inform you of certain matters relating to your relationship with us prior to you being provided with any Authorised Financial Service. This FSG covers who we are, as Authorised Representatives of Apex Macro Financial Group, how we are remunerated and the method by which we engage our professional advice process. It is intended that this document should assist you in determining whether to use any of the services described. It is our duty to provide you with this document at the first available opportunity."
+        }
+      ]
+    },
+    {
+      "id": "your-adviser",
+      "title": "Getting started",
+      "navLabel": "Your adviser",
+      "panel": false,
+      "blocks": [
+        {
+          "type": "heading",
+          "text": "Who is your adviser?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Your adviser is an employee of Entire Financial Services and an Authorised representative of Apex Macro Financial Group."
+        },
+        {
+          "type": "heading",
+          "text": "About Bevan Heneric"
+        },
+        {
+          "type": "paragraph",
+          "text": "Bevan’s wealth of knowledge across the Financial Services Industry extends over 20 years, beginning firstly in administrative roles across all advice areas. These initial roles molded his critical thinking and his ability to understand and identify in depth his client’s priorities and values to provide holistic guidance and actionable strategies to achieve their financial goals."
+        },
+        {
+          "type": "paragraph",
+          "text": "Bevan is very passionate about inspiring everyday people to live amazing lives through developing positive financial behaviours. His unique approach to getting to know his clients has transformed standard conversation by looking to identify his client’s financial habits which has allowed him to find solutions that can help clients live a better version of themselves through continuous incremental changes that create a long-lasting impact on their lives. His experience of working with a range of clients has made it obvious that those who want to accumulate, enhance and protect their financial wealth need more qualities than just financial discipline. However, beginning with the concept of financial discipline creates the sparks needed to ignite new behaviours that expand beyond their finances which stems to clients having their own version of an amazing life."
+        }
+      ]
+    },
+    {
+      "id": "services",
+      "title": "Services, what services do we provide?",
+      "navLabel": "Services",
+      "panel": false,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "As an Authorised representative of Apex Macro Financial Group, Bevan Heneric is licensed to provide a comprehensive range of services which include:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Deposit products,",
+            "Non-basic deposit products,",
+            "Debentures, stocks or bonds issued by a Government,",
+            "Life insurance investment products,",
+            "Life risk insurance products,",
+            "Managed investment schemes (including Investor Directed Portfolio services),",
+            "Retirement Savings Accounts,",
+            "Securities,",
+            "Standard margin lending facilities,",
+            "Superannuation (including Self-Managed Superannuation funds),",
+            "Debt Management Services & Consultation,",
+            "Derivatives; limited to Warrants,",
+            "Centrelink"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Who is your financial adviser?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Bevan Heneric will provide these services to you (Authorised representative: 421931)"
+        }
+      ]
+    },
+    {
+      "id": "qualifications",
+      "title": "Bevan Heneric’s qualifications are as follows:",
+      "navLabel": "Qualifications",
+      "panel": false,
+      "blocks": [
+        {
+          "type": "list",
+          "items": [
+            "Master of Financial Planning",
+            "Bachelor of Business (Accounting)",
+            "Bachelor of Business (Banking and Finance)",
+            "Graduate Diploma of Financial planning",
+            "Diploma of Finance management and mortgage brokering",
+            "Certificate IV Finance and mortgage brokering",
+            "Specialist knowledge in self- managed superannuation funds",
+            "Tax (Financial) adviser"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Further details about Bevan Heneric’s experience can be found on the Financial Adviser Register on the ASIC website"
+        },
+        {
+          "type": "heading",
+          "text": "Your adviser is authorised to provide personal advice and deal in the following financial products:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Deposit and payment products (Deposits and payment products, non-basic Deposit Products)",
+            "Government Debentures, Stocks or Bonds",
+            "Life Products (Investment Life Insurance Products, Life Risk Insurance Products)",
+            "Managed Investment Schemes (Managed Investment Schemes, IDPS)",
+            "Retirement Savings Account Products",
+            "Superannuation (incl. Self-Managed Superannuation Funds)",
+            "Securities"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "You can contact your Adviser directly with any instructions and provide them in writing, by email or by confirming verbal conversations."
+        }
+      ]
+    },
+    {
+      "id": "before-advice",
+      "title": "Before receiving advice",
+      "navLabel": "Before receiving advice",
+      "panel": false,
+      "blocks": [
+        {
+          "type": "heading",
+          "text": "Will we provide you with advice suitable to your needs and financial circumstances?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Yes. To provide quality advice, you need to supply us with your individual goals and objectives, your financial situation and your needs. You have the right not to divulge this information; if you do not wish to do so then we are required to warn you about the potential consequences of us not having your full personal information prior to providing advice. You should read the warning carefully and ask our Authorised representative about the consequences if you are unsure."
+        },
+        {
+          "type": "heading",
+          "text": "What should you know about the risks of the financial products or strategists we recommend to you?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Your adviser will explain to you any significant risks related to the financial products and strategies recommended to you."
+        },
+        {
+          "type": "heading",
+          "text": "What information do we maintain in your file, and can you examine your file?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Bevan Heneric will maintain a record of your personal profile, which includes details of your goals and objectives, financial situation, needs, copies of recommendations made to you and any products acquired by you. Internal member databases are maintained, and portfolios are reviewed on a regular basis subject to your membership agreement. If you wish to examine your file, we ask that you make this request via email to: bevan@entirefs.com.au and allow up to fourteen (14) working days for the information to be forwarded. You may be charged a fee to cover the cost of preparing any material requested. If the information sought is expensive, you will be advised of the likely cost in advance and can help to refine your request if required."
+        }
+      ]
+    },
+    {
+      "id": "provision-of-advice",
+      "title": "Provision of advice",
+      "navLabel": "Provision of advice",
+      "panel": false,
+      "blocks": [
+        {
+          "type": "heading",
+          "text": "Personal advice"
+        },
+        {
+          "type": "paragraph",
+          "text": "Before we can give you advice, which is appropriate and in your best interests, you will need to give us details of your personal objectives, current financial situation, needs and any other relevant information. You can choose not to provide us with this information, but any advice we give you will be general in nature and may not be appropriate to your objectives, financial situation and needs. If you are a retail client, you should read the warnings contained in the SOA carefully before making any decisions relating to a financial product."
+        },
+        {
+          "type": "paragraph",
+          "text": "If we give you personal advice, we will maintain a record of your personal profile, including details of your objectives, financial situation and needs. We will also maintain records of any recommendation made to you. For information on how to access personal information about you, please refer to the section ‘Your Privacy’ below. We will only give personal advice to you if you secure the services of one of our representatives."
+        }
+      ]
+    },
+    {
+      "id": "advice-documents",
+      "title": "Other documents you may receive:",
+      "navLabel": "Documents you may receive",
+      "panel": false,
+      "blocks": [
+        {
+          "type": "heading",
+          "text": "Statement of advice (SOA)"
+        },
+        {
+          "type": "paragraph",
+          "text": "Unless you’re a professional investor, sophisticated or wholesale client any financial advice we provide to you will be confirmed in writing in either a Statement of Advice (SOA) or a Record of Advice (ROA)."
+        },
+        {
+          "type": "paragraph",
+          "text": "In these cases, unless we warn you otherwise, our advice will consider your personal circumstances, needs and goals. You should read the SOA or ROA carefully, to ensure that you fully understand any recommendations we make. Do not implement our advice unless you do."
+        },
+        {
+          "type": "heading",
+          "text": "When will you receive a compliance document/ SOA?"
+        },
+        {
+          "type": "paragraph",
+          "text": "The information will be recorded in a client fact find questionnaire by your adviser and you will be asked to sign that document, so you are sure it accurately reflects what was discussed."
+        },
+        {
+          "type": "paragraph",
+          "text": "Initially, your advice will be documented in a SOA, which will detail and consider your current financial situation and requirements."
+        },
+        {
+          "type": "paragraph",
+          "text": "The SOA provided will outline:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "What the advice covers (the scope).",
+            "Details of why you are seeking advice (i.e. your goals and any specific requirements).",
+            "Your personal circumstances (financial, health and anything else relevant to the advice).",
+            "The advice itself and any recommendation being made (strategic and/or financial products) plus the advantages, disadvantages and any risks involved.",
+            "Any payments to us (fees, commissions or other benefits) and how that is determined.",
+            "Any associations we have that may influence the advice provided to you."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "If you receive advice in the future, your adviser will provide you with a subsequent SOA or a Record of advice (ROA)- depending on the complexity of the advice. We are required by law to keep copies of any ROA or SOA for a minimum of seven years."
+        },
+        {
+          "type": "paragraph",
+          "text": "When your adviser makes a recommendation to acquire a financial product, you must also be provided with a Product Disclosure Statement from the issuing product provider which gives full details of the recommended product to assist in making an informed decision to acquire that product. You should receive and review the PDS (or other offer document) provided by us before you make an investment decision about our products, or a produce we recommend."
+        },
+        {
+          "type": "paragraph",
+          "text": "You should read the information and warnings contained in the SOA or other advice documents carefully before making any decision relating to a financial product or advice."
+        }
+      ]
+    },
+    {
+      "id": "instructions",
+      "title": "Instructions for buying or selling financial products",
+      "navLabel": "Buying & selling instructions",
+      "panel": false,
+      "blocks": [
+        {
+          "type": "heading",
+          "text": "Can you tell us how you wish to instruct us to buy or sell your financial products?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Yes. You may specify how you would like to give us instructions, for example by telephone, email, or other means or specify how the instructions are to be given."
+        }
+      ]
+    },
+    {
+      "id": "fees-remuneration",
+      "title": "Fees and remuneration",
+      "navLabel": "Fees & remuneration",
+      "panel": false,
+      "blocks": [
+        {
+          "type": "heading",
+          "text": "How will you pay for the services provided?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Your adviser may charge you a fee for providing Advice and/or Financial Services. The amount and how you choose to pay for it may vary based on whether it is a fixed fee, commission, or combination of those. All fees and commissions are inclusive of GST and the fees could be greater than those disclosed below in complex cases. In these instances, we will inform you of the exact fee payable promptly in writing."
+        },
+        {
+          "type": "heading",
+          "text": "How does Bevan Heneric get paid:"
+        },
+        {
+          "type": "paragraph",
+          "text": "Bevan Heneric pays a fixed fee to Apex Macro Financial Group. Apex Macro Financial Group consequently pass 100% of the gross revenue generated via advice fees and commissions to Bevan Heneric. Any fees, charges or commissions payable to Apex Macro Financial Group will be disclosed in advice documents provided to you."
+        },
+        {
+          "type": "heading",
+          "text": "Advice preparation:"
+        },
+        {
+          "type": "paragraph",
+          "text": "The advice preparation fee will depend upon the complexity of the advice being provided; the minimum fee charged is $550 while the maximum fee may be $5,000 plus up to 5% of the value of your assets."
+        },
+        {
+          "type": "heading",
+          "text": "Ongoing fee for advice:"
+        },
+        {
+          "type": "paragraph",
+          "text": "If you elect to pay a fee for the ongoing review of your financial planning strategy, the fee is based upon which package you are recommended, and the complexity of ongoing advice and the services provided. The minimum ongoing fee is a minimum of $660 p.a. to a maximum fee of $5,000 or up to 5% of your assets under management."
+        },
+        {
+          "type": "paragraph",
+          "text": "Your adviser will provide you with a Consent form each year if you have an ongoing fee arrangement with us. It will outline the fees you paid, and the services received and the services you were entitled to receive in the preceding 12 months. You should let your adviser know within 60 days of receiving the Consent form if you want to continue that arrangement. If you elect to end the arrangement, we have an obligation to stop all ongoing fees and commission."
+        },
+        {
+          "type": "heading",
+          "text": "Adhoc advice:"
+        },
+        {
+          "type": "paragraph",
+          "text": "Where you do not wish to participate in an ongoing service fee arrangement but require ongoing advice on a fee for service basis, an hourly fee of $330 to $770 may apply depending on your requirements."
+        },
+        {
+          "type": "heading",
+          "text": "Insurance products:"
+        },
+        {
+          "type": "paragraph",
+          "text": "66% of the premium in the first year of the policy with a maximum trailing commission of 22%."
+        },
+        {
+          "type": "paragraph",
+          "text": "If the policy lapses in the first year 100% commission is clawed back, and 60% clawed back in the second year. Your adviser will charge you a fee equivalent to the value of the claw back in the event your policy lapses and they are not paid for their services. Any fees, charges or commissions are payable to BFA and will be disclosed in the advice documents provided to you."
+        }
+      ]
+    },
+    {
+      "id": "other-payments",
+      "title": "Other payments we may receive",
+      "navLabel": "Other payments",
+      "panel": false,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "We will provide you with details of all fees, commissions or other benefits we may receive when we provide advice to you. If we cannot provide this accurately, we will provide worked-dollar examples."
+        }
+      ]
+    },
+    {
+      "id": "referral-fees",
+      "title": "Referral Fees and Commissions",
+      "navLabel": "Referral fees & commissions",
+      "panel": false,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "In some situations, we receive referral fees or commissions from external parties. We disclose the referral arrangements to you whenever we refer you to an external party."
+        }
+      ]
+    },
+    {
+      "id": "conflicts",
+      "title": "Conflicts of interest",
+      "navLabel": "Conflicts of interest",
+      "panel": false,
+      "blocks": [
+        {
+          "type": "heading",
+          "text": "Do we have any association or relationship with a Financial Product Provider?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Neither Apex Macro Financial Group nor its directors hold any shares, loans or have any relationships or associations with any institutional product issuer that could be expected to influence the provision of financial services."
+        }
+      ]
+    },
+    {
+      "id": "additional-benefits",
+      "title": "Additional benefits and incentives",
+      "navLabel": "Additional benefits",
+      "panel": false,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Apex Macro Financial Group and our Authorised representatives may receive additional benefits from product providers we deal with. These will include sponsorship for making available professional development to our Authorised representatives and may include lunches, invitations to sporting events, theatre tickets, branded promotional items, and occasional gifts such as Christmas hampers on special occasions, etc. A register of any such payments or support received is maintained at Apex Macro Financial Group Pty. Ltd. head office and in the office of our Authorised Representative and may be viewed on request. Non-monetary benefits that are accumulated to total above $300 for each provider is considered to be ‘conflicted remuneration’ and is banned. Additional benefits are not permitted to be paid to our Authorised Representative if they are as a result of, or conditional on, the amount of business an Authorised Representative gives to a product provider"
+        }
+      ]
+    },
+    {
+      "id": "fsg-privacy",
+      "title": "Privacy Policy",
+      "navLabel": "Privacy",
+      "panel": false,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Apex Macro Financial group and Entire Financial Services is committed to ensuring the confidentiality and security of the information provided by you to us. We support and embrace the National Privacy Principles set out in the Privacy Amendment (Private Sector) Act 2000 and the protection afforded by this act for the security of private information held on ordinary Australians."
+        },
+        {
+          "type": "paragraph",
+          "text": "You may be requested to provide us with information about your personal circumstances and anything else relevant to enable us to provide appropriate advice to you. AUSTRAC requirements mean that your Adviser will need to confirm your identity by sighting and verifying documents such as your Passport and Driver License."
+        },
+        {
+          "type": "paragraph",
+          "text": "We will also collect information from you to meet our obligations under the Anti-Money Laundering and Counter-Terrorism Financing Act. We will generally collect this information directly from you however in some cases we will seek your authority to collect if from other parties such as your accountant or your superannuation fund. If you do not provide us with all the information that we request, we may not be able to provide our services to you."
+        },
+        {
+          "type": "paragraph",
+          "text": "All personal information we gather from you, as well as any advice provided to you is maintained in a file. We only keep your Tax File Number and sensitive personal information if we have your written permission. If you would like to examine your personal information, please let your adviser know."
+        },
+        {
+          "type": "paragraph",
+          "text": "We will hold and use your personal information so that we can continue to provide our services to you. We will only disclose your personal information to external parties where: The law requires us to do so, you consent for us to do so, consider whether there are other parties where there may not be consent. If you have any complaints about how we handle your private information, please contact a member of Entire Financial Services by phone on 0421 833 372 or email bevan@entirefs.com.au. We take your privacy seriously and will address your concerns through our complaints handling process. A full copy of our Privacy Policy is available on our website www.entirefs.com.au."
+        },
+        {
+          "type": "paragraph",
+          "text": "If you believe you do not receive a satisfactory resolution to your concern, you may contact the Office of the Federal Privacy Commission. The website of the office of the Federal Privacy Commissioner is www.privacy.gov.au."
+        }
+      ]
+    },
+    {
+      "id": "fsg-complaints",
+      "title": "Complaints",
+      "navLabel": "Complaints",
+      "panel": false,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "In the event of a complaint, we take this with priority to resolve and ensure the integrity of our services to you. If you have any complaints about the services provided to you, you should take the following steps:"
+        },
+        {
+          "type": "ordered-list",
+          "items": [
+            "Contact your Authorised Representative and tell them about your complaint.",
+            "If your complaint is not satisfactorily resolved within three working days, please contact the Apex Macro Financial Group Pty. Ltd. in writing. Your complaint can be sent to: 772A Station Street, Box Hill North. VIC 3128 or email info@apexmacro.com.au",
+            "Apex Macro Financial Group Pty. Ltd. will endeavour to resolve all complaints within 45 days of lodgement. Should there be special circumstances relating to the complaint, such that it is not reasonable for the complaint to be resolved in that time, Apex Macro Financial Group Pty. Ltd. will inform you of the reasons for the delay. We may request an extension of time up to a total of 90 days.",
+            "If Apex Macro Financial Group Pty. Ltd. has not responded within 45 (or 90) days or you are not satisfied with the response, you can lodge a dispute with the Financial Ombudsman Service. This service is provided to you free of charge."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "You may lodge a complaint with AFCA if:"
+        },
+        {
+          "type": "paragraph",
+          "text": "Your complaint relates to a Apex Macro Financial group service; and you are not satisfied with our response after 30 days."
+        },
+        {
+          "type": "paragraph",
+          "text": "Apex Macro Financial Group is a member of AFCA, you can contact AFCA via the following"
+        },
+        {
+          "type": "contact",
+          "items": [
+            "Australian Financial Complaints Authority",
+            "GPO Box 3, Melbourne VIC 3001",
+            "Tel: 1800 931 678 (free call)",
+            "Email: info@afca.org.au",
+            "Website: www.afca.org.au"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "The Australian Securities and Investments Commission (ASIC) also has a free call info line on 1300 300 630 which you may use to make a complaint and obtain information about your rights."
+        }
+      ]
+    },
+    {
+      "id": "compensation",
+      "title": "Complying compensation arrangements:",
+      "navLabel": "Compensation arrangements",
+      "panel": true,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Apex Macro Financial Group has Professional Indemnity Insurance in line with legislative requirements. This includes coverage for claims in relation to the conduct of current and former advisers (no longer authorised by Apex Macro Financial Group). If you would like more information, please contact us."
+        }
+      ]
+    }
+  ]
+}

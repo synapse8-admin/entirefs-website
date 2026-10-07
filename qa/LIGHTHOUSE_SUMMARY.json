@@ -1,0 +1,230 @@
+{
+  "baseline": [
+    {
+      "run": "contact-desktop.json",
+      "performance": 99,
+      "accessibility": 97,
+      "best-practices": 100,
+      "seo": 61,
+      "lcpMs": 809,
+      "cls": 0.03630899637466077,
+      "tbtMs": 2,
+      "failedAudits": [
+        "color-contrast",
+        "valid-source-maps",
+        "is-crawlable",
+        "meta-description"
+      ]
+    },
+    {
+      "run": "contact-mobile.json",
+      "performance": 62,
+      "accessibility": 97,
+      "best-practices": 100,
+      "seo": 61,
+      "lcpMs": 5693,
+      "cls": 0.002187612894811254,
+      "tbtMs": 447,
+      "failedAudits": [
+        "color-contrast",
+        "valid-source-maps",
+        "is-crawlable",
+        "meta-description"
+      ]
+    },
+    {
+      "run": "home-desktop.json",
+      "performance": 90,
+      "accessibility": 95,
+      "best-practices": 100,
+      "seo": 54,
+      "lcpMs": 1906,
+      "cls": 0.015280288348326246,
+      "tbtMs": 36,
+      "failedAudits": [
+        "color-contrast",
+        "heading-order",
+        "valid-source-maps",
+        "is-crawlable",
+        "meta-description",
+        "link-text"
+      ]
+    },
+    {
+      "run": "home-mobile.json",
+      "performance": 63,
+      "accessibility": 95,
+      "best-practices": 100,
+      "seo": 54,
+      "lcpMs": 6008,
+      "cls": 0,
+      "tbtMs": 311,
+      "failedAudits": [
+        "color-contrast",
+        "heading-order",
+        "valid-source-maps",
+        "is-crawlable",
+        "meta-description",
+        "link-text"
+      ]
+    }
+  ],
+  "final": [
+    {
+      "run": "aged-care-desktop.json",
+      "performance": 100,
+      "accessibility": 100,
+      "best-practices": 100,
+      "seo": 66,
+      "lcpMs": 411,
+      "cls": 0.0003873428892822533,
+      "tbtMs": 0,
+      "failedAudits": [
+        "is-crawlable"
+      ]
+    },
+    {
+      "run": "aged-care-mobile.json",
+      "performance": 98,
+      "accessibility": 100,
+      "best-practices": 100,
+      "seo": 66,
+      "lcpMs": 1963,
+      "cls": 0,
+      "tbtMs": 0,
+      "failedAudits": [
+        "is-crawlable"
+      ]
+    },
+    {
+      "run": "contact-desktop.json",
+      "performance": 100,
+      "accessibility": 100,
+      "best-practices": 100,
+      "seo": 66,
+      "lcpMs": 568,
+      "cls": 0.0003873428892822533,
+      "tbtMs": 0,
+      "failedAudits": [
+        "is-crawlable"
+      ]
+    },
+    {
+      "run": "contact-mobile.json",
+      "performance": 98,
+      "accessibility": 100,
+      "best-practices": 100,
+      "seo": 66,
+      "lcpMs": 1963,
+      "cls": 0,
+      "tbtMs": 63,
+      "failedAudits": [
+        "is-crawlable"
+      ]
+    },
+    {
+      "run": "home-desktop.json",
+      "performance": 100,
+      "accessibility": 100,
+      "best-practices": 100,
+      "seo": 66,
+      "lcpMs": 420,
+      "cls": 0.0003873428892822533,
+      "tbtMs": 0,
+      "failedAudits": [
+        "is-crawlable"
+      ]
+    },
+    {
+      "run": "home-mobile.json",
+      "performance": 98,
+      "accessibility": 100,
+      "best-practices": 100,
+      "seo": 66,
+      "lcpMs": 2040,
+      "cls": 0,
+      "tbtMs": 0,
+      "failedAudits": [
+        "is-crawlable"
+      ]
+    },
+    {
+      "run": "retirement-desktop.json",
+      "performance": 100,
+      "accessibility": 100,
+      "best-practices": 100,
+      "seo": 66,
+      "lcpMs": 414,
+      "cls": 0.0004245192366522482,
+      "tbtMs": 0,
+      "failedAudits": [
+        "is-crawlable"
+      ]
+    },
+    {
+      "run": "retirement-mobile.json",
+      "performance": 99,
+      "accessibility": 100,
+      "best-practices": 100,
+      "seo": 66,
+      "lcpMs": 1811,
+      "cls": 0.00004830555018314585,
+      "tbtMs": 13,
+      "failedAudits": [
+        "is-crawlable"
+      ]
+    },
+    {
+      "run": "superannuation-desktop.json",
+      "performance": 100,
+      "accessibility": 100,
+      "best-practices": 100,
+      "seo": 66,
+      "lcpMs": 455,
+      "cls": 0.0003873428892822533,
+      "tbtMs": 0,
+      "failedAudits": [
+        "is-crawlable"
+      ]
+    },
+    {
+      "run": "superannuation-mobile.json",
+      "performance": 97,
+      "accessibility": 100,
+      "best-practices": 100,
+      "seo": 66,
+      "lcpMs": 2263,
+      "cls": 0,
+      "tbtMs": 0,
+      "failedAudits": [
+        "is-crawlable"
+      ]
+    },
+    {
+      "run": "transition-desktop.json",
+      "performance": 100,
+      "accessibility": 100,
+      "best-practices": 100,
+      "seo": 66,
+      "lcpMs": 428,
+      "cls": 0.0004305499781679785,
+      "tbtMs": 0,
+      "failedAudits": [
+        "is-crawlable"
+      ]
+    },
+    {
+      "run": "transition-mobile.json",
+      "performance": 98,
+      "accessibility": 100,
+      "best-practices": 100,
+      "seo": 66,
+      "lcpMs": 1966,
+      "cls": 0.00006082606336766517,
+      "tbtMs": 0,
+      "failedAudits": [
+        "is-crawlable"
+      ]
+    }
+  ]
+}

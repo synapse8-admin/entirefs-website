@@ -1,0 +1,8 @@
+- [Client-approved content](client-approved-content.md) — preserve approved wording; retain current stock photography pending client-supplied replacements.
+- [Publish security checks](publish-security-checks.md) — a successful website build can still be blocked by vulnerabilities in workspace tooling.
+- [Reviews embed lifecycle](reviews-embed-lifecycle.md) — the vendor loader scans once; React route returns require explicit remounting.
+- [Responsive QA evidence](responsive-qa-evidence.md) — DOM checks and zero overflow do not establish readable footers or correct settled animation spacing.
+- [Sticky navigation boundaries](sticky-navigation-boundaries.md) — horizontal overflow wrappers can prevent viewport sticky navigation; keep regulatory-page fixes scoped.
+- [Production hosting](production-hosting.md) — retain process-based HTTP semantics and strict separation between the approved production origin and previews.
+- [Bundler upgrade regressions](bundler-upgrades.md) — an audit-clean Rollup upgrade can stall builds; profile before refactoring the application.
+- [SSR first-render parity](ssr-parity.md) — source asset URLs and reduced-motion-dependent SVG structure can silently invalidate hydration.

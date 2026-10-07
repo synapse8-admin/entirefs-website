@@ -1,0 +1,70 @@
+Canonical-host simulation (not a live-domain TLS test)
+
+/
+HTTP/1.1 200 OK
+X-Content-Type-Options: nosniff
+Referrer-Policy: strict-origin-when-cross-origin
+Permissions-Policy: camera=(), microphone=(), geolocation=(), payment=()
+Content-Security-Policy-Report-Only: default-src 'self'; script-src 'self' https://widgets.sociablekit.com https://embeds.sociablekit.com; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com https://widgets.sociablekit.com; font-src 'self' https://fonts.gstatic.com data:; img-src 'self' data: https:; connect-src 'self' https://*.sociablekit.com https://data.accentapi.com; frame-src https://www.google.com https://maps.google.com; object-src 'none'; base-uri 'self'
+Content-Security-Policy: object-src 'none'; base-uri 'self'; frame-ancestors 'self'
+Strict-Transport-Security: max-age=31536000
+Content-Type: text/html; charset=utf-8
+Cache-Control: no-cache
+Vary: Accept-Encoding, Host
+Content-Length: 72026
+Date: Mon, 05 Oct 2026 03:47:10 GMT
+Connection: keep-alive
+Keep-Alive: timeout=5
+
+
+/sitemap.xml
+HTTP/1.1 200 OK
+X-Content-Type-Options: nosniff
+Referrer-Policy: strict-origin-when-cross-origin
+Permissions-Policy: camera=(), microphone=(), geolocation=(), payment=()
+Content-Security-Policy-Report-Only: default-src 'self'; script-src 'self' https://widgets.sociablekit.com https://embeds.sociablekit.com; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com https://widgets.sociablekit.com; font-src 'self' https://fonts.gstatic.com data:; img-src 'self' data: https:; connect-src 'self' https://*.sociablekit.com https://data.accentapi.com; frame-src https://www.google.com https://maps.google.com; object-src 'none'; base-uri 'self'
+Content-Security-Policy: object-src 'none'; base-uri 'self'; frame-ancestors 'self'
+Strict-Transport-Security: max-age=31536000
+Content-Type: application/xml; charset=utf-8
+Cache-Control: no-cache
+Vary: Accept-Encoding, Host
+Content-Length: 775
+Date: Mon, 05 Oct 2026 03:47:10 GMT
+Connection: keep-alive
+Keep-Alive: timeout=5
+
+
+/robots.txt
+HTTP/1.1 200 OK
+X-Content-Type-Options: nosniff
+Referrer-Policy: strict-origin-when-cross-origin
+Permissions-Policy: camera=(), microphone=(), geolocation=(), payment=()
+Content-Security-Policy-Report-Only: default-src 'self'; script-src 'self' https://widgets.sociablekit.com https://embeds.sociablekit.com; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com https://widgets.sociablekit.com; font-src 'self' https://fonts.gstatic.com data:; img-src 'self' data: https:; connect-src 'self' https://*.sociablekit.com https://data.accentapi.com; frame-src https://www.google.com https://maps.google.com; object-src 'none'; base-uri 'self'
+Content-Security-Policy: object-src 'none'; base-uri 'self'; frame-ancestors 'self'
+Strict-Transport-Security: max-age=31536000
+Content-Type: text/plain; charset=utf-8
+Cache-Control: no-cache
+Vary: Accept-Encoding, Host
+Content-Length: 73
+Date: Mon, 05 Oct 2026 03:47:10 GMT
+Connection: keep-alive
+Keep-Alive: timeout=5
+
+
+/missing-audit-route
+HTTP/1.1 404 Not Found
+X-Content-Type-Options: nosniff
+Referrer-Policy: strict-origin-when-cross-origin
+Permissions-Policy: camera=(), microphone=(), geolocation=(), payment=()
+Content-Security-Policy-Report-Only: default-src 'self'; script-src 'self' https://widgets.sociablekit.com https://embeds.sociablekit.com; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com https://widgets.sociablekit.com; font-src 'self' https://fonts.gstatic.com data:; img-src 'self' data: https:; connect-src 'self' https://*.sociablekit.com https://data.accentapi.com; frame-src https://www.google.com https://maps.google.com; object-src 'none'; base-uri 'self'
+Content-Security-Policy: object-src 'none'; base-uri 'self'; frame-ancestors 'self'
+Strict-Transport-Security: max-age=31536000
+X-Robots-Tag: noindex, nofollow
+Content-Type: text/html; charset=utf-8
+Cache-Control: no-cache
+Vary: Accept-Encoding, Host
+Content-Length: 15886
+Date: Mon, 05 Oct 2026 03:47:10 GMT
+Connection: keep-alive
+Keep-Alive: timeout=5
+

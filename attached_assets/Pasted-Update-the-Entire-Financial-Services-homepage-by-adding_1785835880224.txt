@@ -1,0 +1,106 @@
+Update the Entire Financial Services homepage by adding a new section immediately before the existing Our Services section.
+
+Section name
+
+Where We Thrive
+
+Section introduction
+
+Helping you navigate every stage of retirement
+
+Retirement is more than a single milestone. From preparing for life after work to navigating aged care, we provide personalised financial advice to help you move forward with greater clarity and confidence.
+
+Services
+
+Create three equal-width service columns displayed horizontally on desktop and stacked vertically on mobile.
+
+1. Retirement Planning
+
+Add a simple retirement planning line icon.
+
+Description:
+
+Build a clear financial plan for the retirement you’ve worked towards, with advice tailored to your goals, lifestyle and future income needs.
+
+Add a Learn more button linking to:
+
+/retirement-planning
+
+2. Transition to Retirement
+
+Add a simple transition-to-retirement line icon.
+
+Description:
+
+Explore strategies that may help you gradually reduce your working hours, make the most of your superannuation and ease confidently into retirement.
+
+Add a Learn more button linking to:
+
+/transition-to-retirement
+
+3. Aged Care
+
+Add a simple aged care or supportive hands line icon.
+
+Description:
+
+Understand your financial options and make informed aged care decisions with compassionate guidance for you and your family.
+
+Add a Learn more button linking to:
+
+/aged-care
+
+Design requirements
+
+Use the following colours from the Entire Financial Services brand guidelines:
+
+Section background: #D7DCC7
+Primary headings and body text: #022F35
+Icons and buttons: #0D6851
+Button hover or small accent details: #AED137
+
+Design the section to feel warm, calm, professional and focused on retirement planning.
+
+Use generous vertical spacing and keep the content within the same maximum-width container used by the rest of the homepage.
+
+Display the section heading and introduction centred above the service columns.
+
+Use simple, consistent line-style icons. Do not use large illustrations or photographs.
+
+Separate the three service columns using subtle vertical dividers on desktop. Remove the vertical dividers on mobile and use subtle horizontal spacing or dividers instead.
+
+Keep all three descriptions visually balanced and approximately the same height.
+
+Style each Learn more button consistently with the website’s existing buttons. Include a subtle hover transition.
+
+Responsive behaviour
+Desktop: three services displayed in one horizontal row
+Tablet: three columns where space allows, otherwise use a clean stacked layout
+Mobile: one service per row
+Maintain appropriate padding and readable font sizes across all screen sizes
+Ensure buttons are easy to tap on mobile
+Accessibility requirements
+Use semantic HTML
+Include descriptive accessible labels for icons
+Maintain sufficient colour contrast
+Ensure all buttons and links are keyboard accessible
+Add visible keyboard focus states
+New service pages
+
+Create the following three pages if they do not already exist:
+
+/retirement-planning
+/transition-to-retirement
+/aged-care
+
+Each Learn more button must navigate to its corresponding page.
+
+For now, each service page should include:
+
+The service name as the H1 heading
+A short introductory paragraph using the matching homepage description
+A placeholder section for detailed service information
+A clear call-to-action button linking to the existing contact or consultation page
+The existing website header and footer
+
+Match the new section and pages to the website’s existing typography, navigation, component styles and responsive behaviour. Do not change or remove any other homepage content.

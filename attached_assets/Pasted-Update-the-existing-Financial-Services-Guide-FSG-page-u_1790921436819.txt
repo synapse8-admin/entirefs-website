@@ -1,0 +1,719 @@
+Update the existing **Financial Services Guide (FSG)** page using the contents of the supplied **“Apex Macro – Financial Services Guide 2026”** document as the authoritative source.
+
+## Critical content requirement
+
+The supplied FSG document is the **source of truth**.
+
+The website version must accurately reproduce the information contained in that document.
+
+### Do not:
+
+- Rewrite the FSG into marketing language.
+- Summarise the document.
+- Shorten paragraphs.
+- Change the meaning of any statements.
+- Modernise or reinterpret compliance wording.
+- Correct wording simply because it appears unusual or outdated.
+- Replace information with content from the existing website.
+- Merge sections in a way that removes information.
+- Remove fees, commissions, disclosures, qualifications, authorised services, privacy information, complaints information or compensation information.
+
+The wording should remain **as per the supplied document**.
+
+You may only make minor formatting adjustments necessary to convert the Word document into an accessible website layout, such as:
+
+- turning Word bullet points into HTML lists;
+- creating headings and subheadings;
+- splitting long blocks into readable paragraphs;
+- making phone numbers, emails and URLs clickable;
+- adding appropriate spacing;
+- styling information panels;
+- adding website navigation between FSG sections.
+
+Do not materially change the text.
+
+---
+
+# Important privacy exception
+
+The final pages of the supplied FSG contain a **client-specific acknowledgement receipt**, including a client's name, signature field and date.
+
+**Do not publish this client-specific acknowledgement information on the public website.**
+
+Do not include:
+
+- Marion Heather Ruth Collom
+- the completed client acknowledgement
+- client signature fields
+- the completed receipt date
+- any other client-specific information from the acknowledgement page
+
+The public FSG webpage should end with the general regulatory content, including the **Complying compensation arrangements** section.
+
+Everything before the client-specific acknowledgement section should otherwise be represented according to the supplied FSG.
+
+---
+
+# Existing FSG page
+
+Update the **existing FSG route/page** rather than creating a duplicate page.
+
+Preserve:
+
+- the existing website header;
+- main navigation;
+- footer;
+- responsive behaviour;
+- site-wide typography system;
+- existing CTA conventions where appropriate.
+
+Do not change unrelated pages.
+
+---
+
+# Page header
+
+Keep the page's existing branded regulatory header treatment.
+
+Use the eyebrow:
+
+**REGULATORY DOCUMENT**
+
+Style this label in the Entire Financial Services brand light green:
+
+**#AED137**
+
+Do **not** display decorative horizontal lines on either side of the eyebrow.
+
+Main heading:
+
+# Financial Services Guide (FSG)
+
+---
+
+# Introductory FSG information
+
+Display the introductory regulatory details clearly near the beginning of the page.
+
+Use the exact information from the supplied FSG:
+
+**This Financial Services Guide was prepared and issued with the authority of Apex Macro Financial Group**
+
+**Australian Financial Services License No. 498715**
+
+Apex Macro Financial Group  
+ABN 33 617 164 413  
+AFSL 498715
+
+772A Station Street, Box Hill North, VIC 3129
+
+P: 03 8592 0081 / 1300 003 888 / 0413 788 255  
+E: info@apexmacro.com  
+W. www.apexmacro.com
+
+**Authorised Representative: 421931**
+
+**Version 1 | 14th April 2026**
+
+Do not substitute the Entire Financial Services contact details for Apex Macro's regulatory contact details in this section.
+
+---
+
+# Not Independent disclosure
+
+The **Not Independent** disclosure is important regulatory information and must remain clearly visible.
+
+Do not hide it inside an accordion.
+
+Display:
+
+## Not Independent
+
+Apex Macro Financial Group and your adviser may receive commission based on your premium for the duration of time you hold an insurance policy, fees based on the volume of assets under advice and gifts and other non-monetary benefits. For these reasons, we are unable to refer to ourselves as ‘independent’, ‘impartial’ or ‘unbiased’.
+
+Style this as a prominent but professional disclosure block.
+
+For example:
+
+- subtle grey or beige background;
+- clear heading;
+- appropriate border or spacing;
+- strong readability.
+
+Do not use alarming warning colours unless already part of the website design.
+
+---
+
+# FSG body content
+
+Reproduce the remaining FSG in the same logical sequence as the supplied document.
+
+The website should include all of the following sections and their complete corresponding content from the document:
+
+## About the Financial Services Guide
+
+Include:
+
+- Apex Macro Financial Group's AFSL responsibilities;
+- purpose of the FSG;
+- explanation that the FSG is required under the AFSL;
+- complete list of information contained in the FSG;
+- Best Interests Duty statement.
+
+---
+
+## Apex Macro Financial Group and Entire Financial Services
+
+Include the complete:
+
+### About Apex Macro Financial Group
+
+content.
+
+Include the statements explaining that:
+
+- Apex Macro Financial Group is the Licensee;
+- it authorises Entire Financial Services;
+- it is ultimately responsible for the advice provided;
+- Entire Financial Services and its Authorised Representatives provide financial services on Apex Macro's behalf.
+
+Include the supplied bullet points concerning:
+
+- providing financial product advice;
+- dealing in financial products.
+
+Do not rewrite these statements.
+
+---
+
+## Approved product list
+
+Include the complete supplied section regarding:
+
+- the Apex Macro Financial Group Approved Product List (APL);
+- assessment of investment, superannuation and insurance products;
+- suitability;
+- conflicts;
+- Product Disclosure Statements.
+
+---
+
+## Business Profile
+
+Present the supplied business details clearly:
+
+**Entire Financial Services – Corporate authorised representative No. 1257254**
+
+**Bevan Heneric – Authorised representative No. 421931**
+
+Building 4, Suite 42, 195 Wellington Road, Clayton, VIC 3168
+
+0421 833 372
+
+bevan@entirefs.com.au
+
+The phone number and email address should be clickable.
+
+---
+
+## Our obligations to you
+
+Include the complete supplied wording.
+
+Do not condense this section.
+
+---
+
+## Getting started
+
+Include:
+
+### Who is your adviser?
+
+and the complete supplied wording.
+
+---
+
+## About Bevan Heneric
+
+Include the full adviser biography contained within the FSG.
+
+This FSG biography may differ from the marketing biography on the About page.
+
+That is acceptable.
+
+**Do not replace the FSG biography with the About Us page biography.**
+
+The FSG must follow the supplied document.
+
+---
+
+## Services, what services do we provide?
+
+Include the complete supplied list:
+
+- Deposit products
+- Non-basic deposit products
+- Debentures, stocks or bonds issued by a Government
+- Life insurance investment products
+- Life risk insurance products
+- Managed investment schemes (including Investor Directed Portfolio services)
+- Retirement Savings Accounts
+- Securities
+- Standard margin lending facilities
+- Superannuation (including Self-Managed Superannuation funds)
+- Debt Management Services & Consultation
+- Derivatives; limited to Warrants
+- Centrelink
+
+Do not remove services because they do not appear elsewhere on the marketing website.
+
+---
+
+## Who is your financial adviser?
+
+Include:
+
+**Bevan Heneric will provide these services to you (Authorised representative: 421931)**
+
+---
+
+## Bevan Heneric's qualifications
+
+Reproduce the complete list from the document:
+
+- Master of Financial Planning
+- Bachelor of Business (Accounting)
+- Bachelor of Business (Banking and Finance)
+- Graduate Diploma of Financial planning
+- Diploma of Finance management and mortgage brokering
+- Certificate IV Finance and mortgage brokering
+- Specialist knowledge in self- managed superannuation funds
+- Tax (Financial) adviser
+
+Also retain the statement referring users to the Financial Adviser Register on the ASIC website.
+
+Where possible, make the ASIC reference an appropriate external link.
+
+---
+
+## Authorised financial products
+
+Include the complete list from the FSG of products on which the adviser is authorised to provide personal advice and deal.
+
+Do not simplify the product descriptions.
+
+---
+
+# Before receiving advice
+
+Include all questions and answers exactly as represented in the supplied document.
+
+This includes:
+
+### Will we provide you with advice suitable to your needs and financial circumstances?
+
+### What should you know about the risks of the financial products or strategists we recommend to you?
+
+### What information do we maintain in your file, and can you examine your file?
+
+Preserve all details including:
+
+- personal information requirements;
+- warnings;
+- record keeping;
+- email contact;
+- fourteen (14) working days;
+- possible fees associated with information requests.
+
+---
+
+# Provision of advice
+
+Include the complete:
+
+## Personal advice
+
+section.
+
+Do not summarise it.
+
+---
+
+# Other documents you may receive
+
+Include the complete content relating to:
+
+### Statement of advice (SOA)
+
+### Record of Advice (ROA)
+
+### When will you receive a compliance document / SOA?
+
+### Client fact find questionnaire
+
+### Product Disclosure Statement (PDS)
+
+Preserve the complete list explaining what an SOA will outline.
+
+Retain the statement that ROA or SOA records must be kept for a minimum of seven years.
+
+---
+
+# Instructions for buying or selling financial products
+
+Include:
+
+### Can you tell us how you wish to instruct us to buy or sell your financial products?
+
+and the complete corresponding answer from the document.
+
+---
+
+# Fees and remuneration
+
+This information must be reproduced accurately.
+
+Include all of the following sections exactly according to the document:
+
+## How will you pay for the services provided?
+
+## How does Bevan Heneric get paid?
+
+## Advice preparation
+
+Retain:
+
+- minimum fee of $550;
+- maximum fee of $5,000;
+- up to 5% of the value of assets.
+
+## Ongoing fee for advice
+
+Retain all supplied amounts and conditions, including:
+
+- minimum $660 p.a.;
+- maximum $5,000;
+- up to 5% of assets under management;
+- annual Consent form;
+- preceding 12 months;
+- 60-day requirement;
+- stopping ongoing fees and commission where applicable.
+
+## Adhoc advice
+
+Retain:
+
+**$330 to $770 per hour**
+
+and the complete surrounding wording.
+
+## Insurance products
+
+Retain the complete supplied commission wording, including:
+
+- 66% first-year premium;
+- maximum trailing commission of 22%;
+- first-year and second-year clawback statements;
+- fee equivalent to the clawback where applicable;
+- reference to BFA exactly as contained in the supplied document.
+
+Do not independently amend or reinterpret these figures.
+
+---
+
+# Other payments we may receive
+
+Include the complete section.
+
+---
+
+# Referral Fees and Commissions
+
+Include the complete section.
+
+---
+
+# Conflicts of interest
+
+Include:
+
+### Do we have any association or relationship with a Financial Product Provider?
+
+and its complete response.
+
+---
+
+# Additional benefits and incentives
+
+Include the entire supplied section.
+
+Do not summarise the examples of benefits.
+
+Retain the information regarding:
+
+- sponsorship;
+- professional development;
+- lunches;
+- sporting events;
+- theatre tickets;
+- promotional items;
+- gifts;
+- registers;
+- $300 threshold;
+- conflicted remuneration;
+- restrictions relating to the amount of business given to a product provider.
+
+---
+
+# Statement of Entire Financial Services privacy policy
+
+The FSG itself contains the Entire Financial Services privacy policy.
+
+Include this section in the FSG page **as it appears in the supplied FSG**, even if a separate Privacy Policy page also exists on the website.
+
+Do not replace the FSG's privacy wording with the separate Privacy Policy page.
+
+Use the heading:
+
+## Statement of Entire Financial Services privacy policy
+
+Include all paragraphs from the supplied document.
+
+Make these details clickable where appropriate:
+
+- 0421 833 372
+- bevan@entirefs.com.au
+- www.entirefs.com.au
+- www.privacy.gov.au
+
+Do not rewrite the regulatory terminology.
+
+---
+
+# Complaints
+
+The FSG also contains its complaints procedure.
+
+Include the complete **Complaints** section from the supplied document within the FSG.
+
+Keep the numbered steps exactly in their original sequence.
+
+Include the supplied Apex Macro complaints address and email.
+
+Include the AFCA information:
+
+**Australian Financial Complaints Authority**
+
+GPO Box 3, Melbourne VIC 3001
+
+Tel: 1800 931 678 (free call)
+
+Email: info@afca.org.au
+
+Website: www.afca.org.au
+
+Also retain the ASIC information line:
+
+**1300 300 630**
+
+Do not replace or reconcile the complaint timeframes yourself.
+
+The FSG contains references to different time periods. Preserve the supplied wording rather than making an independent compliance correction.
+
+---
+
+# Complying compensation arrangements
+
+Include the complete section from the FSG:
+
+## Complying compensation arrangements
+
+Retain the complete Professional Indemnity Insurance statement, including coverage relating to current and former advisers.
+
+This should be the final regulatory content of the public FSG webpage.
+
+---
+
+# Do not include the acknowledgement receipt
+
+Do not display the document's completed client acknowledgement receipt.
+
+The public website must not contain:
+
+- individual client names;
+- signatures;
+- completed acknowledgement dates;
+- blank signature fields;
+- client receipt forms.
+
+This information relates to the individual copy of the document and is not appropriate for the public FSG webpage.
+
+---
+
+# Website layout and styling
+
+The content must remain true to the Word document, but the **presentation can and should match the Entire Financial Services website**.
+
+The final result should feel like part of the existing website rather than an embedded Word document.
+
+Use the existing brand system.
+
+### Brand colours
+
+Use existing website colours, including:
+
+- **#0D6851** – primary green
+- **#022F35** – dark green
+- **#D7DCC7** – soft neutral
+- **#AED137** – light green accent
+
+Use brand colours for presentation only.
+
+Do not use styling that changes the meaning or perceived importance of regulatory wording.
+
+---
+
+# Typography
+
+Use the same:
+
+- heading font;
+- body font;
+- font weights;
+- paragraph sizes;
+- spacing system
+
+as the rest of the website.
+
+Maintain a readable text width for long-form content.
+
+Do not stretch regulatory paragraphs across the full browser width.
+
+Use comfortable line-height.
+
+---
+
+# Heading hierarchy
+
+Use:
+
+- H1 for **Financial Services Guide (FSG)**
+- H2 for major FSG sections
+- H3 for subsections and questions
+
+Do not convert headings into oversized marketing-style hero statements.
+
+This remains a regulatory document.
+
+---
+
+# Page navigation
+
+Because the FSG is long, add a clear **On this page** or **Contents** navigation.
+
+Suggested anchor links:
+
+- About this FSG
+- Apex Macro & Entire Financial Services
+- Approved Product List
+- Business Profile
+- Our obligations
+- Your adviser
+- Services
+- Qualifications
+- Before receiving advice
+- Provision of advice
+- Documents you may receive
+- Fees & remuneration
+- Conflicts of interest
+- Additional benefits
+- Privacy
+- Complaints
+- Compensation arrangements
+
+On desktop, this may be a sticky side navigation if it matches the existing website.
+
+On mobile, convert it to a compact expandable **On this page** control.
+
+Do not hide the actual FSG content behind accordions by default.
+
+---
+
+# Information panels
+
+Use subtle website-styled panels where they improve readability, particularly for:
+
+- Apex Macro contact information;
+- Business Profile;
+- Not Independent disclosure;
+- AFCA contact information;
+- compensation arrangements.
+
+Avoid turning every paragraph into a card.
+
+The FSG should remain easy to read as a continuous document.
+
+---
+
+# Links
+
+Where a phone number, email address or website appears, convert it into the appropriate clickable link without changing the visible text.
+
+Examples:
+
+- telephone → `tel:`
+- email → `mailto:`
+- website → normal hyperlink
+
+External links should open in a new tab and use appropriate security attributes such as:
+
+`rel="noopener noreferrer"`
+
+---
+
+# Responsive requirements
+
+Ensure the full FSG is readable on:
+
+- desktop;
+- tablet;
+- mobile.
+
+Check for:
+
+- no horizontal overflow;
+- correct list indentation;
+- readable contact information;
+- sensible table/panel stacking;
+- adequate paragraph spacing;
+- usable anchor navigation;
+- long email addresses and URLs wrapping correctly.
+
+---
+
+# Final content QA
+
+Before finishing, compare the rendered FSG page against the supplied Word document from beginning to end.
+
+Verify that:
+
+1. Every non-client-specific section from the document appears on the website.
+2. Paragraphs have not been accidentally shortened.
+3. Bullet items have not been omitted.
+4. Fees and percentages match the source document.
+5. Adviser qualifications match the document.
+6. Authorised services and products match the document.
+7. Apex Macro AFSL and ABN details are correct.
+8. Entire Financial Services representative numbers are correct.
+9. All phone numbers and addresses are correct.
+10. The Not Independent disclosure is present.
+11. Privacy wording is present.
+12. Complaints wording is present.
+13. AFCA details are present.
+14. Compensation arrangements are present.
+15. No individual client acknowledgement information is published.
+16. No existing marketing copy has replaced wording from the FSG.
+17. The page visually matches the Entire Financial Services website.
+
+The final result should be **the supplied FSG translated faithfully into a website format**, not a rewritten or shortened version of the FSG.

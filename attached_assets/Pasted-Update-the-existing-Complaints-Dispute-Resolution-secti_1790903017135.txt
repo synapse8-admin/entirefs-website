@@ -1,0 +1,86 @@
+Update the existing “Complaints & Dispute Resolution” section of the Entire Financial Services website.
+
+Requirements
+
+Replace the current content in this section with the content below.
+
+Do not rewrite, shorten, summarise, or alter the compliance wording.
+
+Keep the styling consistent with the rest of the Entire Financial Services website and existing brand guidelines.
+
+Use clear spacing, typography and hierarchy so this compliance-heavy content is easy to read.
+
+Use numbered steps for the complaints process.
+
+Display the AFCA contact details in a clearly separated contact/information block.
+
+Display “Complying compensation arrangements” as a separate subsection.
+
+Make all phone numbers, email addresses and website addresses clickable:
+
+info@apexmacro.com.au → email link
+
+1800 931 678 → phone link
+
+www.afca.org.au → external website link
+
+1300 300 630 → phone link
+
+External website links should open in a new tab.
+
+Ensure the section is fully responsive on desktop, tablet and mobile.
+
+Preserve the current page structure, navigation, footer and surrounding sections.
+
+Complaints & Dispute Resolution
+
+In the event of a complaint, we take this with priority to resolve and ensure the integrity of our services to you. If you have any complaints about the services provided to you, you should take the following steps:
+
+Contact your Authorised Representative and tell them about your complaint.
+
+If your complaint is not satisfactorily resolved within three working days, please contact the Apex Macro Financial Group Pty. Ltd. in writing. Your complaint can be sent to:
+
+772A Station Street, Box Hill North. VIC 3128
+or email info@apexmacro.com.au
+
+Apex Macro Financial Group Pty. Ltd. will endeavour to resolve all complaints within 45 days of lodgement. Should there be special circumstances relating to the complaint, such that it is not reasonable for the complaint to be resolved in that time, Apex Macro Financial Group Pty. Ltd. will inform you of the reasons for the delay. We may request an extension of time up to a total of 90 days.
+
+If Apex Macro Financial Group Pty. Ltd. has not responded within 45 (or 90) days or you are not satisfied with the response, you can lodge a dispute with the Financial Ombudsman Service. This service is provided to you free of charge.
+
+You may lodge a complaint with AFCA if:
+
+Your complaint relates to a Apex Macro Financial group service; and you are not satisfied with our response after 30 days.
+
+Apex Macro Financial Group is a member of AFCA, you can contact AFCA via the following:
+
+Australian Financial Complaints Authority
+GPO Box 3, Melbourne VIC 3001
+Tel: 1800 931 678 (free call)
+Email: info@afca.org.au
+Website: www.afca.org.au
+
+The Australian Securities and Investments Commission (ASIC) also has a free call info line on 1300 300 630 which you may use to make a complaint and obtain information about your rights.
+
+Complying compensation arrangements
+
+Apex Macro Financial Group has Professional Indemnity Insurance in line with legislative requirements. This includes coverage for claims in relation to the conduct of current and former advisers (no longer authorised by Apex Macro Financial Group). If you would like more information, please contact us.
+
+Design
+
+Use the existing Entire Financial Services visual language.
+
+Use #0D6851 for primary headings and important accents.
+
+Use #022F35 for dark text/headings where appropriate.
+
+Use #D7DCC7 or a subtle brand-neutral background for the AFCA contact information block.
+
+Keep the overall appearance professional, trustworthy and easy to scan.
+
+Avoid excessive cards or decorative elements because this is regulatory/compliance information.
+
+On desktop, keep the content within the site's standard readable content width rather than stretching paragraphs across the full screen.
+
+On mobile, stack all information vertically with comfortable spacing and no horizontal overflow.
+
+Do not make any other changes to the page.

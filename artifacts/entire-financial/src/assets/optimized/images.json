@@ -1,0 +1,308 @@
+{
+  "hero-advisory": {
+    "width": 400,
+    "height": 400,
+    "variants": [
+      {
+        "width": 360,
+        "height": 360,
+        "webp": "hero-advisory-360.webp",
+        "jpeg": "hero-advisory-360.jpg"
+      },
+      {
+        "width": 400,
+        "height": 400,
+        "webp": "hero-advisory-400.webp",
+        "jpeg": "hero-advisory-400.jpg"
+      }
+    ]
+  },
+  "bevan-heneric": {
+    "width": 400,
+    "height": 400,
+    "variants": [
+      {
+        "width": 360,
+        "height": 360,
+        "webp": "bevan-heneric-360.webp",
+        "jpeg": "bevan-heneric-360.jpg"
+      },
+      {
+        "width": 400,
+        "height": 400,
+        "webp": "bevan-heneric-400.webp",
+        "jpeg": "bevan-heneric-400.jpg"
+      }
+    ]
+  },
+  "about-meeting": {
+    "width": 1448,
+    "height": 1086,
+    "variants": [
+      {
+        "width": 360,
+        "height": 270,
+        "webp": "about-meeting-360.webp",
+        "jpeg": "about-meeting-360.jpg"
+      },
+      {
+        "width": 640,
+        "height": 480,
+        "webp": "about-meeting-640.webp",
+        "jpeg": "about-meeting-640.jpg"
+      },
+      {
+        "width": 960,
+        "height": 720,
+        "webp": "about-meeting-960.webp",
+        "jpeg": "about-meeting-960.jpg"
+      },
+      {
+        "width": 1280,
+        "height": 960,
+        "webp": "about-meeting-1280.webp",
+        "jpeg": "about-meeting-1280.jpg"
+      }
+    ]
+  },
+  "elderly-1": {
+    "width": 1448,
+    "height": 1086,
+    "variants": [
+      {
+        "width": 360,
+        "height": 270,
+        "webp": "elderly-1-360.webp",
+        "jpeg": "elderly-1-360.jpg"
+      },
+      {
+        "width": 640,
+        "height": 480,
+        "webp": "elderly-1-640.webp",
+        "jpeg": "elderly-1-640.jpg"
+      },
+      {
+        "width": 960,
+        "height": 720,
+        "webp": "elderly-1-960.webp",
+        "jpeg": "elderly-1-960.jpg"
+      },
+      {
+        "width": 1280,
+        "height": 960,
+        "webp": "elderly-1-1280.webp",
+        "jpeg": "elderly-1-1280.jpg"
+      }
+    ]
+  },
+  "elderly-2": {
+    "width": 1448,
+    "height": 1086,
+    "variants": [
+      {
+        "width": 360,
+        "height": 270,
+        "webp": "elderly-2-360.webp",
+        "jpeg": "elderly-2-360.jpg"
+      },
+      {
+        "width": 640,
+        "height": 480,
+        "webp": "elderly-2-640.webp",
+        "jpeg": "elderly-2-640.jpg"
+      },
+      {
+        "width": 960,
+        "height": 720,
+        "webp": "elderly-2-960.webp",
+        "jpeg": "elderly-2-960.jpg"
+      },
+      {
+        "width": 1280,
+        "height": 960,
+        "webp": "elderly-2-1280.webp",
+        "jpeg": "elderly-2-1280.jpg"
+      }
+    ]
+  },
+  "elderly-3": {
+    "width": 1448,
+    "height": 1086,
+    "variants": [
+      {
+        "width": 360,
+        "height": 270,
+        "webp": "elderly-3-360.webp",
+        "jpeg": "elderly-3-360.jpg"
+      },
+      {
+        "width": 640,
+        "height": 480,
+        "webp": "elderly-3-640.webp",
+        "jpeg": "elderly-3-640.jpg"
+      },
+      {
+        "width": 960,
+        "height": 720,
+        "webp": "elderly-3-960.webp",
+        "jpeg": "elderly-3-960.jpg"
+      },
+      {
+        "width": 1280,
+        "height": 960,
+        "webp": "elderly-3-1280.webp",
+        "jpeg": "elderly-3-1280.jpg"
+      }
+    ]
+  },
+  "elderly-4": {
+    "width": 800,
+    "height": 550,
+    "variants": [
+      {
+        "width": 360,
+        "height": 248,
+        "webp": "elderly-4-360.webp",
+        "jpeg": "elderly-4-360.jpg"
+      },
+      {
+        "width": 640,
+        "height": 440,
+        "webp": "elderly-4-640.webp",
+        "jpeg": "elderly-4-640.jpg"
+      },
+      {
+        "width": 800,
+        "height": 550,
+        "webp": "elderly-4-800.webp",
+        "jpeg": "elderly-4-800.jpg"
+      }
+    ]
+  },
+  "elderly-5": {
+    "width": 800,
+    "height": 550,
+    "variants": [
+      {
+        "width": 360,
+        "height": 248,
+        "webp": "elderly-5-360.webp",
+        "jpeg": "elderly-5-360.jpg"
+      },
+      {
+        "width": 640,
+        "height": 440,
+        "webp": "elderly-5-640.webp",
+        "jpeg": "elderly-5-640.jpg"
+      },
+      {
+        "width": 800,
+        "height": 550,
+        "webp": "elderly-5-800.webp",
+        "jpeg": "elderly-5-800.jpg"
+      }
+    ]
+  },
+  "aged-care-main": {
+    "width": 900,
+    "height": 680,
+    "variants": [
+      {
+        "width": 360,
+        "height": 272,
+        "webp": "aged-care-main-360.webp",
+        "jpeg": "aged-care-main-360.jpg"
+      },
+      {
+        "width": 640,
+        "height": 484,
+        "webp": "aged-care-main-640.webp",
+        "jpeg": "aged-care-main-640.jpg"
+      },
+      {
+        "width": 900,
+        "height": 680,
+        "webp": "aged-care-main-900.webp",
+        "jpeg": "aged-care-main-900.jpg"
+      }
+    ]
+  },
+  "retirement-main": {
+    "width": 900,
+    "height": 680,
+    "variants": [
+      {
+        "width": 360,
+        "height": 272,
+        "webp": "retirement-main-360.webp",
+        "jpeg": "retirement-main-360.jpg"
+      },
+      {
+        "width": 640,
+        "height": 484,
+        "webp": "retirement-main-640.webp",
+        "jpeg": "retirement-main-640.jpg"
+      },
+      {
+        "width": 900,
+        "height": 680,
+        "webp": "retirement-main-900.webp",
+        "jpeg": "retirement-main-900.jpg"
+      }
+    ]
+  },
+  "transition-main": {
+    "width": 900,
+    "height": 680,
+    "variants": [
+      {
+        "width": 360,
+        "height": 272,
+        "webp": "transition-main-360.webp",
+        "jpeg": "transition-main-360.jpg"
+      },
+      {
+        "width": 640,
+        "height": 484,
+        "webp": "transition-main-640.webp",
+        "jpeg": "transition-main-640.jpg"
+      },
+      {
+        "width": 900,
+        "height": 680,
+        "webp": "transition-main-900.webp",
+        "jpeg": "transition-main-900.jpg"
+      }
+    ]
+  },
+  "wealth-together": {
+    "width": 1280,
+    "height": 896,
+    "variants": [
+      {
+        "width": 360,
+        "height": 252,
+        "webp": "wealth-together-360.webp",
+        "jpeg": "wealth-together-360.jpg"
+      },
+      {
+        "width": 640,
+        "height": 448,
+        "webp": "wealth-together-640.webp",
+        "jpeg": "wealth-together-640.jpg"
+      },
+      {
+        "width": 960,
+        "height": 672,
+        "webp": "wealth-together-960.webp",
+        "jpeg": "wealth-together-960.jpg"
+      },
+      {
+        "width": 1280,
+        "height": 896,
+        "webp": "wealth-together-1280.webp",
+        "jpeg": "wealth-together-1280.jpg"
+      }
+    ]
+  }
+}

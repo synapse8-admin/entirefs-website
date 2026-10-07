@@ -1,0 +1,42 @@
+
+> @workspace/entire-financial@0.0.0 test /home/runner/workspace/artifacts/entire-financial
+> node --test tests/*.test.mjs
+
+✔ http www.entirefs.com.au redirects in one hop, preserving route/query (1.127689ms)
+✔ http entirefs.com.au redirects in one hop, preserving route/query (0.188699ms)
+✔ https entirefs.com.au redirects in one hop, preserving route/query (0.133806ms)
+✔ canonical routes and previews are distinguished without open redirects (0.178686ms)
+✔ path traversal, dotfiles, NULs and invalid encodings are rejected (0.244001ms)
+✔ preview HTML removes production identity and verification (0.260392ms)
+✔ / has complete initial HTML and unique production metadata (10.175755ms)
+✔ /about has complete initial HTML and unique production metadata (5.303879ms)
+✔ /contact has complete initial HTML and unique production metadata (1.303077ms)
+✔ /services/superannuation has complete initial HTML and unique production metadata (1.137172ms)
+✔ /transition-to-retirement has complete initial HTML and unique production metadata (0.899295ms)
+✔ /retirement-planning has complete initial HTML and unique production metadata (0.908336ms)
+✔ /aged-care has complete initial HTML and unique production metadata (0.834573ms)
+✔ /privacy-policy has complete initial HTML and unique production metadata (2.125902ms)
+✔ /financial-services-guide has complete initial HTML and unique production metadata (1.06488ms)
+✔ /complaints has complete initial HTML and unique production metadata (0.74096ms)
+✔ sitemap contains exactly the canonical public routes; 404 is excluded (1.99677ms)
+✔ brand icons are square at each expected size and sharing image is 1200×630 (136.884519ms)
+✔ Pre-rendered home exposes a linked business and website graph without JavaScript (12.338472ms)
+✔ /about has matching crawler-visible schema and resolvable graph references (1.568812ms)
+✔ /contact has matching crawler-visible schema and resolvable graph references (1.154349ms)
+✔ /services/superannuation has matching crawler-visible schema and resolvable graph references (1.00516ms)
+✔ /transition-to-retirement has matching crawler-visible schema and resolvable graph references (1.277014ms)
+✔ /retirement-planning has matching crawler-visible schema and resolvable graph references (0.784269ms)
+✔ /aged-care has matching crawler-visible schema and resolvable graph references (0.768408ms)
+✔ /privacy-policy has matching crawler-visible schema and resolvable graph references (0.987395ms)
+✔ /financial-services-guide has matching crawler-visible schema and resolvable graph references (0.975693ms)
+✔ /complaints has matching crawler-visible schema and resolvable graph references (0.974487ms)
+✔ normalizes paths and provides page entities only for public routes (0.231466ms)
+✔ JSON serialization prevents script-tag injection while retaining valid JSON (0.131345ms)
+ℹ tests 30
+ℹ suites 0
+ℹ pass 30
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 326.343411

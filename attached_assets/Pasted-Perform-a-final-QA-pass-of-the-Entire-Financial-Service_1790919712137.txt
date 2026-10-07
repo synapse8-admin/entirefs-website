@@ -1,0 +1,44 @@
+Perform a final QA pass of the Entire Financial Services website against the latest client feedback.
+
+Do not redesign or rewrite approved content.
+
+Check every page visually on desktop, tablet and mobile.
+
+Specifically verify:
+
+- All requested homepage copy has been replaced exactly.
+- Homepage headings use the requested capitalisation.
+- Client statistics display as 500+ and $150m+.
+- The homepage service order is Transition to retirement, Retirement planning, Aged care.
+- Each reordered service card still links to the correct service page.
+- “How we work with you” uses the grey/off-white background, not green.
+- Testimonials uses a white background.
+- No unwanted green section dividers remain.
+- Decorative lines beside eyebrow labels have been completely removed.
+- LEGAL, REGULATORY DOCUMENT, DISPUTE RESOLUTION, OUR FIRM and each service-page eyebrow label use #AED137.
+- Decorative corner shapes have been removed from the About image and all three service page hero images.
+- “Backed by Apex Macro Financial Group” has been completely removed from About.
+- “20+ Years Experience” appears under Bevan’s image.
+- The updated Bevan biography is present.
+- Adviser qualifications are not duplicated on the About page.
+- Service-page “Ways this strategy could support you” sections use only white and grey/off-white backgrounds.
+- FSG, Privacy and Complaints pages retain the supplied compliance content.
+- Complaints page formatting is clean, readable and consistent.
+- Footer contact information is:
+  - 0421 833 372
+  - bevan@entirefs.com.au
+  - Suite 42/ 195 Wellington Road, Clayton, VIC, 3168 (Building 4)
+- Contact page contains the same updated details.
+- Search the entire codebase for these old values and remove any remaining visible instances:
+  - 1300 000 000
+  - info@entirefinancial.com.au
+  - 2 Gilda Court
+  - Mulgrave Victoria 3170
+- Do not replace Apex Macro Financial Group's own regulatory contact details inside the FSG or compliance disclosures.
+- Ensure all phone and email links work.
+- Ensure external regulatory links open correctly.
+- Confirm there is no horizontal overflow on mobile.
+- Confirm removal of decorative elements has not left excessive whitespace.
+- Confirm footer, navigation and CTA spacing remain visually consistent across every page.
+
+After making any fixes, review all affected pages again rather than assuming the changes are correct.

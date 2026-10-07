@@ -1,0 +1,69 @@
+uploads = []
+
+[[generated]]
+id = "1ATU1xS0B0Ns70JcNq3Nx"
+uri = "file://artifacts/entire-financial/src/assets/hero-advisory.png"
+type = "image"
+title = "generated_image"
+
+[[generated]]
+id = "I9VXDdruNcFf5MpdehZSv"
+uri = "file://artifacts/entire-financial/src/assets/wealth-together.png"
+type = "image"
+title = "generated_image"
+
+[[outputs]]
+id = "zyggrs1FyFQjB-MthCfhq"
+uri = "file://attached_assets/stock_images/sydney-office.jpg"
+type = "image"
+title = "Sydney city skyline modern glass office buildings corporate Australia financial district"
+logical_id = "69482756-b5d5-47e7-9b44-f8c186be640b"
+
+[[outputs]]
+id = "a9Oj_GFAcmuK1j75iENjX"
+uri = "file://attached_assets/stock_images/about-meeting.jpg"
+type = "image"
+title = "two business professionals in a meeting reviewing financial documents warm office setting trust"
+logical_id = "d479cebf-a465-4382-8e95-303b7063631a"
+
+[[outputs]]
+id = "vvsHI64VtTRloEEIDqqsI"
+uri = "file://PRODUCTION_READINESS_REPORT.md"
+type = "text"
+title = "Production readiness report"
+description = "Implemented changes, final Lighthouse scores, browser/security evidence and unresolved launch gates."
+logical_id = "9ab90b8d-5238-4b98-9d1a-4dd7ce467755"
+content_hash = "sha256:66b7f6d0c7fb5739afb68d0c563f7768666b0caeca5bedda0fca80574f646740"
+size = 17553
+mtime_ms = 1791172596001
+storage_uri = "gcs://replit-rams-assets-spock/rams/assets/repl:d76d2697-c1d1-449b-bc92-f114be5c4106/9ab90b8d-5238-4b98-9d1a-4dd7ce467755/74dd292b-b2d8-4c42-b13d-526b0ffaa666"
+storage_version_token = "1791172673865492"
+content_type = "text/markdown"
+
+[[outputs]]
+id = "A5zr6pHE2Gszrt7v3rOqB"
+uri = "file://SEO_METADATA_MATRIX.md"
+type = "text"
+title = "SEO metadata matrix"
+description = "Actual built metadata, headings, canonicals, schema and sitemap coverage for every public route."
+logical_id = "001c40cd-d2d1-4e69-8d5b-e605dfdf6637"
+content_hash = "sha256:03782c6a8a1df8708ea402bb700f0f3f387b6831183cd492734b9dea9b15d916"
+size = 7333
+mtime_ms = 1791172664944
+storage_uri = "gcs://replit-rams-assets-spock/rams/assets/repl:d76d2697-c1d1-449b-bc92-f114be5c4106/001c40cd-d2d1-4e69-8d5b-e605dfdf6637/dfc70473-2ba5-4a24-a9ae-1c0f0310bd1e"
+storage_version_token = "1791172674534105"
+content_type = "text/markdown"
+
+[[outputs]]
+id = "4l3nDKHM0sal7rHmg255z"
+uri = "file://LAUNCH_CHECKLIST.md"
+type = "text"
+title = "Owner launch checklist"
+description = "Exact DNS, HTTPS, enquiry delivery, search verification, live testing and monitoring actions."
+logical_id = "68bb324f-ca32-4d62-837a-8366aabbd473"
+content_hash = "sha256:f63ec2db8e4fa07f72ad350e134f48086cbc5fae7bd2a9bf3ab3c611bdb120b6"
+size = 9913
+mtime_ms = 1791172158568
+storage_uri = "gcs://replit-rams-assets-spock/rams/assets/repl:d76d2697-c1d1-449b-bc92-f114be5c4106/68bb324f-ca32-4d62-837a-8366aabbd473/f2d41b09-b105-493d-aed0-4634849e5599"
+storage_version_token = "1791172675201200"
+content_type = "text/markdown"

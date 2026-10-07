@@ -1,0 +1,467 @@
+{
+  "routeResults": [
+    {
+      "route": "/",
+      "status": 200,
+      "robots": "none, noindex, noarchive, nofollow, nositelinkssearchbox, noimageindex, noindex, nofollow, none, noindex, noarchive, nofollow, nositelinkssearchbox, noimageindex",
+      "cache": "no-cache",
+      "nosniff": "nosniff",
+      "referrer": "strict-origin-when-cross-origin",
+      "permissions": "camera=(), microphone=(), geolocation=(), payment=()",
+      "csp": "object-src 'none'; base-uri 'self'",
+      "reportOnlyCsp": true
+    },
+    {
+      "route": "/about",
+      "status": 200,
+      "robots": "none, noindex, noarchive, nofollow, nositelinkssearchbox, noimageindex, noindex, nofollow, none, noindex, noarchive, nofollow, nositelinkssearchbox, noimageindex",
+      "cache": "no-cache",
+      "nosniff": "nosniff",
+      "referrer": "strict-origin-when-cross-origin",
+      "permissions": "camera=(), microphone=(), geolocation=(), payment=()",
+      "csp": "object-src 'none'; base-uri 'self'",
+      "reportOnlyCsp": true
+    },
+    {
+      "route": "/contact",
+      "status": 200,
+      "robots": "none, noindex, noarchive, nofollow, nositelinkssearchbox, noimageindex, noindex, nofollow, none, noindex, noarchive, nofollow, nositelinkssearchbox, noimageindex",
+      "cache": "no-cache",
+      "nosniff": "nosniff",
+      "referrer": "strict-origin-when-cross-origin",
+      "permissions": "camera=(), microphone=(), geolocation=(), payment=()",
+      "csp": "object-src 'none'; base-uri 'self'",
+      "reportOnlyCsp": true
+    },
+    {
+      "route": "/services/superannuation",
+      "status": 200,
+      "robots": "none, noindex, noarchive, nofollow, nositelinkssearchbox, noimageindex, noindex, nofollow, none, noindex, noarchive, nofollow, nositelinkssearchbox, noimageindex",
+      "cache": "no-cache",
+      "nosniff": "nosniff",
+      "referrer": "strict-origin-when-cross-origin",
+      "permissions": "camera=(), microphone=(), geolocation=(), payment=()",
+      "csp": "object-src 'none'; base-uri 'self'",
+      "reportOnlyCsp": true
+    },
+    {
+      "route": "/transition-to-retirement",
+      "status": 200,
+      "robots": "none, noindex, noarchive, nofollow, nositelinkssearchbox, noimageindex, noindex, nofollow, none, noindex, noarchive, nofollow, nositelinkssearchbox, noimageindex",
+      "cache": "no-cache",
+      "nosniff": "nosniff",
+      "referrer": "strict-origin-when-cross-origin",
+      "permissions": "camera=(), microphone=(), geolocation=(), payment=()",
+      "csp": "object-src 'none'; base-uri 'self'",
+      "reportOnlyCsp": true
+    },
+    {
+      "route": "/retirement-planning",
+      "status": 200,
+      "robots": "none, noindex, noarchive, nofollow, nositelinkssearchbox, noimageindex, noindex, nofollow, none, noindex, noarchive, nofollow, nositelinkssearchbox, noimageindex",
+      "cache": "no-cache",
+      "nosniff": "nosniff",
+      "referrer": "strict-origin-when-cross-origin",
+      "permissions": "camera=(), microphone=(), geolocation=(), payment=()",
+      "csp": "object-src 'none'; base-uri 'self'",
+      "reportOnlyCsp": true
+    },
+    {
+      "route": "/aged-care",
+      "status": 200,
+      "robots": "none, noindex, noarchive, nofollow, nositelinkssearchbox, noimageindex, noindex, nofollow, none, noindex, noarchive, nofollow, nositelinkssearchbox, noimageindex",
+      "cache": "no-cache",
+      "nosniff": "nosniff",
+      "referrer": "strict-origin-when-cross-origin",
+      "permissions": "camera=(), microphone=(), geolocation=(), payment=()",
+      "csp": "object-src 'none'; base-uri 'self'",
+      "reportOnlyCsp": true
+    },
+    {
+      "route": "/privacy-policy",
+      "status": 200,
+      "robots": "none, noindex, noarchive, nofollow, nositelinkssearchbox, noimageindex, noindex, nofollow, none, noindex, noarchive, nofollow, nositelinkssearchbox, noimageindex",
+      "cache": "no-cache",
+      "nosniff": "nosniff",
+      "referrer": "strict-origin-when-cross-origin",
+      "permissions": "camera=(), microphone=(), geolocation=(), payment=()",
+      "csp": "object-src 'none'; base-uri 'self'",
+      "reportOnlyCsp": true
+    },
+    {
+      "route": "/financial-services-guide",
+      "status": 200,
+      "robots": "none, noindex, noarchive, nofollow, nositelinkssearchbox, noimageindex, noindex, nofollow, none, noindex, noarchive, nofollow, nositelinkssearchbox, noimageindex",
+      "cache": "no-cache",
+      "nosniff": "nosniff",
+      "referrer": "strict-origin-when-cross-origin",
+      "permissions": "camera=(), microphone=(), geolocation=(), payment=()",
+      "csp": "object-src 'none'; base-uri 'self'",
+      "reportOnlyCsp": true
+    },
+    {
+      "route": "/complaints",
+      "status": 200,
+      "robots": "none, noindex, noarchive, nofollow, nositelinkssearchbox, noimageindex, noindex, nofollow, none, noindex, noarchive, nofollow, nositelinkssearchbox, noimageindex",
+      "cache": "no-cache",
+      "nosniff": "nosniff",
+      "referrer": "strict-origin-when-cross-origin",
+      "permissions": "camera=(), microphone=(), geolocation=(), payment=()",
+      "csp": "object-src 'none'; base-uri 'self'",
+      "reportOnlyCsp": true
+    },
+    {
+      "route": "/missing-audit-route",
+      "status": 404,
+      "robots": "none, noindex, noarchive, nofollow, nositelinkssearchbox, noimageindex, noindex, nofollow, none, noindex, noarchive, nofollow, nositelinkssearchbox, noimageindex",
+      "cache": "no-cache",
+      "nosniff": "nosniff",
+      "referrer": "strict-origin-when-cross-origin",
+      "permissions": "camera=(), microphone=(), geolocation=(), payment=()",
+      "csp": "object-src 'none'; base-uri 'self'",
+      "reportOnlyCsp": true
+    },
+    {
+      "route": "/robots.txt",
+      "status": 200,
+      "robots": "none, noindex, noarchive, nofollow, nositelinkssearchbox, noimageindex, noindex, nofollow, none, noindex, noarchive, nofollow, nositelinkssearchbox, noimageindex",
+      "cache": "no-cache",
+      "nosniff": "nosniff",
+      "referrer": "strict-origin-when-cross-origin",
+      "permissions": "camera=(), microphone=(), geolocation=(), payment=()",
+      "csp": "object-src 'none'; base-uri 'self'",
+      "reportOnlyCsp": true
+    },
+    {
+      "route": "/sitemap.xml",
+      "status": 404,
+      "robots": "none, noindex, noarchive, nofollow, nositelinkssearchbox, noimageindex, noindex, nofollow, none, noindex, noarchive, nofollow, nositelinkssearchbox, noimageindex",
+      "cache": "no-cache",
+      "nosniff": "nosniff",
+      "referrer": "strict-origin-when-cross-origin",
+      "permissions": "camera=(), microphone=(), geolocation=(), payment=()",
+      "csp": "object-src 'none'; base-uri 'self'",
+      "reportOnlyCsp": true
+    },
+    {
+      "route": "/.env",
+      "status": 404,
+      "robots": "none, noindex, noarchive, nofollow, nositelinkssearchbox, noimageindex, noindex, nofollow, none, noindex, noarchive, nofollow, nositelinkssearchbox, noimageindex",
+      "cache": "no-cache",
+      "nosniff": "nosniff",
+      "referrer": "strict-origin-when-cross-origin",
+      "permissions": "camera=(), microphone=(), geolocation=(), payment=()",
+      "csp": "object-src 'none'; base-uri 'self'",
+      "reportOnlyCsp": true
+    }
+  ],
+  "internal": [
+    {
+      "href": "https://www.entirefs.com.au/#main-content",
+      "valid": true
+    },
+    {
+      "href": "https://www.entirefs.com.au/",
+      "valid": true
+    },
+    {
+      "href": "https://www.entirefs.com.au/about",
+      "valid": true
+    },
+    {
+      "href": "https://www.entirefs.com.au/#testimonials",
+      "valid": true
+    },
+    {
+      "href": "https://www.entirefs.com.au/contact",
+      "valid": true
+    },
+    {
+      "href": "https://www.entirefs.com.au/services/superannuation",
+      "valid": true
+    },
+    {
+      "href": "https://www.entirefs.com.au/transition-to-retirement",
+      "valid": true
+    },
+    {
+      "href": "https://www.entirefs.com.au/retirement-planning",
+      "valid": true
+    },
+    {
+      "href": "https://www.entirefs.com.au/aged-care",
+      "valid": true
+    },
+    {
+      "href": "https://www.entirefs.com.au/#services",
+      "valid": true
+    },
+    {
+      "href": "https://www.entirefs.com.au/privacy-policy",
+      "valid": true
+    },
+    {
+      "href": "https://www.entirefs.com.au/financial-services-guide",
+      "valid": true
+    },
+    {
+      "href": "https://www.entirefs.com.au/complaints",
+      "valid": true
+    },
+    {
+      "href": "https://www.entirefs.com.au/about#main-content",
+      "valid": true
+    },
+    {
+      "href": "https://www.entirefs.com.au/contact#main-content",
+      "valid": true
+    },
+    {
+      "href": "https://www.entirefs.com.au/services/superannuation#main-content",
+      "valid": true
+    },
+    {
+      "href": "https://www.entirefs.com.au/transition-to-retirement#main-content",
+      "valid": true
+    },
+    {
+      "href": "https://www.entirefs.com.au/retirement-planning#main-content",
+      "valid": true
+    },
+    {
+      "href": "https://www.entirefs.com.au/aged-care#main-content",
+      "valid": true
+    },
+    {
+      "href": "https://www.entirefs.com.au/privacy-policy#main-content",
+      "valid": true
+    },
+    {
+      "href": "https://www.entirefs.com.au/privacy-policy#our-commitment-to-your-privacy",
+      "valid": true
+    },
+    {
+      "href": "https://www.entirefs.com.au/privacy-policy#the-information-we-collect",
+      "valid": true
+    },
+    {
+      "href": "https://www.entirefs.com.au/privacy-policy#health-information",
+      "valid": true
+    },
+    {
+      "href": "https://www.entirefs.com.au/privacy-policy#sensitive-information",
+      "valid": true
+    },
+    {
+      "href": "https://www.entirefs.com.au/privacy-policy#why-we-collect-personal-information",
+      "valid": true
+    },
+    {
+      "href": "https://www.entirefs.com.au/privacy-policy#how-we-collect-your-information",
+      "valid": true
+    },
+    {
+      "href": "https://www.entirefs.com.au/privacy-policy#how-we-store-your-information",
+      "valid": true
+    },
+    {
+      "href": "https://www.entirefs.com.au/privacy-policy#overseas-storage-and-disclosure",
+      "valid": true
+    },
+    {
+      "href": "https://www.entirefs.com.au/privacy-policy#how-we-use-your-information",
+      "valid": true
+    },
+    {
+      "href": "https://www.entirefs.com.au/privacy-policy#when-we-disclose-your-information",
+      "valid": true
+    },
+    {
+      "href": "https://www.entirefs.com.au/privacy-policy#cookies-and-our-website",
+      "valid": true
+    },
+    {
+      "href": "https://www.entirefs.com.au/privacy-policy#direct-marketing",
+      "valid": true
+    },
+    {
+      "href": "https://www.entirefs.com.au/privacy-policy#keeping-your-information-accurate-and-up-to-date",
+      "valid": true
+    },
+    {
+      "href": "https://www.entirefs.com.au/privacy-policy#how-you-can-access-or-correct-your-information",
+      "valid": true
+    },
+    {
+      "href": "https://www.entirefs.com.au/privacy-policy#keeping-your-information-secure",
+      "valid": true
+    },
+    {
+      "href": "https://www.entirefs.com.au/privacy-policy#data-breaches",
+      "valid": true
+    },
+    {
+      "href": "https://www.entirefs.com.au/privacy-policy#what-if-i-am-not-happy-with-how-my-information-has-been-handled",
+      "valid": true
+    },
+    {
+      "href": "https://www.entirefs.com.au/privacy-policy#contact-us-about-privacy",
+      "valid": true
+    },
+    {
+      "href": "https://www.entirefs.com.au/privacy-policy#additional-privacy-information",
+      "valid": true
+    },
+    {
+      "href": "https://www.entirefs.com.au/financial-services-guide#main-content",
+      "valid": true
+    },
+    {
+      "href": "https://www.entirefs.com.au/financial-services-guide#about-this-fsg",
+      "valid": true
+    },
+    {
+      "href": "https://www.entirefs.com.au/financial-services-guide#apex-and-entire",
+      "valid": true
+    },
+    {
+      "href": "https://www.entirefs.com.au/financial-services-guide#approved-products",
+      "valid": true
+    },
+    {
+      "href": "https://www.entirefs.com.au/financial-services-guide#business-profile",
+      "valid": true
+    },
+    {
+      "href": "https://www.entirefs.com.au/financial-services-guide#our-obligations",
+      "valid": true
+    },
+    {
+      "href": "https://www.entirefs.com.au/financial-services-guide#your-adviser",
+      "valid": true
+    },
+    {
+      "href": "https://www.entirefs.com.au/financial-services-guide#services",
+      "valid": true
+    },
+    {
+      "href": "https://www.entirefs.com.au/financial-services-guide#qualifications",
+      "valid": true
+    },
+    {
+      "href": "https://www.entirefs.com.au/financial-services-guide#before-advice",
+      "valid": true
+    },
+    {
+      "href": "https://www.entirefs.com.au/financial-services-guide#provision-of-advice",
+      "valid": true
+    },
+    {
+      "href": "https://www.entirefs.com.au/financial-services-guide#advice-documents",
+      "valid": true
+    },
+    {
+      "href": "https://www.entirefs.com.au/financial-services-guide#instructions",
+      "valid": true
+    },
+    {
+      "href": "https://www.entirefs.com.au/financial-services-guide#fees-remuneration",
+      "valid": true
+    },
+    {
+      "href": "https://www.entirefs.com.au/financial-services-guide#other-payments",
+      "valid": true
+    },
+    {
+      "href": "https://www.entirefs.com.au/financial-services-guide#referral-fees",
+      "valid": true
+    },
+    {
+      "href": "https://www.entirefs.com.au/financial-services-guide#conflicts",
+      "valid": true
+    },
+    {
+      "href": "https://www.entirefs.com.au/financial-services-guide#additional-benefits",
+      "valid": true
+    },
+    {
+      "href": "https://www.entirefs.com.au/financial-services-guide#fsg-privacy",
+      "valid": true
+    },
+    {
+      "href": "https://www.entirefs.com.au/financial-services-guide#fsg-complaints",
+      "valid": true
+    },
+    {
+      "href": "https://www.entirefs.com.au/financial-services-guide#compensation",
+      "valid": true
+    },
+    {
+      "href": "https://www.entirefs.com.au/complaints#main-content",
+      "valid": true
+    }
+  ],
+  "external": [
+    {
+      "href": "https://www.google.com/search?sca_esv=9f038c2127115fe6&si=AL3DRZHrmvnFAVQPOO2Bzhf8AX9KZZ6raUI_dT7DG_z0kV2_xxJ7boT8GWFsOd-y1DVsjG3d68B-dLyjpk8IS8FS7BDjOy2Vsdi0amgJ7JwsowxoNI_P-Xl1iBKv3bdHNsmXcoTqi9piy-T1lbjuIbMu6yv6YVa_DA%3D%3D&q=Entire+Financial+Services+Reviews&sa=X&ved=2ahUKEwjz84aXjf6TAxU6R2cHHafmJTcQ0bkNegQISxAF&biw=2552&bih=1308&dpr=1.5",
+      "status": 200,
+      "resolved": "https://www.google.com/search?sca_esv=9f038c2127115fe6&si=AL3DRZHrmvnFAVQPOO2Bzhf8AX9KZZ6raUI_dT7DG_z0kV2_xxJ7boT8GWFsOd-y1DVsjG3d68B-dLyjpk8IS8FS7BDjOy2Vsdi0amgJ7JwsowxoNI_P-Xl1iBKv3bdHNsmXcoTqi9piy-T1lbjuIbMu6yv6YVa_DA%3D%3D&q=Entire+Financial+Services+Reviews&sa=X&ved=2ahUKEwjz84aXjf6TAxU6R2cHHafmJTcQ0bkNegQISxAF&biw=2552&bih=1308&dpr=1.5",
+      "result": "reachable"
+    },
+    {
+      "href": "https://www.google.com/search?q=Entire+Financial+Services+Reviews",
+      "status": 200,
+      "resolved": "https://www.google.com/search?q=Entire+Financial+Services+Reviews",
+      "result": "reachable"
+    },
+    {
+      "href": "https://synapse8.com.au/",
+      "status": 200,
+      "resolved": "https://synapse8.com.au/",
+      "result": "reachable"
+    },
+    {
+      "href": "https://www.oaic.gov.au/",
+      "status": 200,
+      "resolved": "https://www.oaic.gov.au/",
+      "result": "reachable"
+    },
+    {
+      "href": "https://www.apexmacro.com/",
+      "status": 200,
+      "resolved": "https://apexmacro.com/",
+      "result": "reachable"
+    },
+    {
+      "href": "https://moneysmart.gov.au/financial-advice/financial-advisers-register",
+      "status": 403,
+      "resolved": "https://moneysmart.gov.au/financial-advice/financial-advisers-register",
+      "result": "manual confirmation required (HEAD may be blocked)"
+    },
+    {
+      "href": "https://www.privacy.gov.au/",
+      "status": 200,
+      "resolved": "https://www.oaic.gov.au/",
+      "result": "reachable"
+    },
+    {
+      "href": "https://www.afca.org.au/",
+      "status": 403,
+      "resolved": "https://www.afca.org.au/",
+      "result": "manual confirmation required (HEAD may be blocked)"
+    }
+  ],
+  "communications": [
+    "tel:0421833372",
+    "mailto:bevan@entirefs.com.au",
+    "tel:+61421833372",
+    "tel:0385920081",
+    "tel:1300003888",
+    "tel:0413788255",
+    "mailto:info@apexmacro.com",
+    "mailto:info@apexmacro.com.au",
+    "tel:1800931678",
+    "mailto:info@afca.org.au",
+    "tel:1300300630"
+  ]
+}

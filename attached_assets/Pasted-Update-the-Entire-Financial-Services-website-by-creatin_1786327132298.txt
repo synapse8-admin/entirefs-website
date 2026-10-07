@@ -1,0 +1,638 @@
+Update the Entire Financial Services website by creating three dedicated service pages for:
+
+1. Retirement Planning
+2. Transition to Retirement
+3. Aged Care
+
+These pages should open when the user clicks the corresponding “Learn More” button in the existing “Where We Thrive” section.
+
+Keep the current website design system, typography, header, footer, navigation, colours, spacing, button styling and responsive behaviour. Do not redesign the rest of the website.
+
+The content should feel warm, reassuring, clear and practical rather than overly corporate.
+
+IMPORTANT CONTENT STYLE:
+- Write for everyday Australians approaching retirement or helping ageing parents.
+- Use plain English.
+- Avoid unnecessary financial jargon.
+- Do not promise financial outcomes.
+- Do not describe Entire Financial Services as “independent”, “impartial” or “unbiased”.
+- Use language such as “may”, “can help”, “depending on your circumstances” and “we can help you understand your options” where appropriate.
+- Keep paragraphs relatively short and easy to scan.
+- CTA throughout: “Book a Consultation”.
+- Make each page feel like part of the same website, not a separate microsite.
+
+--------------------------------------------------
+PAGE 1 — RETIREMENT PLANNING
+URL:
+/retirement-planning
+--------------------------------------------------
+
+HERO
+
+Eyebrow:
+RETIREMENT PLANNING
+
+Headline:
+Plan for the retirement you want to live
+
+Supporting copy:
+Retirement is about more than finishing work. It is about having the confidence to enjoy the years ahead knowing your finances have been carefully considered. We help you understand where you are today, where you want to be and the steps that may help you get there.
+
+Primary CTA:
+Book a Consultation
+
+Secondary CTA:
+Explore Your Retirement Options
+
+Use a warm, aspirational image of an Australian couple approaching or enjoying retirement.
+
+--------------------------------------------------
+
+INTRO SECTION
+
+Small heading:
+YOUR RETIREMENT, YOUR WAY
+
+Main heading:
+Turn your retirement goals into a clear financial plan
+
+Body copy:
+Everyone has a different idea of what retirement should look like. You may want to travel, spend more time with family, pursue hobbies, help your children or simply enjoy greater freedom over how you spend your time.
+
+A well-considered retirement strategy brings your superannuation, investments, income needs and future expenses together so you can make informed decisions before and during retirement.
+
+At Entire Financial Services, we help you understand your options and build a strategy around the lifestyle that matters to you.
+
+--------------------------------------------------
+
+SECTION:
+WHAT WE CAN HELP YOU PLAN FOR
+
+Create 4 clean icon cards.
+
+CARD 1
+Title:
+Your retirement timeline
+
+Copy:
+Understand when you may be able to retire and what financial steps could help you prepare. We can model different scenarios and help you see how decisions made today may affect your future lifestyle.
+
+CARD 2
+Title:
+Superannuation strategy
+
+Copy:
+Review how your super is structured, how much you are contributing and whether there are opportunities to strengthen your retirement position as you approach retirement.
+
+CARD 3
+Title:
+Retirement income
+
+Copy:
+Plan how your superannuation, investments and other assets may work together to provide an income once your regular salary stops.
+
+CARD 4
+Title:
+Government entitlements
+
+Copy:
+Understand how Centrelink Age Pension rules and other government benefits may apply to your circumstances and how they could form part of your broader retirement strategy.
+
+--------------------------------------------------
+
+SECTION:
+A CLEARER PATH TO RETIREMENT
+
+Use a two-column layout with image on one side and text on the other.
+
+Heading:
+Know where you stand before retirement arrives
+
+Body:
+The years leading into retirement can be some of the most important financially.
+
+Decisions about super contributions, investments, debt, when to stop working and how to structure your assets can all influence the options available to you later.
+
+Rather than waiting until retirement is just around the corner, we help you start planning earlier so you can understand your position, identify potential opportunities and make decisions with greater clarity.
+
+CTA:
+Book a Consultation
+
+--------------------------------------------------
+
+SECTION:
+BUILDING YOUR RETIREMENT INCOME
+
+Heading:
+Turning your savings into an income
+
+Copy:
+Moving from receiving a regular salary to drawing income from your savings can feel like a significant change.
+
+We can help you understand different ways of creating retirement income, including how superannuation pensions, investments, cash reserves and other assets may work together.
+
+The objective is to create a strategy that considers both your day-to-day income needs and your longer-term financial security.
+
+Add three short bullet-style feature blocks:
+- Understand how much income you may need
+- Explore tax-effective retirement income strategies
+- Plan for both regular spending and larger future expenses
+
+--------------------------------------------------
+
+SECTION:
+CENTRELINK & AGE PENSION
+
+Heading:
+Understand the role Centrelink may play
+
+Copy:
+For eligible retirees, the Age Pension and other government benefits can become an important part of retirement income.
+
+The rules around assets, income and eligibility can be complex. We can help you understand how Centrelink may assess your circumstances, what entitlements may be available and how this fits within your overall retirement plan.
+
+CTA:
+Talk to Us About Retirement Planning
+
+--------------------------------------------------
+
+SECTION:
+PLANNING BEYOND YOUR OWN RETIREMENT
+
+Heading:
+Consider the people and legacy that matter to you
+
+Copy:
+Retirement planning is also an opportunity to think about how you would like your wealth to support the people you care about.
+
+We can work alongside your solicitor and accountant where appropriate to ensure your financial strategy considers estate planning, beneficiary arrangements and the way your assets are structured.
+
+Make clear that legal estate planning advice should be obtained from an appropriately qualified legal professional.
+
+--------------------------------------------------
+
+PROCESS SECTION
+
+Eyebrow:
+HOW WE WORK
+
+Heading:
+A straightforward approach to retirement planning
+
+Create 4 numbered steps.
+
+01 — Discover
+We begin by understanding your current financial position, retirement goals, priorities and concerns.
+
+02 — Explore
+We review your superannuation, investments, income, expenses and other relevant circumstances and identify strategies worth considering.
+
+03 — Plan
+Where personal advice is appropriate, we develop recommendations tailored to your circumstances and explain them clearly.
+
+04 — Support
+We help you put your strategy into action and can continue working with you as your retirement needs evolve.
+
+--------------------------------------------------
+
+FINAL CTA
+
+Heading:
+Start planning for retirement with confidence
+
+Copy:
+Whether retirement is several years away or just around the corner, having a clear plan can help you understand your options and make more informed decisions.
+
+Button:
+Book a Consultation
+
+--------------------------------------------------
+PAGE 2 — TRANSITION TO RETIREMENT
+URL:
+/transition-to-retirement
+--------------------------------------------------
+
+HERO
+
+Eyebrow:
+TRANSITION TO RETIREMENT
+
+Headline:
+Ease into retirement on your terms
+
+Supporting copy:
+Retirement does not always have to happen overnight. A transition-to-retirement strategy may help eligible Australians reduce their working hours, supplement their income or make more effective use of their super while they prepare for the next stage of life.
+
+CTA:
+Book a Consultation
+
+Use imagery representing someone gradually moving from working life into greater freedom.
+
+--------------------------------------------------
+
+INTRO SECTION
+
+Eyebrow:
+A MORE FLEXIBLE WAY TO RETIRE
+
+Heading:
+You may not have to choose between working and retiring
+
+Copy:
+For many people, retirement is a gradual transition rather than a single date.
+
+You might want to work fewer days, spend more time travelling, care for family or simply start enjoying more flexibility before finishing work completely.
+
+Depending on your age, superannuation arrangements and personal circumstances, a Transition to Retirement strategy may provide another way to structure your income while you continue working.
+
+We can help you understand how these strategies work and whether they are appropriate for your circumstances.
+
+--------------------------------------------------
+
+SECTION:
+HOW A TRANSITION TO RETIREMENT STRATEGY MAY HELP
+
+Create 3 prominent cards matching the visual language of the existing service cards.
+
+CARD 1
+Title:
+Reduce your working hours
+
+Copy:
+A transition-to-retirement income stream may help supplement your employment income, giving you the flexibility to reduce your hours while maintaining the lifestyle you have worked hard to build.
+
+CARD 2
+Title:
+Strengthen your super
+
+Copy:
+Depending on your circumstances, there may be strategies that allow you to contribute more of your salary to super while drawing an income from your retirement savings.
+
+CARD 3
+Title:
+Create extra flexibility
+
+Copy:
+Accessing a regular income stream from super may provide additional cash flow as you approach retirement, helping you manage changing work and lifestyle needs.
+
+--------------------------------------------------
+
+SECTION:
+IS TRANSITION TO RETIREMENT RIGHT FOR YOU?
+
+Use two-column layout.
+
+Heading:
+A strategy that needs to fit your circumstances
+
+Copy:
+Transition-to-retirement strategies are not suitable for everyone.
+
+There are eligibility requirements, superannuation rules, tax considerations and limits around how much you can access.
+
+Before making changes, it is important to consider how a strategy may affect your current income as well as your long-term retirement savings.
+
+At Entire Financial Services, we look at the full picture rather than a strategy in isolation.
+
+CTA:
+Discuss Your Options
+
+--------------------------------------------------
+
+SECTION:
+WHAT WE CONSIDER
+
+Create icon list/grid:
+
+- Your preferred retirement date
+- How many hours you want to continue working
+- Your current salary and cash flow
+- Your superannuation balance
+- Contributions going into super
+- Your household expenses
+- Tax considerations
+- Your longer-term retirement income needs
+
+Supporting text:
+The aim is to determine whether a transition-to-retirement strategy supports both the lifestyle you want today and the retirement you are building for tomorrow.
+
+--------------------------------------------------
+
+SECTION:
+FROM WORKING LIFE TO RETIREMENT
+
+Heading:
+Create a smoother financial transition
+
+Copy:
+Reducing work can change both your income and the way you think about your finances.
+
+We can help you compare different scenarios so you can understand what working three or four days a week, retiring at different ages or changing your super contributions could mean for your overall retirement plan.
+
+Rather than focusing only on today’s income, we consider how each decision may affect the years ahead.
+
+--------------------------------------------------
+
+PROCESS SECTION
+
+Eyebrow:
+HOW WE HELP
+
+Heading:
+Understand the strategy before making the change
+
+Create 4 steps.
+
+01 — Understand your goals
+We discuss when you want to retire, how much you want to work and what lifestyle you would like to maintain.
+
+02 — Review your position
+We look at your income, superannuation, expenses and broader financial circumstances.
+
+03 — Compare strategies
+We consider different transition-to-retirement scenarios and explain the potential benefits, trade-offs and risks.
+
+04 — Put your plan into action
+If a strategy is appropriate, we help you implement the agreed recommendations and review your progress over time.
+
+--------------------------------------------------
+
+FINAL CTA
+
+Heading:
+Thinking about working less?
+
+Copy:
+Talk to us about what a gradual transition into retirement could look like for you.
+
+Button:
+Book a Consultation
+
+--------------------------------------------------
+PAGE 3 — AGED CARE
+URL:
+/aged-care
+--------------------------------------------------
+
+HERO
+
+Eyebrow:
+AGED CARE
+
+Headline:
+Clear financial guidance when your family needs it most
+
+Supporting copy:
+Moving into aged care can involve difficult decisions at an emotional time. We help individuals and families understand the financial side of aged care so they can make informed decisions with greater clarity and confidence.
+
+CTA:
+Book a Consultation
+
+Use warm, authentic imagery showing an older Australian with family. Avoid clinical hospital-style imagery.
+
+--------------------------------------------------
+
+INTRO SECTION
+
+Eyebrow:
+MAKING AGED CARE EASIER TO UNDERSTAND
+
+Heading:
+Support through a complex financial decision
+
+Copy:
+When someone you care about needs aged care, families are often required to make significant financial decisions quickly.
+
+There may be accommodation costs, ongoing care fees, Centrelink considerations, cash-flow needs, investments, the family home and estate planning implications to think about at the same time.
+
+Our role is to help you understand the financial choices in front of you so you and your family can make decisions that suit your circumstances and priorities.
+
+--------------------------------------------------
+
+SECTION:
+WHAT WE CAN HELP YOU UNDERSTAND
+
+Create 5 icon cards.
+
+CARD 1
+Title:
+Aged care accommodation costs
+
+Copy:
+Understand the different ways residential aged care accommodation may be funded and what those choices could mean for your overall financial position.
+
+CARD 2
+Title:
+Ongoing care fees
+
+Copy:
+Gain a clearer understanding of the different fees that may apply and how they could affect income and cash flow.
+
+CARD 3
+Title:
+Centrelink & government support
+
+Copy:
+Understand how income, assets and the family home may affect government assessments and available support.
+
+CARD 4
+Title:
+Cash flow & assets
+
+Copy:
+Explore how pensions, investments, savings and other assets may be structured to help meet ongoing care costs.
+
+CARD 5
+Title:
+Your family & estate
+
+Copy:
+Consider how aged care decisions may affect the family home, your estate and the people you want to provide for.
+
+--------------------------------------------------
+
+SECTION:
+MAKING SENSE OF AGED CARE COSTS
+
+Two-column layout.
+
+Heading:
+Understand what you may need to pay
+
+Copy:
+Aged care fees can be difficult to understand when you first encounter them.
+
+Different accommodation and ongoing care costs can apply depending on the facility and a person’s financial circumstances.
+
+We help you understand the types of costs involved, how assessments may work and the potential financial impact of the different options available to you.
+
+The goal is to give your family a clearer picture before important decisions are made.
+
+CTA:
+Talk to Us About Aged Care
+
+--------------------------------------------------
+
+SECTION:
+THE FAMILY HOME
+
+Heading:
+What happens to the family home?
+
+Copy:
+One of the biggest questions families often face is what to do with the family home.
+
+Should it be retained, sold or potentially rented? How might each choice affect cash flow, Centrelink assessments, aged care fees and your wider financial position?
+
+There is no single answer that suits every family.
+
+We can help you understand the financial implications of the available choices so you can make a decision based on what matters most to you.
+
+--------------------------------------------------
+
+SECTION:
+WHAT MATTERS MOST TO YOUR FAMILY?
+
+Heading:
+Aged care planning is about more than minimising fees
+
+Intro:
+The right strategy depends on your priorities.
+
+Create 4 priority cards:
+
+AFFORDABILITY
+Manage ongoing care costs and understand the effect on cash flow.
+
+INCOME
+Make sure sufficient income is available to support care and everyday expenses.
+
+ACCESS TO CAPITAL
+Consider how much money should remain readily available for future needs.
+
+ESTATE & FAMILY
+Understand how aged care decisions may affect assets and the legacy you wish to leave.
+
+Supporting text:
+We take the time to understand which of these priorities matter most to you before considering any financial strategy.
+
+--------------------------------------------------
+
+SECTION:
+ESTATE PLANNING & PROFESSIONAL SUPPORT
+
+Heading:
+Consider the wider picture
+
+Copy:
+A move into aged care may also have implications for estate planning, powers of attorney and the way assets are held.
+
+Where legal or taxation advice is required, we can work alongside or refer you to appropriately qualified solicitors and accountants.
+
+This helps ensure financial advice forms part of a broader plan rather than being considered in isolation.
+
+--------------------------------------------------
+
+PROCESS SECTION
+
+Eyebrow:
+HOW WE HELP
+
+Heading:
+A clearer process during a difficult time
+
+Create four numbered stages.
+
+01 — Initial conversation
+We learn about your family’s situation, what decisions need to be made and what matters most.
+
+02 — Understand the financial position
+We review relevant income, assets, care costs, Centrelink considerations and cash-flow requirements.
+
+03 — Develop your strategy
+Where personal advice is appropriate, we develop recommendations designed around your circumstances and priorities.
+
+04 — Help put the plan in place
+We assist with implementing the agreed financial strategy and can provide ongoing support as circumstances change.
+
+--------------------------------------------------
+
+FINAL CTA
+
+Heading:
+You do not have to navigate aged care alone
+
+Copy:
+If you are considering aged care for yourself, a parent or another family member, we can help you understand the financial decisions ahead.
+
+Button:
+Book a Consultation
+
+--------------------------------------------------
+GLOBAL PAGE DESIGN REQUIREMENTS
+--------------------------------------------------
+
+For all three pages:
+
+1. Reuse the existing Entire Financial Services header and footer.
+
+2. Maintain the existing website colour palette and visual system.
+
+3. Use alternating white, very light sage/beige and dark green sections to create visual rhythm.
+
+4. Use the same card styling already used in the “Where We Thrive” section:
+- white cards
+- subtle shadow
+- rounded corners
+- small green icon
+- dark headings
+- muted body text
+
+5. Use generous whitespace.
+
+6. Use subtle scroll-reveal animations but nothing distracting.
+
+7. Add relevant line icons to service cards.
+
+8. Use photography selectively. Images should feel:
+- warm
+- Australian
+- natural
+- mature
+- aspirational
+- authentic
+
+Avoid:
+- obvious corporate stock photography
+- handshakes
+- charts floating over people
+- staged office meetings
+- hospital imagery for aged care
+
+9. Each page must include multiple opportunities to “Book a Consultation”, but do not overload the page with buttons.
+
+10. On mobile:
+- stack two-column sections vertically
+- cards should become single-column or sensible two-column layouts
+- preserve generous padding
+- ensure CTA buttons remain easy to tap
+
+11. Make all new routes work correctly:
+Retirement Planning Learn More → /retirement-planning
+Transition to Retirement Learn More → /transition-to-retirement
+Aged Care Learn More → /aged-care
+
+12. Update the existing “Where We Thrive” cards so the entire Learn More link/button is clickable and routes to the corresponding page.
+
+13. Add these three pages to the Services dropdown in the main navigation:
+- Retirement Planning
+- Transition to Retirement
+- Aged Care
+
+14. Do not change existing approved website content outside what is necessary to add these pages and links.
+
+15. Ensure all three pages look finished and review-ready rather than like templates or wireframes.
+
+16. Keep content in reusable data/components where practical so wording can be edited later without rebuilding the layout.
+
+Implement all three pages now.

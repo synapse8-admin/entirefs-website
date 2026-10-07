@@ -1,0 +1,437 @@
+Update the existing Entire Financial Services website by creating or replacing the **Privacy Policy** page.
+
+Use the existing website’s current design system, layout, header, footer, typography, spacing, button styles, colours, and responsive behaviour. Do not create a visually separate or generic legal-document page. The Privacy Policy should feel like a native part of the Entire Financial Services website.
+
+## PAGE REQUIREMENTS
+
+Create a dedicated page at:
+
+`/privacy-policy`
+
+If a Privacy Policy page already exists, replace its content with the content below while preserving the existing site architecture and global navigation.
+
+Add or confirm a **Privacy Policy** link in the website footer.
+
+Do not add the Privacy Policy to the primary navigation unless it is already there.
+
+## DESIGN AND LAYOUT
+
+Use the Entire Financial Services branding already implemented across the website.
+
+Where required, use the brand colours:
+
+- Primary green: `#0D6851`
+- Dark green: `#022F35`
+- Light neutral green: `#D7DCC7`
+- Accent green: `#AED137`
+
+The page should use a clean, professional legal-document layout.
+
+### Hero section
+
+Create a compact page hero using the same style as other internal website pages.
+
+Content:
+
+**Eyebrow:**  
+Entire Financial Services
+
+**H1:**  
+Privacy Policy
+
+**Intro:**  
+We respect your privacy and are committed to protecting the personal information you share with us.
+
+Do not make this hero overly large. This is a legal/information page rather than a marketing landing page.
+
+### Main content
+
+Display the Privacy Policy within a readable centred content container.
+
+Recommended maximum text width:
+
+`800px–900px`
+
+Use:
+
+- clear H2 section headings
+- comfortable paragraph spacing
+- accessible font sizes
+- properly styled bullet lists
+- strong contrast
+- consistent section spacing
+
+Do not place every section inside individual cards.
+
+The page should primarily read like a polished professional document.
+
+A subtle table of contents or jump navigation may be added near the top if it improves usability, but keep it simple.
+
+## PRIVACY POLICY CONTENT
+
+Use the following content.
+
+# PRIVACY POLICY
+
+**Entire Financial Services**  
+Corporate Authorised Representative No. 1257254  
+Authorised Representative: Bevan Heneric – No. 421931
+
+Building 4, Suite 42  
+195 Wellington Road  
+Clayton VIC 3168
+
+Phone: 0421 833 372  
+Email: bevan@entirefs.com.au  
+Website: www.entirefs.com.au
+
+**Effective date: 2 October 2026**
+
+## Our Commitment to Your Privacy
+
+Entire Financial Services (“Entire Financial Services”, “Entire FS”, “we”, “our” or “us”) respects the privacy of the people we deal with and is committed to protecting the personal information entrusted to us.
+
+Protecting your information is an important part of maintaining the trust between us and our clients. We take reasonable steps to handle personal information securely and responsibly.
+
+Entire Financial Services is a Corporate Authorised Representative of Apex Macro Financial Group Pty Ltd, Australian Financial Services Licence No. 498715. In providing financial advice and related services, information may be shared with Apex Macro Financial Group where necessary for the provision, supervision and administration of those services.
+
+We are bound by the Privacy Act 1988 (Cth) and manage personal information in accordance with the Australian Privacy Principles (APPs).
+
+We may amend this Privacy Policy from time to time where required by law, changes to our business practices or developments in technology. The latest version will be made available through our website.
+
+## The Information We Collect
+
+To provide financial advice and related services, we may need to collect personal information about you.
+
+Depending on the services you require, this may include:
+
+- your name, date of birth and contact details;
+- identification information;
+- employment and income information;
+- details of your assets and liabilities;
+- superannuation and investment information;
+- insurance information;
+- taxation information;
+- Centrelink or other government benefit information;
+- information about your financial objectives, needs and priorities;
+- marital and family circumstances;
+- transaction and account information; and
+- other information relevant to the financial advice or services you have requested.
+
+We may also collect copies or details of identification documents such as your driver's licence or passport where required to verify your identity.
+
+If you do not provide information that we reasonably require, we may not be able to provide appropriate advice or services to you.
+
+## Health Information
+
+In some circumstances, particularly where personal insurance products are being considered or arranged, we may need to collect health information.
+
+Health information will only be collected where it is relevant to the service being provided and where its collection is permitted by law.
+
+Where health information is required in connection with an insurance application or claim, it may be provided to relevant insurers, underwriting organisations or other parties involved in administering the product or claim.
+
+## Sensitive Information
+
+We generally do not collect sensitive information unless it is reasonably necessary for the services we provide, required or authorised by law, or you have consented to its collection.
+
+Sensitive information may include information relating to:
+
+- racial or ethnic origin;
+- political opinions or associations;
+- religious or philosophical beliefs;
+- membership of professional or trade associations;
+- membership of a trade union;
+- sexual orientation or practices;
+- criminal records;
+- health information;
+- genetic information; or
+- biometric information.
+
+Where sensitive information is collected, we take appropriate steps to protect it.
+
+## Why We Collect Personal Information
+
+We collect personal information where it is reasonably necessary for us to provide our services and meet our professional and legal obligations.
+
+This may include collecting information to:
+
+- understand your financial circumstances, objectives and needs;
+- provide financial advice appropriate to your circumstances;
+- prepare Statements of Advice, Records of Advice and other advice documents;
+- complete financial product applications;
+- arrange, administer or review financial products and services;
+- verify your identity;
+- meet our obligations under anti-money laundering and counter-terrorism financing requirements;
+- maintain your client records and contact details;
+- communicate with you about the services we provide;
+- respond to questions, requests or complaints;
+- comply with taxation, financial services and other legal or regulatory obligations;
+- maintain appropriate compliance and audit records; and
+- otherwise provide services that you have requested or authorised.
+
+Without the information reasonably required by us, we may be unable to provide you with advice or an appropriate level of service.
+
+## How We Collect Your Information
+
+Where practical, we collect personal information directly from you.
+
+Information may be collected:
+
+- during meetings with your adviser;
+- through fact finds, questionnaires and application forms;
+- from documents you provide to us;
+- through telephone or video conversations;
+- by email or other electronic communications;
+- through our website;
+- when you provide instructions to us; or
+- during the course of our ongoing relationship with you.
+
+Where appropriate and with your authority, we may also collect information from third parties such as:
+
+- your accountant;
+- your solicitor;
+- your superannuation fund;
+- financial institutions;
+- insurers;
+- product providers;
+- Centrelink or other government bodies;
+- your employer;
+- related authorised representatives;
+- Apex Macro Financial Group;
+- service providers; and
+- other persons or organisations authorised by you.
+
+We may also obtain information from publicly available sources where it is appropriate and lawful to do so.
+
+## How We Store Your Information
+
+We may hold personal information in physical and electronic records.
+
+Electronic records may be stored using systems operated by Entire Financial Services, Apex Macro Financial Group or external service providers.
+
+We take reasonable steps to protect the personal information we hold against misuse, interference, loss, unauthorised access, modification and disclosure.
+
+Our records may include:
+
+- information you have provided to us;
+- records of meetings and communications;
+- copies of advice and recommendations;
+- details of financial products or services arranged for you;
+- transaction information; and
+- compliance and regulatory records.
+
+We are required to retain certain records for periods prescribed by law.
+
+## Overseas Storage and Disclosure
+
+Some technology or service providers used in the delivery of our services may operate or store information outside Australia.
+
+Where personal information is disclosed to or stored with an overseas service provider, we take reasonable steps, where required, to ensure appropriate privacy and security arrangements are in place.
+
+The countries in which information may be stored or accessed can depend on the service providers being used from time to time.
+
+## How We Use Your Information
+
+We generally use personal information for the purpose for which it was collected or for a related purpose that you would reasonably expect.
+
+This may include using your information to:
+
+- provide financial advice;
+- prepare and implement recommendations;
+- process applications;
+- administer and manage financial products and services;
+- review your financial strategies;
+- communicate with you;
+- maintain our client relationship;
+- fulfil compliance and regulatory requirements;
+- investigate enquiries or complaints;
+- undertake internal administration, auditing and quality assurance; and
+- improve the services we provide.
+
+We do not sell your personal information to third parties for their own marketing purposes.
+
+## When We Disclose Your Information
+
+We may disclose personal information where reasonably necessary to provide our services or meet our legal and regulatory responsibilities.
+
+Depending on the circumstances, information may be disclosed to:
+
+- Apex Macro Financial Group as our Australian Financial Services Licensee;
+- financial product providers;
+- fund managers and investment platforms;
+- superannuation funds;
+- insurers and underwriting organisations;
+- banks and other financial institutions;
+- professional advisers and service providers;
+- technology and data service providers;
+- compliance, audit and professional service providers;
+- government agencies and regulators;
+- courts, tribunals or law enforcement bodies where required by law; and
+- other parties where you have authorised or consented to the disclosure.
+
+We may also disclose information where required or authorised to do so by Australian law.
+
+## Cookies and Our Website
+
+Our website may use cookies and similar technologies.
+
+Cookies are small files stored on your device that can help websites remember information about your visit.
+
+Cookies may be used to:
+
+- improve the functionality and performance of our website;
+- understand how visitors use our website;
+- maintain website security;
+- remember preferences; and
+- improve the overall website experience.
+
+You can control or disable cookies through your browser settings. Disabling cookies may affect the functionality of some parts of the website.
+
+Our website may contain links to websites operated by other organisations. Entire Financial Services is not responsible for the privacy practices or content of external websites. You should review the privacy policy of any external website you visit.
+
+## Direct Marketing
+
+Where permitted by law, we may use your contact information to communicate with you about services, information or opportunities that we believe may be relevant to you.
+
+You may ask us at any time not to send you marketing communications.
+
+You can do this by using any unsubscribe facility contained in the communication or by contacting us directly.
+
+## Keeping Your Information Accurate and Up to Date
+
+We take reasonable steps to ensure that the personal information we hold is accurate, complete and up to date.
+
+You can contact us if your circumstances or contact details change or if you believe information we hold about you is inaccurate or incomplete.
+
+## How You Can Access or Correct Your Information
+
+You may request access to the personal information we hold about you or ask us to correct that information.
+
+Requests can be made by contacting Entire Financial Services.
+
+In most circumstances, we will provide access to the information or make the requested correction.
+
+There may be circumstances where we are legally permitted or required to refuse access or correction. If this occurs, we will explain the reason for our decision where we are permitted to do so.
+
+We may need to verify your identity before providing access to personal information.
+
+Where significant time or expense is involved in responding to an access request, we may advise you of any reasonable administrative cost before proceeding.
+
+## Keeping Your Information Secure
+
+We use reasonable physical, administrative and technological safeguards to protect personal information.
+
+These measures may include:
+
+- access controls;
+- secure electronic systems;
+- password protection and authentication measures;
+- internal policies and procedures;
+- staff and adviser training;
+- compliance monitoring; and
+- requirements imposed on external service providers that handle personal information on our behalf.
+
+No system can guarantee absolute security. However, we take reasonable steps to protect the information entrusted to us and respond appropriately if a privacy or data security issue arises.
+
+## Data Breaches
+
+Where we become aware of a data breach involving personal information, we will assess the circumstances and take appropriate action.
+
+Where required under the Privacy Act, affected individuals and the Office of the Australian Information Commissioner will be notified in accordance with the applicable Notifiable Data Breaches requirements.
+
+## What If I Am Not Happy With How My Information Has Been Handled?
+
+We are committed to dealing with privacy concerns and complaints fairly and appropriately.
+
+If you believe that we have not handled your personal information appropriately, please contact us and provide details of your concern.
+
+We will review your complaint through our complaints handling process and seek to respond within a reasonable period.
+
+If you are not satisfied with our response, or we do not respond within the applicable period, you may be entitled to refer your privacy complaint to an external dispute resolution scheme or the Office of the Australian Information Commissioner (OAIC).
+
+## Contact Us About Privacy
+
+If you have questions about this Privacy Policy, wish to request access to or correction of your personal information, or wish to make a privacy complaint, please contact:
+
+**Privacy Officer**  
+Entire Financial Services  
+Building 4, Suite 42  
+195 Wellington Road  
+Clayton VIC 3168
+
+Phone: 0421 833 372  
+Email: bevan@entirefs.com.au  
+Website: www.entirefs.com.au
+
+## Additional Privacy Information
+
+Further information about privacy rights and obligations in Australia is available from the Office of the Australian Information Commissioner (OAIC).
+
+Link the text:
+
+**Office of the Australian Information Commissioner**
+
+to:
+
+`https://www.oaic.gov.au/`
+
+## PAGE FOOTER / LEGAL DETAILS
+
+At the end of the policy content, include a subtle legal information block:
+
+**Entire Financial Services**  
+Corporate Authorised Representative No. 1257254
+
+Authorised Representative: Bevan Heneric – No. 421931
+
+Authorised under Apex Macro Financial Group Pty Ltd  
+Australian Financial Services Licence No. 498715
+
+Privacy Policy – Effective 2 October 2026
+
+Style this information in a smaller font and place it inside a subtle light-green or neutral section.
+
+## RESPONSIVE REQUIREMENTS
+
+Ensure the Privacy Policy page works correctly at:
+
+- desktop
+- tablet
+- mobile
+
+On mobile:
+
+- maintain comfortable horizontal padding;
+- reduce heading sizes appropriately;
+- ensure long email addresses and links wrap correctly;
+- maintain readable paragraph width;
+- prevent horizontal scrolling.
+
+## SEO
+
+Set the page metadata to:
+
+**Meta title:**  
+Privacy Policy | Entire Financial Services
+
+**Meta description:**  
+Read the Entire Financial Services Privacy Policy and learn how we collect, use, protect and manage your personal information.
+
+Use a single H1 on the page.
+
+## IMPORTANT IMPLEMENTATION RULES
+
+- Do not modify unrelated pages.
+- Do not change the website's global design system.
+- Reuse existing components wherever possible.
+- Reuse the existing site header and footer.
+- Keep all current navigation working.
+- Do not introduce new fonts.
+- Do not invent additional legal statements.
+- Do not add countries to the overseas disclosure section unless specifically provided.
+- Do not replace the Entire Financial Services details with Apex Macro's details.
+- Apex Macro should only appear where relevant as the AFSL holder/licensee.
+- Maintain accessibility and WCAG-friendly contrast.
+- All links, email addresses and phone numbers should be clickable where appropriate.
+
+After implementation, test the page on desktop and mobile and confirm there are no broken links, overflowing content, navigation issues or inconsistent styling.

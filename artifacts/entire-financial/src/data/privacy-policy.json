@@ -1,0 +1,559 @@
+{
+  "title": "Privacy Policy",
+  "eyebrow": "Entire Financial Services",
+  "intro": "We respect your privacy and are committed to protecting the personal information you share with us.",
+  "metaTitle": "Privacy Policy | Entire Financial Services",
+  "metaDescription": "Read the Entire Financial Services Privacy Policy and learn how we collect, use, protect and manage your personal information.",
+  "introduction": [
+    "Entire Financial Services",
+    "Corporate Authorised Representative No. 1257254",
+    "Authorised Representative: Bevan Heneric – No. 421931",
+    "Building 4, Suite 42",
+    "195 Wellington Road",
+    "Clayton VIC 3168",
+    "Phone: 0421 833 372",
+    "Email: bevan@entirefs.com.au",
+    "Website: www.entirefs.com.au",
+    "Effective date: 2 October 2026"
+  ],
+  "sections": [
+    {
+      "id": "our-commitment-to-your-privacy",
+      "title": "Our Commitment to Your Privacy",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Entire Financial Services (“Entire Financial Services”, “Entire FS”, “we”, “our” or “us”) respects the privacy of the people we deal with and is committed to protecting the personal information entrusted to us."
+        },
+        {
+          "type": "paragraph",
+          "text": "Protecting your information is an important part of maintaining the trust between us and our clients. We take reasonable steps to handle personal information securely and responsibly."
+        },
+        {
+          "type": "paragraph",
+          "text": "Entire Financial Services is a Corporate Authorised Representative of Apex Macro Financial Group Pty Ltd, Australian Financial Services Licence No. 498715. In providing financial advice and related services, information may be shared with Apex Macro Financial Group where necessary for the provision, supervision and administration of those services."
+        },
+        {
+          "type": "paragraph",
+          "text": "We are bound by the Privacy Act 1988 (Cth) and manage personal information in accordance with the Australian Privacy Principles (APPs)."
+        },
+        {
+          "type": "paragraph",
+          "text": "We may amend this Privacy Policy from time to time where required by law, changes to our business practices or developments in technology. The latest version will be made available through our website."
+        }
+      ]
+    },
+    {
+      "id": "the-information-we-collect",
+      "title": "The Information We Collect",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "To provide financial advice and related services, we may need to collect personal information about you."
+        },
+        {
+          "type": "paragraph",
+          "text": "Depending on the services you require, this may include:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "your name, date of birth and contact details;",
+            "identification information;",
+            "employment and income information;",
+            "details of your assets and liabilities;",
+            "superannuation and investment information;",
+            "insurance information;",
+            "taxation information;",
+            "Centrelink or other government benefit information;",
+            "information about your financial objectives, needs and priorities;",
+            "marital and family circumstances;",
+            "transaction and account information; and",
+            "other information relevant to the financial advice or services you have requested."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "We may also collect copies or details of identification documents such as your driver's licence or passport where required to verify your identity."
+        },
+        {
+          "type": "paragraph",
+          "text": "If you do not provide information that we reasonably require, we may not be able to provide appropriate advice or services to you."
+        }
+      ]
+    },
+    {
+      "id": "health-information",
+      "title": "Health Information",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "In some circumstances, particularly where personal insurance products are being considered or arranged, we may need to collect health information."
+        },
+        {
+          "type": "paragraph",
+          "text": "Health information will only be collected where it is relevant to the service being provided and where its collection is permitted by law."
+        },
+        {
+          "type": "paragraph",
+          "text": "Where health information is required in connection with an insurance application or claim, it may be provided to relevant insurers, underwriting organisations or other parties involved in administering the product or claim."
+        }
+      ]
+    },
+    {
+      "id": "sensitive-information",
+      "title": "Sensitive Information",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "We generally do not collect sensitive information unless it is reasonably necessary for the services we provide, required or authorised by law, or you have consented to its collection."
+        },
+        {
+          "type": "paragraph",
+          "text": "Sensitive information may include information relating to:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "racial or ethnic origin;",
+            "political opinions or associations;",
+            "religious or philosophical beliefs;",
+            "membership of professional or trade associations;",
+            "membership of a trade union;",
+            "sexual orientation or practices;",
+            "criminal records;",
+            "health information;",
+            "genetic information; or",
+            "biometric information."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Where sensitive information is collected, we take appropriate steps to protect it."
+        }
+      ]
+    },
+    {
+      "id": "why-we-collect-personal-information",
+      "title": "Why We Collect Personal Information",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "We collect personal information where it is reasonably necessary for us to provide our services and meet our professional and legal obligations."
+        },
+        {
+          "type": "paragraph",
+          "text": "This may include collecting information to:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "understand your financial circumstances, objectives and needs;",
+            "provide financial advice appropriate to your circumstances;",
+            "prepare Statements of Advice, Records of Advice and other advice documents;",
+            "complete financial product applications;",
+            "arrange, administer or review financial products and services;",
+            "verify your identity;",
+            "meet our obligations under anti-money laundering and counter-terrorism financing requirements;",
+            "maintain your client records and contact details;",
+            "communicate with you about the services we provide;",
+            "respond to questions, requests or complaints;",
+            "comply with taxation, financial services and other legal or regulatory obligations;",
+            "maintain appropriate compliance and audit records; and",
+            "otherwise provide services that you have requested or authorised."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Without the information reasonably required by us, we may be unable to provide you with advice or an appropriate level of service."
+        }
+      ]
+    },
+    {
+      "id": "how-we-collect-your-information",
+      "title": "How We Collect Your Information",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Where practical, we collect personal information directly from you."
+        },
+        {
+          "type": "paragraph",
+          "text": "Information may be collected:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "during meetings with your adviser;",
+            "through fact finds, questionnaires and application forms;",
+            "from documents you provide to us;",
+            "through telephone or video conversations;",
+            "by email or other electronic communications;",
+            "through our website;",
+            "when you provide instructions to us; or",
+            "during the course of our ongoing relationship with you."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Where appropriate and with your authority, we may also collect information from third parties such as:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "your accountant;",
+            "your solicitor;",
+            "your superannuation fund;",
+            "financial institutions;",
+            "insurers;",
+            "product providers;",
+            "Centrelink or other government bodies;",
+            "your employer;",
+            "related authorised representatives;",
+            "Apex Macro Financial Group;",
+            "service providers; and",
+            "other persons or organisations authorised by you."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "We may also obtain information from publicly available sources where it is appropriate and lawful to do so."
+        }
+      ]
+    },
+    {
+      "id": "how-we-store-your-information",
+      "title": "How We Store Your Information",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "We may hold personal information in physical and electronic records."
+        },
+        {
+          "type": "paragraph",
+          "text": "Electronic records may be stored using systems operated by Entire Financial Services, Apex Macro Financial Group or external service providers."
+        },
+        {
+          "type": "paragraph",
+          "text": "We take reasonable steps to protect the personal information we hold against misuse, interference, loss, unauthorised access, modification and disclosure."
+        },
+        {
+          "type": "paragraph",
+          "text": "Our records may include:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "information you have provided to us;",
+            "records of meetings and communications;",
+            "copies of advice and recommendations;",
+            "details of financial products or services arranged for you;",
+            "transaction information; and",
+            "compliance and regulatory records."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "We are required to retain certain records for periods prescribed by law."
+        }
+      ]
+    },
+    {
+      "id": "overseas-storage-and-disclosure",
+      "title": "Overseas Storage and Disclosure",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Some technology or service providers used in the delivery of our services may operate or store information outside Australia."
+        },
+        {
+          "type": "paragraph",
+          "text": "Where personal information is disclosed to or stored with an overseas service provider, we take reasonable steps, where required, to ensure appropriate privacy and security arrangements are in place."
+        },
+        {
+          "type": "paragraph",
+          "text": "The countries in which information may be stored or accessed can depend on the service providers being used from time to time."
+        }
+      ]
+    },
+    {
+      "id": "how-we-use-your-information",
+      "title": "How We Use Your Information",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "We generally use personal information for the purpose for which it was collected or for a related purpose that you would reasonably expect."
+        },
+        {
+          "type": "paragraph",
+          "text": "This may include using your information to:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "provide financial advice;",
+            "prepare and implement recommendations;",
+            "process applications;",
+            "administer and manage financial products and services;",
+            "review your financial strategies;",
+            "communicate with you;",
+            "maintain our client relationship;",
+            "fulfil compliance and regulatory requirements;",
+            "investigate enquiries or complaints;",
+            "undertake internal administration, auditing and quality assurance; and",
+            "improve the services we provide."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "We do not sell your personal information to third parties for their own marketing purposes."
+        }
+      ]
+    },
+    {
+      "id": "when-we-disclose-your-information",
+      "title": "When We Disclose Your Information",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "We may disclose personal information where reasonably necessary to provide our services or meet our legal and regulatory responsibilities."
+        },
+        {
+          "type": "paragraph",
+          "text": "Depending on the circumstances, information may be disclosed to:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Apex Macro Financial Group as our Australian Financial Services Licensee;",
+            "financial product providers;",
+            "fund managers and investment platforms;",
+            "superannuation funds;",
+            "insurers and underwriting organisations;",
+            "banks and other financial institutions;",
+            "professional advisers and service providers;",
+            "technology and data service providers;",
+            "compliance, audit and professional service providers;",
+            "government agencies and regulators;",
+            "courts, tribunals or law enforcement bodies where required by law; and",
+            "other parties where you have authorised or consented to the disclosure."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "We may also disclose information where required or authorised to do so by Australian law."
+        }
+      ]
+    },
+    {
+      "id": "cookies-and-our-website",
+      "title": "Cookies and Our Website",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Our website may use cookies and similar technologies."
+        },
+        {
+          "type": "paragraph",
+          "text": "Cookies are small files stored on your device that can help websites remember information about your visit."
+        },
+        {
+          "type": "paragraph",
+          "text": "Cookies may be used to:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "improve the functionality and performance of our website;",
+            "understand how visitors use our website;",
+            "maintain website security;",
+            "remember preferences; and",
+            "improve the overall website experience."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "You can control or disable cookies through your browser settings. Disabling cookies may affect the functionality of some parts of the website."
+        },
+        {
+          "type": "paragraph",
+          "text": "Our website may contain links to websites operated by other organisations. Entire Financial Services is not responsible for the privacy practices or content of external websites. You should review the privacy policy of any external website you visit."
+        }
+      ]
+    },
+    {
+      "id": "direct-marketing",
+      "title": "Direct Marketing",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Where permitted by law, we may use your contact information to communicate with you about services, information or opportunities that we believe may be relevant to you."
+        },
+        {
+          "type": "paragraph",
+          "text": "You may ask us at any time not to send you marketing communications."
+        },
+        {
+          "type": "paragraph",
+          "text": "You can do this by using any unsubscribe facility contained in the communication or by contacting us directly."
+        }
+      ]
+    },
+    {
+      "id": "keeping-your-information-accurate-and-up-to-date",
+      "title": "Keeping Your Information Accurate and Up to Date",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "We take reasonable steps to ensure that the personal information we hold is accurate, complete and up to date."
+        },
+        {
+          "type": "paragraph",
+          "text": "You can contact us if your circumstances or contact details change or if you believe information we hold about you is inaccurate or incomplete."
+        }
+      ]
+    },
+    {
+      "id": "how-you-can-access-or-correct-your-information",
+      "title": "How You Can Access or Correct Your Information",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "You may request access to the personal information we hold about you or ask us to correct that information."
+        },
+        {
+          "type": "paragraph",
+          "text": "Requests can be made by contacting Entire Financial Services."
+        },
+        {
+          "type": "paragraph",
+          "text": "In most circumstances, we will provide access to the information or make the requested correction."
+        },
+        {
+          "type": "paragraph",
+          "text": "There may be circumstances where we are legally permitted or required to refuse access or correction. If this occurs, we will explain the reason for our decision where we are permitted to do so."
+        },
+        {
+          "type": "paragraph",
+          "text": "We may need to verify your identity before providing access to personal information."
+        },
+        {
+          "type": "paragraph",
+          "text": "Where significant time or expense is involved in responding to an access request, we may advise you of any reasonable administrative cost before proceeding."
+        }
+      ]
+    },
+    {
+      "id": "keeping-your-information-secure",
+      "title": "Keeping Your Information Secure",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "We use reasonable physical, administrative and technological safeguards to protect personal information."
+        },
+        {
+          "type": "paragraph",
+          "text": "These measures may include:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "access controls;",
+            "secure electronic systems;",
+            "password protection and authentication measures;",
+            "internal policies and procedures;",
+            "staff and adviser training;",
+            "compliance monitoring; and",
+            "requirements imposed on external service providers that handle personal information on our behalf."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "No system can guarantee absolute security. However, we take reasonable steps to protect the information entrusted to us and respond appropriately if a privacy or data security issue arises."
+        }
+      ]
+    },
+    {
+      "id": "data-breaches",
+      "title": "Data Breaches",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Where we become aware of a data breach involving personal information, we will assess the circumstances and take appropriate action."
+        },
+        {
+          "type": "paragraph",
+          "text": "Where required under the Privacy Act, affected individuals and the Office of the Australian Information Commissioner will be notified in accordance with the applicable Notifiable Data Breaches requirements."
+        }
+      ]
+    },
+    {
+      "id": "what-if-i-am-not-happy-with-how-my-information-has-been-handled",
+      "title": "What If I Am Not Happy With How My Information Has Been Handled?",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "We are committed to dealing with privacy concerns and complaints fairly and appropriately."
+        },
+        {
+          "type": "paragraph",
+          "text": "If you believe that we have not handled your personal information appropriately, please contact us and provide details of your concern."
+        },
+        {
+          "type": "paragraph",
+          "text": "We will review your complaint through our complaints handling process and seek to respond within a reasonable period."
+        },
+        {
+          "type": "paragraph",
+          "text": "If you are not satisfied with our response, or we do not respond within the applicable period, you may be entitled to refer your privacy complaint to an external dispute resolution scheme or the Office of the Australian Information Commissioner (OAIC)."
+        }
+      ]
+    },
+    {
+      "id": "contact-us-about-privacy",
+      "title": "Contact Us About Privacy",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "If you have questions about this Privacy Policy, wish to request access to or correction of your personal information, or wish to make a privacy complaint, please contact:"
+        },
+        {
+          "type": "contact",
+          "items": [
+            "Privacy Officer",
+            "Entire Financial Services",
+            "Building 4, Suite 42",
+            "195 Wellington Road",
+            "Clayton VIC 3168"
+          ]
+        },
+        {
+          "type": "contact",
+          "items": [
+            "Phone: 0421 833 372",
+            "Email: bevan@entirefs.com.au",
+            "Website: www.entirefs.com.au"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "additional-privacy-information",
+      "title": "Additional Privacy Information",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Further information about privacy rights and obligations in Australia is available from the Office of the Australian Information Commissioner (OAIC)."
+        }
+      ]
+    }
+  ],
+  "legal": [
+    "Entire Financial Services",
+    "Corporate Authorised Representative No. 1257254",
+    "Authorised Representative: Bevan Heneric – No. 421931",
+    "Authorised under Apex Macro Financial Group Pty Ltd",
+    "Australian Financial Services Licence No. 498715",
+    "Privacy Policy – Effective 2 October 2026"
+  ]
+}

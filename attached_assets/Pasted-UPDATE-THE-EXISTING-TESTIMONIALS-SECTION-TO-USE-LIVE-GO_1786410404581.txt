@@ -1,0 +1,220 @@
+UPDATE THE EXISTING TESTIMONIALS SECTION TO USE LIVE GOOGLE REVIEWS
+
+Do not create a new reviews section.
+
+Modify the existing Testimonials section shown on the homepage and preserve its
+current overall visual design, spacing, card dimensions and 3-column desktop grid.
+
+SECTION HEADER
+
+Keep:
+
+Heading:
+Testimonials
+
+Replace the existing supporting copy with:
+
+Hear from clients who have trusted Entire Financial Services to help them plan
+for their financial future.
+
+Add a Google review summary immediately underneath the supporting copy:
+
+★★★★★  {Google rating}  ·  {Google review count} Google reviews
+
+The rating and review count must be populated dynamically from Google.
+
+GOOGLE REVIEWS INTEGRATION
+
+Connect this existing section to the Google Places API (New).
+
+Use environment variables / Replit Secrets:
+
+GOOGLE_PLACES_API_KEY
+GOOGLE_PLACE_ID
+
+Do not expose the Google API key in frontend code.
+
+Create or reuse a server-side API endpoint that retrieves the Entire Financial
+Services Google Business Profile data.
+
+Retrieve:
+
+- rating
+- userRatingCount
+- reviews
+- reviewer display name
+- reviewer profile photo where available
+- review rating
+- review text
+- review date / relative publication time
+- Google Maps URI for the individual review where available
+
+Do not hard-code fake testimonials.
+
+REVIEW CARD DESIGN
+
+Keep the current card design from the existing Testimonials section.
+
+Each live Google Review card should contain:
+
+TOP
+- Google star rating using the existing green star treatment
+
+BODY
+- Genuine Google review text
+- Keep the existing italic review typography
+- Do not rewrite, summarise or alter the review text
+
+BOTTOM
+- Reviewer name in bold
+- Optional relative review date underneath, e.g. "3 months ago"
+- Small "Google Review" badge aligned to the right
+
+Remove the existing fabricated fields such as:
+
+- Retirement Planning
+- Investment Advice
+- SMSF
+- Superannuation
+- Wealth Protection
+- Debt Management
+
+Also remove fabricated reviewer locations such as:
+
+- Toorak
+- South Yarra
+- Brighton
+- Hawthorn
+- Glen Waverley
+- Camberwell
+
+Do not attempt to infer a reviewer's location or which EntireFS service they used.
+
+GOOGLE ATTRIBUTION
+
+Display the required Google attribution clearly.
+
+Where Google supplies a link to the individual review, make the reviewer / Google
+Review attribution clickable and open the source review on Google Maps in a new tab.
+
+Do not remove attribution information returned by Google.
+
+DESKTOP LAYOUT
+
+Preserve the existing:
+
+3 columns
+2 rows
+6-card visual footprint
+
+Use:
+
+Cards 1–5:
+Live Google reviews returned by the API.
+
+Card 6:
+Create a dedicated Google Reviews CTA card.
+
+CTA CARD CONTENT
+
+★★★★★
+
+See what our clients say on Google
+
+Read more reviews or share your own experience with Entire Financial Services.
+
+Primary CTA:
+Read all Google reviews →
+
+Secondary text link:
+Leave a Google review →
+
+Both should open the relevant Entire Financial Services Google Business Profile
+URLs in a new tab.
+
+Style this card consistently with the other testimonial cards but allow a subtle
+brand treatment so it reads as a CTA.
+
+For example:
+- very light #D7DCC7 background
+- #022F35 heading
+- #AED137 accent
+- same border radius and dimensions as review cards
+
+RESPONSIVE BEHAVIOUR
+
+Desktop:
+3 cards per row.
+
+Tablet:
+2 cards per row.
+
+Mobile:
+1 card per row.
+
+On mobile, optionally convert the reviews into a swipeable horizontal carousel
+if that is consistent with the site's existing component patterns.
+
+LONG REVIEWS
+
+Keep card heights visually consistent.
+
+Clamp review text to approximately 5–6 lines on desktop.
+
+If the review is longer, add:
+
+Read more
+
+Allow the user to expand the review without navigating away from the page.
+
+Do not truncate the actual underlying review data.
+
+LOADING STATE
+
+While Google reviews are loading:
+
+- preserve the section height
+- display skeleton versions of the cards
+- avoid layout shift
+
+ERROR STATE
+
+If the Google API fails:
+
+Do not fall back to the existing fake testimonials.
+
+Instead display:
+
+★★★★★
+Rated by our clients on Google
+
+and show a button:
+
+View our Google reviews →
+
+Keep the section visually consistent with the current design.
+
+DESIGN REQUIREMENTS
+
+Do not redesign the section from scratch.
+
+Preserve the appearance of the existing Testimonials section including:
+
+- white background
+- centred heading
+- generous whitespace
+- thin card borders
+- subtle shadows
+- rounded corners
+- existing green stars
+- existing typography hierarchy
+
+Use the EntireFS brand colours:
+
+Dark green: #022F35
+Primary green: #0D6851
+Soft green/beige: #D7DCC7
+Lime accent: #AED137
+
+The final result should look almost identical to the current Testimonials section,
+but the content should now be authentic and dynamically supplied by Google.

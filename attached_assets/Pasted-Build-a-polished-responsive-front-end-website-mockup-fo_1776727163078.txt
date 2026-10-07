@@ -1,0 +1,377 @@
+Build a polished, responsive front-end website mockup for Entire Financial Services.
+
+This is a mockup-first build for client review, not a final production deployment. The outcome should look like a premium, modern, trustworthy financial services website with reusable components, clean structure, and realistic placeholder content where final content is not yet available.
+
+PROJECT GOAL
+Create a review-ready website mockup that presents Entire Financial Services as professional, credible, and approachable, while supporting lead generation and required disclosure content.
+
+IMPORTANT CONTEXT
+- This is for Entire Financial Services.
+- The design should feel premium, calm, modern, professional, spacious, and trustworthy.
+- Avoid anything flashy, cluttered, gimmicky, or startup-generic.
+- The original brief called for a website mockup with core pages including Home, About Us, Services, Contact, and Privacy Policy, plus room for other pages and functionality.
+- The site also needs Testimonials and a Financial Services Guide page.
+- The website must support adviser details, disclosure content, privacy information, complaints handling, and contact details.
+- Do NOT use wording that says or implies the business is “independent”, “impartial”, or “unbiased”.
+
+BRAND DIRECTION
+Use this colour palette consistently:
+- #0D6851
+- #022F35
+- #D7DCC7
+- #AED137
+- #000000
+- #0446F1
+
+Use a clean premium font pairing. If exact brand fonts are unavailable, choose tasteful modern web fonts that feel high-end and readable.
+
+TECHNICAL REQUIREMENTS
+Build this as a modular, component-based front-end project.
+
+Preferred structure:
+- components/
+- pages/
+- data/
+- assets/
+- styles/
+
+Create reusable components for:
+- Header
+- Footer
+- Hero section
+- CTA section/banner
+- Stats counter section
+- Logo strip / provider strip
+- Service cards
+- Testimonial cards
+- Adviser bio block
+- Content section blocks
+- Contact form
+- Disclosure/compliance content block
+
+Where practical, separate data into files for:
+- navigation
+- services
+- testimonials
+- counters
+- footer links
+
+Do not hardcode everything into one large page. Make the code easy to maintain and easy to swap placeholder content later.
+
+GLOBAL SITE REQUIREMENTS
+- Fully responsive for desktop, tablet, and mobile
+- Clean, sticky or polished top navigation
+- Mobile hamburger menu
+- Consistent footer across all pages
+- Clear CTA buttons throughout
+- Strong spacing and section hierarchy
+- Accessible heading structure
+- Good contrast and readable type
+- Clean hover states and subtle transitions
+- Subtle, restrained animation only
+- No broken layouts on smaller screens
+
+SITE MAP
+Build these pages:
+- Home
+- About Us
+- Services
+- Testimonials
+- Financial Services Guide
+- Contact
+- Privacy Policy
+- Complaints / Dispute Resolution
+
+MAIN NAVIGATION
+- Home
+- About Us
+- Services
+- Testimonials
+- Financial Services Guide
+- Contact
+
+HEADER REQUIREMENTS
+- Logo on the left
+- Main nav in the center/right
+- CTA button on the right: “Book a Consultation”
+- Mobile hamburger menu on smaller screens
+
+FOOTER REQUIREMENTS
+Include:
+- business name
+- contact details
+- quick links
+- Privacy Policy
+- Financial Services Guide
+- Complaints
+- copyright line
+- short disclosure/reference area
+
+DESIGN QUALITY BAR
+This should look like a realistic high-end website concept ready for stakeholder review, not a wireframe.
+That means:
+- complete layouts
+- polished styling
+- realistic placeholder copy
+- believable spacing and section hierarchy
+- premium buttons, cards, forms, and content blocks
+
+PAGE-BY-PAGE INSTRUCTIONS
+
+1. HOME PAGE
+Build the Home page with these sections in this order:
+
+a) Hero section
+- strong headline about trusted financial advice
+- supporting subheading
+- primary CTA: “Book a Consultation”
+- secondary CTA: “Explore Services”
+
+Use placeholder copy such as:
+Headline options:
+- Financial advice built around your goals
+- Practical advice. Long-term confidence.
+- Helping you build, protect, and plan with confidence
+
+Supporting text option:
+- We help individuals and families make informed financial decisions with clear, personalised advice across wealth, protection, and long-term planning.
+
+b) Trust / credibility section
+- short intro to the business
+- positioning around experience, personalised advice, and trust
+
+c) Animated counters section
+Include 4 counters:
+- Actively Advised Clients
+- Funds Under Management
+- Years of Experience
+- 5-Star Google Reviews
+
+Use smooth animation on scroll into view.
+Use believable placeholder numbers if needed.
+
+d) Provider / platform / partner logo strip
+- create a clean strip or responsive grid of logos
+- use placeholder logo blocks if final logos are not yet confirmed
+- keep the presentation polished and subtle
+
+e) Services preview section
+Include cards for:
+- Superannuation
+- Investment Advice
+- Insurance
+- Retirement Planning
+- Wealth Protection
+- Debt Management
+
+Include CTA to full Services page.
+
+f) About preview
+- short intro to Entire Financial Services
+- brief adviser intro
+- CTA to About page
+
+g) Testimonials preview
+- show 3 featured testimonial cards
+- CTA to full Testimonials page
+
+h) CTA section
+- prominent enquiry section near bottom of page
+- button linking to Contact page
+
+i) Footer
+
+2. ABOUT US PAGE
+Build a page explaining:
+- who Entire Financial Services is
+- relationship to Apex Macro Financial Group
+- adviser profile
+- adviser experience and qualifications
+- approach to client service
+- why clients choose the firm
+
+Include sections for:
+- Business overview
+- Adviser bio
+- Qualifications / experience
+- Client approach / philosophy
+- CTA to Contact
+
+Use realistic placeholder content based on a professional financial adviser profile.
+
+3. SERVICES PAGE
+Create a clean, scannable page with cards or sections for:
+- Superannuation
+- Self-Managed Super Funds
+- Investment Advice
+- Insurance / Life Risk
+- Retirement Planning
+- Wealth Protection
+- Debt Management / Consultation
+- Centrelink support (optional)
+
+For each service include:
+- title
+- short plain-English description
+- optional “Who this is for”
+- CTA or enquiry link
+
+Keep language client-friendly and easy to scan.
+
+4. TESTIMONIALS PAGE
+Create a dedicated Testimonials page with:
+- page intro heading
+- short trust-building intro
+- testimonial card grid
+- minimum 6 placeholder testimonials
+- optional rating display
+- optional category tags
+- bottom CTA to Contact
+
+Design it so more testimonials can easily be added later without redesign.
+
+Use polished placeholder testimonials that sound realistic and professional.
+
+5. FINANCIAL SERVICES GUIDE PAGE
+Create a clean digital Financial Services Guide page using long-form structured content.
+
+Use clearly separated sections or anchored in-page navigation.
+
+Include headings for:
+- About Apex Macro Financial Group
+- About Entire Financial Services
+- Adviser details
+- Services provided
+- Approved product list
+- Advice process
+- Documents you may receive
+- Fees and remuneration
+- Privacy information
+- Complaints process
+- Compensation arrangements
+- Contact details
+
+Add a placeholder button near the top:
+- Download Financial Services Guide
+
+This page should be text-forward, highly readable, and structured in a compliant, calm, professional way.
+
+6. CONTACT PAGE
+Build a contact page with:
+a) contact details section
+- phone
+- email
+- office address
+
+b) contact form
+Fields:
+- Full Name
+- Email
+- Phone
+- Enquiry Type
+- Message
+
+Optional:
+- Preferred contact method
+- Best time to contact
+
+Include:
+- required field validation
+- visible success state
+- visible error state
+
+Optionally include a map placeholder or office location block.
+
+7. PRIVACY POLICY PAGE
+Create a clean, readable Privacy Policy page with sections for:
+- introduction
+- information collected
+- why it is collected
+- how it is used
+- disclosure of information
+- access and correction
+- privacy complaints
+- contact details
+
+Keep the design simple and text-focused.
+
+8. COMPLAINTS / DISPUTE RESOLUTION PAGE
+Create a simple dedicated page with sections for:
+- how to make a complaint
+- who to contact first
+- expected timeframes
+- escalation steps
+- AFCA information
+- contact details
+
+Make this easy to find via the footer.
+
+CONTENT PLACEHOLDERS
+Use realistic, professional placeholder content wherever final content is not yet supplied.
+Do not leave empty sections.
+Make the mockup feel complete.
+
+CTA TEXT
+Use consistent CTA text such as:
+- Book a Consultation
+- Speak to an Adviser
+- Explore Services
+- Get in Touch
+- Learn More
+
+VISUAL STYLING INSTRUCTIONS
+Use:
+- soft generous spacing
+- premium card styling
+- subtle shadows
+- restrained rounded corners
+- subtle hover states
+- refined visual hierarchy
+
+Avoid:
+- clutter
+- loud gradients everywhere
+- excessive icons
+- flashy animation
+- cheap-looking UI patterns
+
+RESPONSIVENESS REQUIREMENTS
+Ensure:
+- counters stack neatly on mobile
+- testimonial cards wrap cleanly
+- logo strip adapts well
+- forms remain easy to complete on small screens
+- navigation is clean on mobile
+- text remains readable without crowding
+
+ACCESSIBILITY REQUIREMENTS
+Implement:
+- semantic headings
+- accessible labels on forms
+- sensible colour contrast
+- keyboard-friendly nav
+- alt text placeholders for images and logos
+
+IMPLEMENTATION NOTES
+- Build a complete working front-end mockup, not just scaffolding.
+- Use reusable components and clean structure.
+- Use realistic placeholder images, placeholders, or minimal abstract imagery where needed.
+- Make the homepage especially polished, as it will be the main review page.
+- Ensure all pages are linked and navigable.
+- Add subtle reveal or transition effects only if they improve the polish.
+
+FINAL SELF-CHECK BEFORE YOU STOP
+Make sure:
+- all pages are created
+- all pages are linked in nav/footer where appropriate
+- homepage includes hero, counters, provider logos, services preview, about preview, testimonials preview, and CTA
+- Financial Services Guide page exists and is well structured
+- Testimonials page exists
+- Privacy page exists
+- Complaints page exists
+- Contact page includes form and contact details
+- responsive design is polished
+- styling is consistent across pages
+- no wording appears that implies “independent”, “impartial”, or “unbiased”
+
+Now build the full mockup to a review-ready standard.

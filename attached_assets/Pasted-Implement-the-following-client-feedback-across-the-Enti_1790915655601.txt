@@ -1,0 +1,574 @@
+Implement the following client feedback across the Entire Financial Services website.
+
+## Global instructions
+
+- Do not redesign the website from scratch.
+- Preserve the existing responsive structure, navigation, footer behaviour, animations and component system unless specifically changed below.
+- Apply these updates consistently across desktop, tablet and mobile.
+- Do not rewrite the client-approved copy below.
+- Keep the existing Entire Financial Services brand styling.
+- Use the brand light green **#AED137** for the small uppercase eyebrow labels specifically identified below.
+- Where sections alternate backgrounds, use only the existing **white**, **grey/off-white**, and approved **beige** backgrounds. Do not introduce solid green section backgrounds unless they already form part of a specific approved component.
+- Remove decorative horizontal lines and corner shapes where requested.
+- Check spacing after all changes so removing decorative elements does not leave awkward gaps.
+
+---
+
+# HOME PAGE
+
+## 1. Purpose driven financial advice
+
+Locate the first homepage section titled around **Purpose driven financial advice**.
+
+### Replace this copy:
+
+“We are your one-stop place for all things retirement planning. At Entire Financial Services, we pride ourselves on offering holistic advice tailored to your specific needs.”
+
+### With:
+
+You’ve spent a lifetime building your wealth. We help you make the most of it.
+
+Entire Financial Services specialises in retirement advice, helping you navigate superannuation, investments, retirement income, Centrelink, and the financial decisions that come with this next stage of life.
+
+Do not change the existing beige background unless required for spacing or readability.
+
+---
+
+## 2. Confidence for the years ahead
+
+### Update heading
+
+Replace:
+
+**Confidence for the Years Ahead**
+
+With:
+
+**Confidence for the years ahead**
+
+Only “Confidence” should begin with a capital letter unless existing typography automatically transforms the heading.
+
+### Replace body copy
+
+Replace:
+
+“We understand retirement can be complex and therefore we place a high focus on ensuring you leave understanding your options.”
+
+With:
+
+Retirement comes with important financial decisions, and understanding your options is just as important as the advice itself.
+
+Having helped more than 500 clients prepare for and navigate retirement, we have the experience to guide you through the decisions that matter. We take the time to explain your options clearly, so you understand your financial position, feel confident in the decisions you make, and can enjoy retirement knowing your finances are in capable hands.
+
+### Update statistics
+
+Replace:
+
+**400+ actively advices clients**
+
+With:
+
+**500+ actively advices clients**
+
+Replace:
+
+**$100m+ Funds under management**
+
+With:
+
+**$150m+ Funds under management**
+
+Preserve the existing statistic layout and count-up animation if one exists.
+
+### Remove decorative line
+
+There is currently a short green line beneath the content in this section.
+
+Delete this line entirely.
+
+Do not replace it with another divider.
+
+---
+
+## 3. Where we thrive
+
+### Update heading
+
+Replace:
+
+**Where We Thrive**
+
+With:
+
+**Where we thrive**
+
+### Replace introduction
+
+Replace the current copy with:
+
+Retirement isn’t just a single milestone. From preparing for life after work, to making the most of your retirement and navigating the complexities of aged care, different stages bring different financial decisions.
+
+We provide specialist advice across the retirement journey, helping you understand your options and make informed decisions with confidence.
+
+### Change service order
+
+The three services must appear in this order:
+
+1. Transition to retirement
+2. Retirement planning
+3. Aged care
+
+Preserve the existing icons, Learn More buttons and links, but ensure each card links to the correct service page after reordering.
+
+---
+
+## 4. Our services
+
+### Update heading
+
+Replace:
+
+**Our Services**
+
+With:
+
+**Our services**
+
+### Update description
+
+Replace:
+
+“Our comprehensive services ensure that you are ready for today's challenges and the years to come.”
+
+With:
+
+Our comprehensive services ensure that you are ready for today's challenges and for the years ahead.
+
+Keep the existing service content and layout unless necessary to maintain visual consistency.
+
+---
+
+## 5. How we work with you
+
+### Update heading
+
+Replace:
+
+**How We Work With You**
+
+With:
+
+**How we work with you**
+
+### Background
+
+Remove the current green background.
+
+Change this entire section to the site's existing **grey/off-white section background**.
+
+Update the text, icon and component styling so it matches the visual treatment of the surrounding white/grey sections.
+
+The page should continue the alternating background rhythm rather than introducing a green block.
+
+Do not change the actual process content unless necessary for layout.
+
+---
+
+## 6. Testimonials
+
+Change the Testimonials section background to **white**.
+
+This is required because the previous **How we work with you** section will now use grey.
+
+Make sure the transition between the two sections is clean and consistent with the rest of the homepage.
+
+---
+
+## 7. Ready to create a clear path to retirement?
+
+Locate the final homepage CTA section.
+
+### Remove
+
+- Delete the light green horizontal line separating this section from the previous section.
+- Delete the decorative lines on either side of **GET STARTED TODAY**.
+- Delete **AFCA member**.
+- Delete **Apex Macro Financial Group** from this CTA section.
+
+### Update
+
+Change the text colour of:
+
+**GET STARTED TODAY**
+
+to brand light green:
+
+**#AED137**
+
+Keep the existing CTA heading, button and core layout unless affected by these removals.
+
+Rebalance spacing after removing the lines and regulatory references.
+
+---
+
+# GLOBAL FOOTER
+
+Update the footer across the entire website.
+
+## Text beneath logo
+
+Change the text colour beneath the logo so it matches the colour used for the contact information in the footer.
+
+Do not change the wording unless separately instructed.
+
+## Contact details
+
+Update the footer contact information to:
+
+**0421 833 372**
+
+**bevan@entirefs.com.au**
+
+**Suite 42/ 195 Wellington Road, Clayton, VIC, 3168 (Building 4)**
+
+Make the phone number clickable with `tel:`.
+
+Make the email clickable with `mailto:`.
+
+Ensure this information wraps properly on mobile.
+
+---
+
+# PRIVACY POLICY
+
+Keep the Privacy Policy content that has already been supplied and implemented.
+
+### Eyebrow label
+
+Locate the small heading:
+
+**LEGAL**
+
+Change its text colour to brand light green:
+
+**#AED137**
+
+Remove the decorative lines on either side of **LEGAL**.
+
+Do not add replacement lines.
+
+Rebalance the spacing after removing the lines.
+
+Keep the existing Privacy Policy body content and formatting improvements.
+
+---
+
+# FINANCIAL SERVICES GUIDE
+
+Keep the updated FSG content already supplied.
+
+### Eyebrow label
+
+Locate:
+
+**REGULATORY DOCUMENT**
+
+Change its text colour to:
+
+**#AED137**
+
+Remove the decorative lines on either side of **REGULATORY DOCUMENT**.
+
+Do not add replacement lines.
+
+Keep the existing page heading, disclosure information, FSG content and internal navigation.
+
+Rebalance the spacing so the top of the page still looks intentional after removing the lines.
+
+---
+
+# COMPLAINTS & DISPUTES
+
+Keep the previously supplied Complaints & Dispute Resolution content.
+
+### Eyebrow label
+
+Locate:
+
+**DISPUTE RESOLUTION**
+
+Change its text colour to:
+
+**#AED137**
+
+Remove the decorative lines on either side.
+
+### Improve formatting
+
+The page formatting needs refinement.
+
+Update the layout so that:
+
+- The introductory paragraph has a comfortable readable width.
+- The four complaint steps are easy to scan.
+- Use clear numbered formatting for steps 1–4.
+- Give each numbered step sufficient vertical spacing.
+- Keep the AFCA contact information visually separated from the complaint steps.
+- Use a subtle grey or beige background panel for the AFCA information if appropriate.
+- Make phone numbers clickable.
+- Make email addresses clickable.
+- Make the AFCA website clickable and open it in a new tab.
+- Present **Complying compensation arrangements** as a clearly separated subsection.
+- Avoid excessive card styling.
+- Keep the page professional and suitable for regulatory information.
+- Ensure mobile spacing and line lengths remain readable.
+
+Do not alter the supplied compliance wording.
+
+---
+
+# ABOUT US
+
+## Eyebrow label
+
+Locate:
+
+**OUR FIRM**
+
+Change the text colour to:
+
+**#AED137**
+
+Remove the decorative lines on either side.
+
+## Adviser image
+
+Remove the small light-green and blue decorative squares/shapes positioned around the corners of the adviser image.
+
+Do not replace them with new shapes.
+
+Keep the photograph itself and existing image dimensions unless minor adjustments are needed to maintain balance.
+
+## Remove Apex section
+
+Delete the entire:
+
+**Backed by Apex Macro Financial Group**
+
+section.
+
+Remove the section cleanly rather than hiding it with CSS.
+
+Ensure surrounding spacing is corrected after removal.
+
+---
+
+## Meet your principal adviser
+
+Qualifications do not need to be repeated here because they are listed in the FSG.
+
+Under the adviser image, display:
+
+**20+ Years Experience**
+
+Use the same stat styling used elsewhere on the website where appropriate.
+
+### Replace the existing Bevan Heneric biography
+
+Delete the existing biography beginning:
+
+“Bevan Heneric is the Principal Financial Adviser at Entire Financial Services and a corporate authorised representative…”
+
+Replace it with the following copy exactly:
+
+Bevan Heneric is the Principal Financial Adviser at Entire Financial Services, with more than 20 years of experience across the financial services industry.
+
+Throughout his career, Bevan has developed a deep understanding of the financial decisions people face as they approach and move through retirement. He specialises in helping clients navigate superannuation, retirement income, investments, Centrelink and Aged care, bringing these areas together to create strategies tailored to each client’s circumstances and the retirement they want to achieve.
+
+Bevan believes good financial advice should never leave you feeling overwhelmed or uncertain. He takes the time to understand what matters to each client, explain complex strategies in plain language and ensure they understand not only what is being recommended, but why.
+
+His approach is simple: financial strategies need to work in the real world. Every recommendation is considered against a client’s lifestyle, priorities and long-term objectives, so the advice remains focused on what ultimately matters - helping clients enjoy their retirement with greater clarity and confidence.
+
+Keep the layout clean and readable.
+
+Do not add qualifications to this About page.
+
+---
+
+# SERVICE PAGES
+
+Apply the following changes consistently to:
+
+- Transition to retirement
+- Retirement planning
+- Aged care
+
+Do not materially alter the current service page copy.
+
+The client is satisfied with the content and primarily wants formatting improvements.
+
+---
+
+## Service eyebrow labels
+
+For each service page, locate the small uppercase eyebrow label at the top.
+
+Examples:
+
+**TRANSITION TO RETIREMENT**
+
+**RETIREMENT PLANNING**
+
+**AGED CARE**
+
+Change these labels to brand light green:
+
+**#AED137**
+
+Remove the decorative horizontal lines on both sides of each label.
+
+Maintain consistent typography, margins and positioning across all three service pages.
+
+---
+
+## Service page imagery
+
+Remove the two decorative shapes positioned around the corners of the primary image.
+
+Apply this consistently to all three service pages.
+
+Do not replace the shapes.
+
+Keep image dimensions, border radius and responsive behaviour consistent.
+
+---
+
+## “Ways this strategy could support you”
+
+Update the background treatment of this section across all three service pages.
+
+Only use the site's:
+
+- white background
+- grey/off-white background
+
+Do not use green as a full-section background.
+
+Maintain an alternating white/grey visual rhythm between neighbouring sections.
+
+Ensure text and card colours are adjusted appropriately for whichever background is used.
+
+---
+
+## Service-page consistency check
+
+After implementing the above:
+
+- Heading hierarchy should match across all three pages.
+- Content widths should match.
+- Image sizes should match.
+- Section spacing should match.
+- Button styling should match.
+- List/card styling should match.
+- Background alternation should follow the same pattern.
+- Decorative elements should be consistent.
+- Mobile layouts should use the same responsive rules.
+
+---
+
+# CONTACT PAGE
+
+Update the contact information.
+
+### Replace
+
+**1300 000 000**
+
+With:
+
+**0421 833 372**
+
+Configure as:
+
+`tel:0421833372`
+
+### Replace
+
+**info@entirefinancial.com.au**
+
+With:
+
+**bevan@entirefs.com.au**
+
+Configure as:
+
+`mailto:bevan@entirefs.com.au`
+
+### Replace
+
+**2 Gilda Court, Suite 1, Mulgrave Victoria 3170 Au**
+
+With:
+
+**Suite 42/ 195 Wellington Road, Clayton, VIC, 3168 (Building 4)**
+
+Update this anywhere the old contact details appear on the Contact page.
+
+---
+
+# SITE-WIDE CONTACT INFORMATION CHECK
+
+After implementing the changes, search the entire project for old or placeholder contact details.
+
+Remove or replace any visible instances of:
+
+- `1300 000 000`
+- `info@entirefinancial.com.au`
+- `2 Gilda Court`
+- `Mulgrave Victoria 3170`
+
+Where these refer to Entire Financial Services, use:
+
+**Phone:** 0421 833 372  
+**Email:** bevan@entirefs.com.au  
+**Address:** Suite 42/ 195 Wellington Road, Clayton, VIC, 3168 (Building 4)
+
+Do not replace Apex Macro Financial Group's own contact information within regulatory documents or disclosures.
+
+---
+
+# CONSISTENCY PASS
+
+Once all client changes have been implemented, perform a visual consistency pass across the entire website.
+
+Check:
+
+- Home
+- About Us
+- Transition to retirement
+- Retirement planning
+- Aged care
+- Contact
+- Privacy Policy
+- Financial Services Guide
+- Complaints & Disputes
+
+Specifically verify:
+
+1. Eyebrow labels requested by the client use **#AED137**.
+2. Decorative lines beside those eyebrow labels have been removed.
+3. Decorative corner shapes have been removed from the specified images.
+4. Section backgrounds use a consistent white / grey / beige rhythm.
+5. No unwanted green section backgrounds remain.
+6. Homepage headings use the exact capitalisation requested.
+7. Updated client statistics display correctly.
+8. Footer contact details are correct on every page.
+9. Contact page details are correct.
+10. Regulatory pages retain their supplied content.
+11. Mobile layouts have no overflow.
+12. Removing decorative elements has not created excess empty space.
+13. Links, buttons and navigation continue working.
+14. Reordered homepage service cards link to the correct pages.
+15. No unrelated website functionality has been changed.
+
+Do not change the stock photography at this stage. The client will provide replacement personal photography later.

@@ -1,0 +1,146 @@
+
+> @workspace/entire-financial@0.0.0 build /home/runner/workspace/artifacts/entire-financial
+> vite build --config vite.config.ts && node scripts/prerender.mjs
+
+vite v7.3.6 building client environment for production...
+transforming...
+src/components/ui/select.tsx (2:0): Error when using sourcemap for reporting an error: Can't resolve original location of error.
+src/components/ui/label.tsx (2:0): Error when using sourcemap for reporting an error: Can't resolve original location of error.
+✓ 2334 modules transformed.
+rendering chunks...
+computing gzip size...
+../../dist/public/assets/suncorp-bank-eVJxt4Vo.png               1.93 kB
+../../dist/public/assets/tal-DXIKn4cB.png                        2.23 kB
+../../dist/public/assets/anz-CXF9EETJ.png                        3.96 kB
+../../dist/public/index.html                                     4.38 kB │ gzip:  1.34 kB
+../../dist/public/assets/netwealth-DKbRInIq.png                  4.54 kB
+../../dist/public/assets/me-bank-C6b_HWuA.png                    5.79 kB
+../../dist/public/assets/colonial-first-state-B9k-Rama.png       5.86 kB
+../../dist/public/assets/logo-nav-dark-CKfqXvyj.svg              5.92 kB │ gzip:  1.94 kB
+../../dist/public/assets/logo-nav-beige-D_Qh1SoA.svg             6.18 kB │ gzip:  1.96 kB
+../../dist/public/assets/aia-DvVxfI89.png                        7.24 kB
+../../dist/public/assets/poppins-500-latin-C8OXljZJ.woff2        7.75 kB
+../../dist/public/assets/poppins-700-latin-Qrb0O0WB.woff2        7.82 kB
+../../dist/public/assets/poppins-400-latin-cpxAROuN.woff2        7.88 kB
+../../dist/public/assets/cba-CaCJjNjM.png                        7.99 kB
+../../dist/public/assets/poppins-600-latin-zEkxB9Mr.woff2        8.00 kB
+../../dist/public/assets/la-trobe-financial-SuB198lW.png         8.19 kB
+../../dist/public/assets/logo-submark-_t5QSFHC.png               9.58 kB
+../../dist/public/assets/westpac-AqZy1cYA.png                    9.67 kB
+../../dist/public/assets/acenda-DgngVP09.png                     9.80 kB
+../../dist/public/assets/futura-protection-CnVIQGa0.png         10.07 kB
+../../dist/public/assets/encompass-protection-DORNf_DX.png      10.55 kB
+../../dist/public/assets/loan-market-Cnz0abFb.png               10.64 kB
+../../dist/public/assets/bendigo-bank-4OGQToTr.png              10.66 kB
+../../dist/public/assets/tax-practitioners-board-BJQnHkSj.png   11.69 kB
+../../dist/public/assets/aged-care-main-360-D702c5wI.webp       12.10 kB
+../../dist/public/assets/elderly-1-360-BBuJtvku.webp            12.56 kB
+../../dist/public/assets/macquarie-BEu4NmSX.png                 13.16 kB
+../../dist/public/assets/ioof-Y1zPEQH9.png                      13.43 kB
+../../dist/public/assets/beyond-bank-DL9koSSj.png               13.44 kB
+../../dist/public/assets/hub24-8OMICGCF.png                     13.80 kB
+../../dist/public/assets/bankwest-DaTadIjF.png                  14.85 kB
+../../dist/public/assets/elderly-3-360-Di-Dsyoo.webp            15.31 kB
+../../dist/public/assets/boq-Bq6QZZgS.png                       15.88 kB
+../../dist/public/assets/amp-CrXxhJ__.png                       16.18 kB
+../../dist/public/assets/mlc-B9xfPDac.png                       16.18 kB
+../../dist/public/assets/elderly-1-360-ByKHzBJY.jpg             16.50 kB
+../../dist/public/assets/afca-w-FieZHj.png                      16.62 kB
+../../dist/public/assets/elderly-5-360-DmTfz12g.webp            16.66 kB
+../../dist/public/assets/bevan-heneric-360-BmknR08C.webp        16.71 kB
+../../dist/public/assets/elderly-4-360-CvGdM2dr.webp            17.03 kB
+../../dist/public/assets/st-george-DPiV2ZSJ.png                 17.32 kB
+../../dist/public/assets/aged-care-main-360-CssbmrrE.jpg        17.36 kB
+../../dist/public/assets/neos-DPkzzwuL.png                      17.67 kB
+../../dist/public/assets/generation-life-CJpGP-8N.png           18.84 kB
+../../dist/public/assets/wealth-together-360-CX7oupyb.webp      19.30 kB
+../../dist/public/assets/elderly-3-360-abL9zvFt.jpg             19.40 kB
+../../dist/public/assets/bevan-heneric-400-Rus1lf_C.webp        20.24 kB
+../../dist/public/assets/bank-of-melbourne-CGzCXHEw.png         20.27 kB
+../../dist/public/assets/elderly-5-360-BNHXM_df.jpg             20.79 kB
+../../dist/public/assets/elderly-4-360-DdMdlgoB.jpg             21.80 kB
+../../dist/public/assets/retirement-main-360-D1N0YT5y.webp      22.08 kB
+../../dist/public/assets/wealth-together-360-DE9PLd5-.jpg       23.37 kB
+../../dist/public/assets/bevan-heneric-360-CN_W5DMF.jpg         23.73 kB
+../../dist/public/assets/retirement-main-360-BcJvE1D4.jpg       23.83 kB
+../../dist/public/assets/aged-care-main-640-BmQSh1KH.webp       24.97 kB
+../../dist/public/assets/nab-BsZnf97N.png                       24.97 kB
+../../dist/public/.vite/manifest.json                           27.70 kB │ gzip:  3.64 kB
+../../dist/public/assets/elderly-2-360-BjKzTtfB.webp            28.31 kB
+../../dist/public/assets/elderly-2-360-s5h0MqXf.jpg             29.44 kB
+../../dist/public/assets/bevan-heneric-400-B3KvIoP-.jpg         29.53 kB
+../../dist/public/assets/liberty-CR1jWPvF.png                   30.75 kB
+../../dist/public/assets/fbaa-BQuRoSHK.png                      31.01 kB
+../../dist/public/assets/elderly-1-640-_I1DzBrB.webp            31.66 kB
+../../dist/public/assets/firstmac-C8bCsEV7.png                  33.51 kB
+../../dist/public/assets/elderly-5-640-MIHchQ_S.webp            33.68 kB
+../../dist/public/assets/elderly-3-640-BQMksjHx.webp            35.79 kB
+../../dist/public/assets/about-meeting-360-D34gyd2b.jpg         37.09 kB
+../../dist/public/assets/about-meeting-360-CSsfpcR2.webp        37.98 kB
+../../dist/public/assets/aged-care-main-900-CY8hkbCB.webp       38.44 kB
+../../dist/public/assets/aged-care-main-640-C_yb5DeF.jpg        38.81 kB
+../../dist/public/assets/elderly-4-640-DxuUg_TJ.webp            40.19 kB
+../../dist/public/assets/transition-main-360-BBdH931n.webp      40.82 kB
+../../dist/public/assets/transition-main-360-FwozaCnP.jpg       41.44 kB
+../../dist/public/assets/wealth-together-640-BxUJFmNg.webp      41.46 kB
+../../dist/public/assets/elderly-1-640-e1W0_TsB.jpg             41.69 kB
+../../dist/public/assets/elderly-5-800-ehkfHt6N.webp            44.39 kB
+../../dist/public/assets/elderly-5-640-BZzvTBYk.jpg             47.38 kB
+../../dist/public/assets/elderly-3-640-CP8s2lMi.jpg             47.88 kB
+../../dist/public/assets/elderly-4-640-FQFFy0Yg.jpg             54.29 kB
+../../dist/public/assets/wealth-together-640-2ues9qNj.jpg       55.03 kB
+../../dist/public/assets/elderly-4-800-3t6Oh5sI.webp            55.91 kB
+../../dist/public/assets/elderly-1-960-W2I9ll0U.webp            62.10 kB
+../../dist/public/assets/aged-care-main-900-C4vfWYv3.jpg        63.24 kB
+../../dist/public/assets/retirement-main-640-DfGjCb7I.webp      65.33 kB
+../../dist/public/assets/elderly-5-800-BS5t_A6f.jpg             67.04 kB
+../../dist/public/assets/elderly-3-960-8dx7yDv8.webp            67.82 kB
+../../dist/public/assets/elderly-2-640-5ntvIgxd.webp            68.86 kB
+../../dist/public/assets/retirement-main-640-CEQgjllm.jpg       68.90 kB
+../../dist/public/assets/wealth-together-960-DM8uIiWv.webp      70.30 kB
+../../dist/public/assets/elderly-2-640-B_QYn8__.jpg             75.30 kB
+../../dist/public/assets/elderly-4-800-CyhSY65c.jpg             78.47 kB
+../../dist/public/assets/elderly-1-960-DSjopVWm.jpg             82.35 kB
+../../dist/public/assets/about-meeting-640-Ct39Ixum.webp        89.76 kB
+../../dist/public/assets/elderly-3-960-DwlReRHk.jpg             92.31 kB
+../../dist/public/assets/about-meeting-640-DN5KFnhs.jpg         93.91 kB
+../../dist/public/assets/elderly-1-1280-W3BxSl25.webp           97.10 kB
+../../dist/public/assets/wealth-together-960-mFqiEowg.jpg      100.85 kB
+../../dist/public/assets/wealth-together-1280-Cr29mzyS.webp    102.27 kB
+../../dist/public/assets/elderly-3-1280-CZiy4vJ5.webp          103.65 kB
+../../dist/public/assets/transition-main-640-C1IJgSMo.webp     104.83 kB
+../../dist/public/assets/transition-main-640-DVYGm89w.jpg      112.89 kB
+../../dist/public/assets/retirement-main-900-CuCjXEjN.webp     115.97 kB
+../../dist/public/assets/elderly-2-960-DKeNeQOn.webp           125.02 kB
+../../dist/public/assets/retirement-main-900-uZUTRzU5.jpg      131.71 kB
+../../dist/public/assets/elderly-1-1280-BJKGSSIs.jpg           133.71 kB
+../../dist/public/assets/elderly-2-960-DvVPYhYC.jpg            145.50 kB
+../../dist/public/assets/elderly-3-1280-CDxMXHJp.jpg           146.72 kB
+../../dist/public/assets/wealth-together-1280-BlaT9WFz.jpg     155.43 kB
+../../dist/public/assets/about-meeting-960-ByFQKXZX.webp       158.41 kB
+../../dist/public/assets/about-meeting-960-FfLOb5tS.jpg        176.92 kB
+../../dist/public/assets/transition-main-900-Dw3NAeJO.webp     177.78 kB
+../../dist/public/assets/elderly-2-1280-CmkHt1A8.webp          180.42 kB
+../../dist/public/assets/transition-main-900-DCokIwg6.jpg      203.69 kB
+../../dist/public/assets/elderly-2-1280-C_iD5RCF.jpg           226.40 kB
+../../dist/public/assets/about-meeting-1280-DqANj-4U.webp      226.98 kB
+../../dist/public/assets/about-meeting-1280-Cw3_WMWH.jpg       270.31 kB
+../../dist/public/assets/index-CGNQoCOf.css                    139.61 kB │ gzip: 22.04 kB
+../../dist/public/assets/clock-4leNhdy1.js                       0.17 kB │ gzip:  0.16 kB
+../../dist/public/assets/circle-check-r2_gSiPk.js                0.17 kB │ gzip:  0.17 kB
+../../dist/public/assets/ContentBlock-CWvdcoxY.js                0.29 kB │ gzip:  0.22 kB
+../../dist/public/assets/PageHero-DsZAIgEV.js                    1.52 kB │ gzip:  0.76 kB
+../../dist/public/assets/privacy-policy-sqQhj4wb.js              3.10 kB │ gzip:  1.30 kB
+../../dist/public/assets/complaints-DPMBLYpW.js                  3.85 kB │ gzip:  1.66 kB
+../../dist/public/assets/about-DzfR7OVA.js                       7.99 kB │ gzip:  2.73 kB
+../../dist/public/assets/transition-to-retirement-6OTLwcnm.js   11.41 kB │ gzip:  3.25 kB
+../../dist/public/assets/aged-care-Bbutuj1D.js                  13.10 kB │ gzip:  3.55 kB
+../../dist/public/assets/retirement-planning-C-CVfV9V.js        13.76 kB │ gzip:  3.77 kB
+../../dist/public/assets/superannuation-CRWHIrez.js             15.82 kB │ gzip:  5.14 kB
+../../dist/public/assets/financial-services-guide-tGBZjO-I.js   32.31 kB │ gzip: 10.50 kB
+../../dist/public/assets/index-CO7nFGnT.js                     118.77 kB │ gzip: 35.58 kB
+../../dist/public/assets/motion-Di6cp2G2.js                    123.82 kB │ gzip: 40.37 kB
+../../dist/public/assets/contact-Ml27BJ2p.js                   178.60 kB │ gzip: 53.45 kB
+../../dist/public/assets/framework-DUsJqQv3.js                 213.77 kB │ gzip: 69.26 kB
+✓ built in 2.92s
+Pre-rendered 11 complete pages, sitemap and robots.txt.
