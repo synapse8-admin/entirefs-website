@@ -147,7 +147,11 @@ try {
             'allow_self_signed' => false,
         ],
     ];
-    $mail->SMTPDebug = 0;
+    // Temporary diagnostics: send SMTP debug output only to the private server log.
+    $mail->SMTPDebug = 2;
+    $mail->Debugoutput = static function (string $message, int $level): void {
+        error_log('contact_mail_debug: ' . $message);
+    };
     $mail->Timeout = 10;
     $mail->CharSet = 'UTF-8';
     $mail->setFrom($config['from_email'], headerText($config['from_name']));
@@ -173,7 +177,7 @@ try {
     }
     respond(200, ['success' => true]);
 } catch (\Throwable $exception) {
-    // Do not log submitted PII or PHPMailer's credential-bearing diagnostics.
-    error_log('contact_mail_failed');
+    // Temporary diagnostics; keep server logs private and remove after troubleshooting.
+    error_log('contact_mail_failed: ' . $exception->getMessage() . ' | ' . ($mail->ErrorInfo ?? ''));
     respond(503, ['success' => false, 'error' => 'Your message could not be sent. Please try again or contact us by phone or email.']);
 }
